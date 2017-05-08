@@ -5,7 +5,7 @@ date:   2017-05-06 15:38:25 +0200
 categories: news
 ---
 In concomitanza con la prima **Cloud Rokers Faire** di Torino, siamo felici di
-annciare il nuovo progetto **rokers.io**, voluto da Michele Maffucci, Ludovico Russo e
+annunciare il nuovo progetto **rokers.io**, voluto da Michele Maffucci, Ludovico Russo e
 Gabriele Ermacora, per supportare la nascita di una community Italiana di Sviluppatori Robotici.
 
 Rokers è un progetto nuovo, e ancora non ha una vera e propria forma. Lo scopo
