@@ -21,7 +21,7 @@ Attualmente abbiamo già 4 progetti che verranno esposti al banchetto Rokers:
 - DotBot
 - CyberGost
 
-Per organizzarci ed iniziare a conoscerci, vorremmo organizzare un incontro presso il Bar Enaudi 57 (Corso Luigi Einaudi, 57, 10129 Torino, vicino al Politecnico di Torino), martedì prossimo 16/05 dalle ore 18, per prendere un aperitivo tutto insieme, iniziare a fare networking e organizzare meglio la Torino Mini Maker Faire.
+Per organizzarci ed iniziare a conoscerci, vorremmo organizzare un incontro presso il [Bar Enaudi 57 (Corso Luigi Einaudi, 57, 10129 Torino, vicino al Politecnico di Torino)](https://goo.gl/maps/eTgaVYioViE2), martedì prossimo 16/05 dalle ore 18, per prendere un aperitivo tutto insieme, iniziare a fare networking e organizzare meglio la Torino Mini Maker Faire.
 Per partecipare, basta segnare “parteciperò” su [questo evento facebook](https://www.facebook.com/events/2001585506729466/)
 
 A presto!!
