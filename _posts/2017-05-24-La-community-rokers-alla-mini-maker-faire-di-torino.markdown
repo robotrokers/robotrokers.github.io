@@ -28,4 +28,4 @@ Rokers (Robot Makers) è una community italiana che vuole diffondere la robotica
 * Robotica di servizio
 * Science
 
-Per essere aggiornati sulle nostre attività collegati al gruppo Facebook: **[robotrokers](https://www.facebook.com/robotrokers/)**
+Per essere aggiornati sulle nostre attività collegati al gruppo Facebook: **[robotrokers](https://www.facebook.com/groups/robotrokers/)**
