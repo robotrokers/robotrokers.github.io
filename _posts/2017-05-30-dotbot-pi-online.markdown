@@ -1,3 +1,11 @@
+---
+layout: post
+title:  "Il Progetto DotBot Pi è disponibile online"
+date:   2017-05-30
+categories: [news, dotbot, robot]
+---
+
+
 # Online il progetto DotBot-Pi
 
 DotBot Pi è un robot OpenSource sviluppato da Ludovico Russo e [HotBlack Robotics](www.hotblackrobotics.com). È il primo robot DotBot interamente
