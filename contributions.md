@@ -99,7 +99,7 @@ Si aprirà una pagina che chiederà di aggiungere un titolo ed un commento alla 
 Siate chiari e concisi, non scrivete troppo (non perdete troppo tempo). A questo punto, cliccare su **Create Pull Request**.
 
 Finalmente, la vostra pull request è pronta ed in attesa di essere approvata.
-![](pullrequest.png)
+![](img/pullrequest.png)
 
 A questo punto, i mantainer del sito controlleranno che non ci siano problemi o conflitti con le modifiche e nel caso approveranno la pull request. Una volta approvata, il sito sarà modificato secondo i vostri suggerimenti.
 
