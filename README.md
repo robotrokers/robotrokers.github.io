@@ -1,7 +1,7 @@
 Rokers site Page
 ================
 
-This is the repo hosting the http://rosker.io page site implemented in
+This is the repo hosting the <http://www.rokers.io/> page site implemented in
 Jekyll using GitHub Pages.
 
 Contributors
