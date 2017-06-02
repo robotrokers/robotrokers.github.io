@@ -17,7 +17,7 @@ title: rokers.io
 email: ludus.russo@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Rokers sta per Robot e Makers. Rokers vuole essere la prima community italiana
-  dedicata agli sviluppatori e hobbisty di robotica di servizio.
+  dedicata agli sviluppatori e hobbisti di robotica di servizio.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
