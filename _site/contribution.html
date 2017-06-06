@@ -1,0 +1,99 @@
+<h1 id="come-contribuire-a-questo-sito">Come contribuire a questo sito</h1>
+
+<p>Il sito <strong>rokers.io</strong> nasce per creare una community, e in quanto community, siamo
+aperti ad una gestione comunitaria del nostro sito (e blog).</p>
+
+<p>Per questo motivo, abbiamo scelto come piattaforma di hosting del sito GitHub, in modo
+che chiunque possa accedere ai sorgenti, modificarlo e creare una pull request con
+il proprio contributo, che può essere sia una miglioria, sia un nuovo post.</p>
+
+<p>In questa pagina, vediamo insieme come contribuire al sito!</p>
+
+<h2 id="creare-un-fork-del-sito-usando-github">Creare un Fork del sito usando GitHub</h2>
+
+<p>Se non lo avete, aprite un account GitHub e accedete al sorgente di questo sito,
+che si trova su <a href="https://github.com/robotrokers/robotrokers.github.io">github.com/robotrokers/robotrokers.github.io</a>.
+In alto a destra, cliccate sul tasto “Fork”, per generare una copia del codice sul vostro account privato.</p>
+
+<p><img src="img/fork1.png" alt="" />
+<img src="img/fork2.png" alt="" /></p>
+
+<p>Alla fine del processo, noterete che una copia della repository è stata creata all’interno del vostro account. Ora potrete modificarlo senza problemi.</p>
+
+<p><img src="img/fork3.png" alt="" /></p>
+
+<p>Sulla vostra copia, potrete creare una qualsiasi modifica del sito, sia aggiungendo contenuti al blog, che modificandone la struttura e apportando modifiche sostanziali. Vi mostro, a titolo di esempio, come aggiungere un post al Blog.</p>
+
+<h2 id="creare-un-nuovo-post">Creare un nuovo post</h2>
+
+<p>Per creare un post, bisgona lavorare all’interno della cartella <code class="highlighter-rouge">_post</code> della repository, e creare un nuovo file al suo interno.</p>
+
+<p><img src="img/newfile.png" alt="nuovo file" /></p>
+
+<p>Il nome del file creato deve essere costruito nel seguente modo (altrimenti non funziona niente):
+<code class="highlighter-rouge">AAAA-MM-GG-titolo-del-file.markdown</code>, inserendo la data attuale nel formato <code class="highlighter-rouge">AAAA-MM-GG</code>. Questo serve a Jekyll (il sistema che gestisce il sito) per ordinare i post in ordine cronologico.</p>
+
+<p>Io sto creando un file chiamato <code class="highlighter-rouge">2017-05-30-dotbot-pi-online.markdown</code>.</p>
+
+<p>A questo punto, dobbiamo inserire il testo del post, insieme ad alcuni metadata. Il testo va scritto in markdown, per chi non lo conoscesse, potete trovare, a <a href="http://www.maffucci.it/2013/08/29/formattazione-del-testo-con-markdown/">questo link</a> una guida al suo funzionamento.</p>
+
+<p><img src="img/writefile.png" alt="nuovo file" /></p>
+
+<p>Il contenuto del file è diviso in due parti. Prima di tutto vanno inseriti alcuni metadata, mentre nella seconda parte il testo completo</p>
+
+<div class="language-markdown highlighter-rouge"><pre class="highlight"><code><span class="nn">---</span>
+<span class="s">layout</span><span class="pi">:</span> <span class="s">post</span>
+<span class="s">title</span><span class="pi">:</span>  <span class="s2">"</span><span class="s">Il</span><span class="nv"> </span><span class="s">Progetto</span><span class="nv"> </span><span class="s">DotBot</span><span class="nv"> </span><span class="s">Pi</span><span class="nv"> </span><span class="s">è</span><span class="nv"> </span><span class="s">disponibile</span><span class="nv"> </span><span class="s">online"</span>
+<span class="s">date</span><span class="pi">:</span>   <span class="s">2017-05-30</span>
+<span class="s">categories</span><span class="pi">:</span> <span class="pi">[</span><span class="nv">news</span><span class="pi">,</span> <span class="nv">dotbot</span><span class="pi">,</span> <span class="nv">robot</span><span class="pi">]</span>
+<span class="nn">---</span>
+
+
+<span class="gh"># Online il progetto DotBot-Pi</span>
+
+DotBot Pi è un robot OpenSource sviluppato da Ludovico Russo e <span class="p">[</span><span class="nv">HotBlack Robotics</span><span class="p">](</span><span class="sx">www.hotblackrobotics.com</span><span class="p">)</span>. È il primo robot DotBot interamente
+compatbile con la piattaforma HBR di Cloud Robotics e semplice da montare!
+
+<span class="p">![</span><span class="nv">DotBot Image</span><span class="p">](</span><span class="sx">https://thingiverse-production-new.s3.amazonaws.com/renders/87/ad/0c/c6/e0/cba944d8425bd5ed84eacdee732a950f_preview_featured.JPG</span><span class="p">)</span>
+
+Potete trovare più informazioni al link <span class="p">[</span><span class="nv">www.thingiverse.com/thing:2353479</span><span class="p">](</span><span class="sx">https://www.thingiverse.com/thing:2353479</span><span class="p">)</span>.
+</code></pre>
+</div>
+
+<p>Cliccando sul tasto <strong>preview</strong> potete anche vedere la preview del post.</p>
+
+<p><img src="img/preview.png" alt="nuovo file" /></p>
+
+<p>Per salvare l’articolo, premete il tasto <strong>commit</strong> in basso, e sarete riportati alla pagina di preview del nuovo file.</p>
+
+<p><img src="img/commit.png" alt="nuovo file" /></p>
+
+<p>Una volta salvato, potrete comunque modificarlo cliccando sul a forma di matita.</p>
+
+<p><img src="img/edit.png" alt="nuovo file" /></p>
+
+<h2 id="creare-una-pull-request-per-apportare-le-modifiche-sul-sito-originale">Creare una Pull Request per apportare le modifiche sul sito originale</h2>
+
+<p>Ovviamente, le modifiche che apportate alla vostra copia della repository rimarranno nella vostra copia, e non sono automaticamente estese alla repository originale (e quindi non verranno mostrate nel sito).</p>
+
+<p>Per fare in modo che queste modifiche siano implementate nel sito, dovete creare una pull request verso la repository originale.</p>
+
+<p>Vediamo come fare.</p>
+
+<p>Accediamo alla pagina principale della copia della repository e clicchiamo il tasto <strong>new pull request</strong>.</p>
+
+<p><img src="img/createpull.png" alt="Create Pull" /></p>
+
+<p>Si aprirà una pagina che chiederà di aggiungere un titolo ed un commento alla pull request.</p>
+
+<p><img src="img/commentpull.png" alt="Create Pull" /></p>
+
+<p>Siate chiari e concisi, non scrivete troppo (non perdete troppo tempo). A questo punto, cliccare su <strong>Create Pull Request</strong>.</p>
+
+<p>Finalmente, la vostra pull request è pronta ed in attesa di essere approvata.
+<img src="img/pullrequest.png" alt="" /></p>
+
+<p>A questo punto, i mantainer del sito controlleranno che non ci siano problemi o conflitti con le modifiche e nel caso approveranno la pull request. Una volta approvata, il sito sarà modificato secondo i vostri suggerimenti.</p>
+
+<p><img src="img/pulldone1.png" alt="" />
+<img src="img/pulldone2.png" alt="" /></p>
