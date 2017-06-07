@@ -6,8 +6,6 @@ author: Ludovico Orlando Russo
 categories: [Makers, Educativa, Teorica]
 ---
 
-# Come contribuire a questo sito
-
 Il sito **rokers.io** nasce per creare una community, e in quanto community, siamo
 aperti ad una gestione comunitaria del nostro sito (e blog).
 
