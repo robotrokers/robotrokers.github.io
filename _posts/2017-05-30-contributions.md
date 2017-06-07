@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Primo Incontro Rokers"
+title:  "Come contribuire a questo sito"
 date:   2017-05-30 17:10:25 +0200
 author: Ludovico Orlando Russo
 categories: [Makers, Educativa, Teorica]
