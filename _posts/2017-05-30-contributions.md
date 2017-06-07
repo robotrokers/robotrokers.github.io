@@ -1,6 +1,9 @@
 ---
-title: Come Contribuire
-permalink: contribution.html
+layout: post
+title:  "Primo Incontro Rokers"
+date:   2017-05-30 17:10:25 +0200
+author: Ludovico Orlando Russo
+categories: [Makers, Educativa, Teorica]
 ---
 
 # Come contribuire a questo sito
