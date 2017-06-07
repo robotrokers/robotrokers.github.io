@@ -36,7 +36,7 @@ Sulla vostra copia, potrete creare una qualsiasi modifica del sito, sia aggiunge
 
 Per creare un post, bisgona lavorare all'interno della cartella `_post` della repository, e creare un nuovo file al suo interno.
 
-![nuovo file](../img/newfile.png)
+![nuovo file](robotrokers.github.io/_posts/img/newfile.png)
 
 Il nome del file creato deve essere costruito nel seguente modo (altrimenti non funziona niente):
 `AAAA-MM-GG-titolo-del-file.markdown`, inserendo la data attuale nel formato `AAAA-MM-GG`. Questo serve a Jekyll (il sistema che gestisce il sito) per ordinare i post in ordine cronologico.
@@ -45,7 +45,7 @@ Io sto creando un file chiamato `2017-05-30-dotbot-pi-online.markdown`.
 
 A questo punto, dobbiamo inserire il testo del post, insieme ad alcuni metadata. Il testo va scritto in markdown, per chi non lo conoscesse, potete trovare, a [questo link](http://www.maffucci.it/2013/08/29/formattazione-del-testo-con-markdown/) una guida al suo funzionamento.
 
-![nuovo file](../img/writefile.png)
+![nuovo file](robotrokers.github.io/_posts/img/writefile.png)
 
 
 Il contenuto del file è diviso in due parti. Prima di tutto vanno inseriti alcuni metadata, mentre nella seconda parte il testo completo
@@ -71,17 +71,17 @@ Potete trovare più informazioni al link [www.thingiverse.com/thing:2353479](htt
 
 Cliccando sul tasto **preview** potete anche vedere la preview del post.
 
-![nuovo file](../img/preview.png)
+![nuovo file](robotrokers.github.io/_posts/img/preview.png)
 
 
 Per salvare l'articolo, premete il tasto **commit** in basso, e sarete riportati alla pagina di preview del nuovo file.
 
-![nuovo file](../img/commit.png)
+![nuovo file](robotrokers.github.io/_posts/img/commit.png)
 
 
 Una volta salvato, potrete comunque modificarlo cliccando sul a forma di matita.
 
-![nuovo file](../img/edit.png)
+![nuovo file](robotrokers.github.io/_posts/img/edit.png)
 
 ## Creare una Pull Request per apportare le modifiche sul sito originale
 
@@ -93,11 +93,11 @@ Vediamo come fare.
 
 Accediamo alla pagina principale della copia della repository e clicchiamo il tasto **new pull request**.
 
-![Create Pull](../img/createpull.png)
+![Create Pull](robotrokers.github.io/_posts/img/createpull.png)
 
 Si aprirà una pagina che chiederà di aggiungere un titolo ed un commento alla pull request.
 
-![Create Pull](../img/commentpull.png)
+![Create Pull](robotrokers.github.io/_posts/img/commentpull.png)
 
 Siate chiari e concisi, non scrivete troppo (non perdete troppo tempo). A questo punto, cliccare su **Create Pull Request**.
 
