@@ -18,7 +18,7 @@ Tuttavia non sempre siamo d'accordo su che cosa sia veramente un robot e quali s
 
 Ad esempio, esistono elettrodomestici chiamati **_robot da cucina_**, come quello in figura
 
-![](http://i.imgur.com/K2TbVJ2.jpg=100x2) 
+![](http://i.imgur.com/K2TbVJ2.jpg) 
 
 ma sappiamo bene che questo non è un robot come lo intendiamo noi.
 
@@ -40,7 +40,7 @@ Nell’Ottocento, i robot trovano un antenato letterario nel personaggio del rom
 
 Il termine robot è stato coniato dallo scrittore ceco Karel Čapek nel suo romanzo fantapolitico R.U.R. (Rossumovi univerzální roboti, ossia I Robot Universali di Rossum), scritto nel 1920 e rappresentato a teatro nel 1921. 
 
-![](http://i.imgur.com/LivQU6J.jpg=100x2)
+![](http://i.imgur.com/LivQU6J.jpg)
 
 Si tratta di un’utopia negativa, dove uno scienziato/ingegnere di nome Rossum costruisce creature biologiche, al ﬁne di utilizzarle come macchine simili all’uomo, ma instancabili, più precise ed aﬃdabili, destinate a sostituire con maggior proﬁtto gli operai nelle fabbriche. Alla ﬁne della storia queste creature artiﬁciali si ribellano, minacciando di distruggere l’intera razza umana.
 
@@ -54,7 +54,7 @@ La diffusione del romanzo di Karel Čapek diede un’enorme fama al termine robo
 
 Anche se i robot di Čapek erano uomini artificiali costruiti con materia organica, il termine viene generalmente utilizzato per indicare un uomo meccanico, mentre si usa il termine **cyborg** (“organismo cibernetico” o “uomo bionico”) per indicare una creatura che combina parti organiche e meccaniche, come il ben noto Terminator cinematografico.
 
-![](http://i.imgur.com/dmAkmis.jpg=100x2)
+![](http://i.imgur.com/dmAkmis.jpg)
 
 
 R.U.R. alimenta una visione che, almeno in parte, persiste ancora oggi e che vede nel robot un essere artificiale di aspetto umano, dotato di intelligenza, sentimenti ed una personalità ben definita, ma ostile all'uomo e desideroso di distruggerlo per instaurare il proprio dominio. 
@@ -63,7 +63,7 @@ Il famoso film **Metropolis** di Fritz Lang (1926), anche se introduce per la pr
 
 Un robot di cui non si parla molto è Eric, costruito dal Capitano William H. Richards, un veterano della prima Guerra Mondiale e dall'ingegner A. H. Reffell. Eric fu chiamato ad inaugurare la Mostra della Società degli Ingegneri Modellisti a Londra nel 1928, dove tenne anche un discorso. Esso aveva un corpo in allumino simile ad un'armatura medioevale. I suoi occhi erano lampadine su cui erano dipinte della pupille rosse. Scintille elettriche emanavano dai suoi denti dovute ad una tensione di 35.000 Volt.
 
-![](http://i.imgur.com/9iz630G.jpg=100x2)
+![](http://i.imgur.com/9iz630G.jpg)
 
 Per saperne di più c'è un [sito](http://cyberneticzoo.com/robots/1928-eric-robot-capt-richards-english/) in inglese dove si possono trovare altri particolari curiosi.
 
@@ -72,7 +72,7 @@ il racconto *Runaround* (in italiano tradotto con "Circolo Vizioso" o anche "Gir
 
 Questo ed altri racconti del ciclo robotico vennero inseriti nella raccolta "I Robot" pubblicata nel 1950.
 
-![](http://i.imgur.com/szrvxPN.jpg=100x2)
+![](http://i.imgur.com/szrvxPN.jpg)
 
 Il racconto Runaround nella versione originale inglese è disponibile [qui](http://web.williams.edu/Mathematics/sjmiller/public_html/105Sp10/handouts/Runaround.html).
 

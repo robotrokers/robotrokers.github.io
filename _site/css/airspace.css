@@ -34,7 +34,7 @@ h3 {
   font-weight: 300;
 }
 p {
-  font-size: 15px;
+  font-size: 16px;
   line-height: 28px;
 }
 ul {
@@ -59,7 +59,7 @@ a:active {
 .section-title p {
   font-family: 'Volkhov', serif;
   font-style: italic;
-  color: #666;
+  color: #000;
 }
 /*--
 	Header Start
@@ -146,8 +146,8 @@ font header .navbar-default .navbar-nav li a:hover {
   margin: 0;
 }
 #intro .block p {
-  color: #7B7B7B;
-  padding-top: 20px;
+  color: #000;
+  padding-top: 0px;
 }
 #intro .block img {
   padding-left: 40px;
@@ -176,7 +176,7 @@ font header .navbar-default .navbar-nav li a:hover {
 #service .service-item h4 {
   padding-top: 20px;
   margin: 0;
-  color: #666;
+  color: #000;
 }
 #service .service-item p {
   color: #888;
@@ -258,7 +258,7 @@ font header .navbar-default .navbar-nav li a:hover {
   margin-bottom: 30px;
 }
 #feature p {
-  color: #8d8f92;
+  color: #000;
   margin-bottom: 20px;
 }
 #feature .btn-view-works {
