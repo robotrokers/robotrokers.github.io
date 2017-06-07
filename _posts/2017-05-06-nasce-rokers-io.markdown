@@ -2,7 +2,8 @@
 layout: post
 title:  "Nasce rokers.io!"
 date:   2017-05-06 15:38:25 +0200
-categories: news
+author: Ludovico Orlando Russo
+categories: [Makers, Educativa]
 ---
 In concomitanza con la prima **Cloud Rokers Faire** di Torino, siamo felici di
 annunciare il nuovo progetto **rokers.io**, voluto da Michele Maffucci, Ludovico Russo e

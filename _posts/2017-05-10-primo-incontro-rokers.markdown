@@ -2,7 +2,8 @@
 layout: post
 title:  "Primo Incontro Rokers"
 date:   2017-05-10 17:10:25 +0200
-categories: news
+author: Ludovico Orlando Russo
+categories: [Makers, Educativa]
 ---
 Hey Rokers,
 l’entusiasmo e l’accoglienza dell’iniziativa Rokers sono stati molto al di sopra di ogni nostra aspettativa: l’idea è piaciuta molto, ed abbiamo già più di 40 iscritti non solo da Torino, ma da tutta Italia (e qualcosa in più).

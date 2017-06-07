@@ -2,7 +2,9 @@
 layout: post
 title:  "Il Progetto DotBot Pi è disponibile online"
 date:   2017-05-30
-categories: [news, dotbot, robot]
+date:   2017-05-30
+author: Ludovico Orlando Russo
+categories: [Makers, Educativa]
 ---
 
 
