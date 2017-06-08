@@ -2,7 +2,7 @@
 layout: post
 title: Introduzione alla robotica teorica
 subtitle: Che cos'è un robot?
-date: 2016-06-06 15:17:00
+date: 2017-06-06 15:17:00
 author: Basilio Bona
 categories: Teorica
 ---
