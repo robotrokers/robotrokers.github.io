@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Come contribuire a questo sito"
-date:   2017-05-30
+date:   2017-05-28
 author: Ludovico Orlando Russo
 categories: [Makers, Educativa, Teorica]
 ---
