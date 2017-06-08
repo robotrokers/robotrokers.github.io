@@ -2,7 +2,6 @@
 layout: post
 title:  "Introduzione al blog"
 date:   2017-05-30
-date:   2017-05-30
 author: Basilio Bona
 categories: [Teorica]
 ---
