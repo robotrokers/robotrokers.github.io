@@ -18,7 +18,7 @@ Tuttavia non sempre siamo d'accordo su che cosa sia veramente un robot e quali s
 
 Ad esempio, esistono elettrodomestici chiamati **_robot da cucina_**, come quello in figura
 
-![](http://i.imgur.com/K2TbVJ2.jpg) 
+<img src="http://i.imgur.com/K2TbVJ2.jpg" width="100">
 
 ma sappiamo bene che questo non è un robot come lo intendiamo noi.
 
