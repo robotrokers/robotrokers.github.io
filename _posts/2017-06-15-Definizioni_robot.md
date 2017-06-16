@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Introduzione alla robotica teorica
+title: Introduzione alla robotica teorica 2
 subtitle: Definizione di robot e robotica
 date: 2016-06-06 15:17:00
 author: Basilio Bona
