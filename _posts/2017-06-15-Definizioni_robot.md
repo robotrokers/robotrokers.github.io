@@ -27,9 +27,9 @@ Il **Robotics Institute of America** fornisce la  seguente definizione
 
 La definizione mette in evidenza due caratteristiche fondamentali
 
-- la capacità di **manipolare**. 
+* la capacità di **manipolare**. 
 Un robot deve essere in grado di afferrare e muovere materiali e attrezzi nello spazio di lavoro e compiere lavorazioni specifiche su oggetti fissi o in movimento, come, ad esempio, effettuare saldature di particolari meccanici, procedere al taglio laser di lamiere, assemblare parti, applicare vernici o collanti e molte altre ancora.
-- la **riprogrammabilità**.
+* la **riprogrammabilità**.
 Consiste nella capacità di modificare movimenti, traiettorie e operazioni al variare dei compiti che il robot deve assolvere.
 
 Questa definizione andava bene per i primi robot manipolatori usati all'interno delle linee di produzione, soprattutto automobilistiche, mentre ora le tipologie di robot sono diventate molto numerose e risulta un po' riduttiva.
