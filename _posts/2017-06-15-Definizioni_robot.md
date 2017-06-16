@@ -120,7 +120,7 @@ Il video seguente illustra le potenzialità dei bracci prodotti dalla Universal 
 [![ ](http://i.imgur.com/1EYao33.jpg)](http://www.youtube.com/watch?v=Kb9uzqkfoHI)
 
 
-## Robot umanoidi e cani parlanti
+## Robot umanoidi 
 
 Hanno una struttura simile a quella dell'intero corpo umano; sono dotati di un torso, due gambe, due braccia con mani, e una testa. 
 
