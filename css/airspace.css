@@ -38,9 +38,9 @@ p {
   line-height: 28px;
 }
 ul {
-  padding: 0;
+ /* padding: 0;
   margin: 0;
-  list-style: none;
+  list-style: none;*/
 }
 a,
 a:active,
@@ -151,7 +151,7 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 #intro .block img {
   padding-left: 40px;
-  width: 100%;
+  max-width: 100%;
 }
 #intro .section-title {
   margin-bottom: 0px;
