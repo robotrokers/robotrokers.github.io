@@ -72,7 +72,7 @@ Facciamo qualche esempio.
 
  ![](http://i.imgur.com/nYfbBZg.jpg)
 
-![](http://i.imgur.com/qn4gjf5.jpg)
+ ![](http://i.imgur.com/qn4gjf5.jpg)
 
 	
 	Anche questi robot operano sulla base di un programma memorizzato da qualche parte (a bordo, oppure "in the cloud" - nella nuvola - come fa HotBlack Robotics). Anch'essi percepiscono l'ambiente circostante mediante sensori. 
