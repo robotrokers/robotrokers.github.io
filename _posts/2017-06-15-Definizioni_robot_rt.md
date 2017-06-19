@@ -74,6 +74,7 @@ Facciamo qualche esempio.
 
 	![](http://i.imgur.com/qn4gjf5.jpg)
 	
+	
 	Anche questi robot operano sulla base di un programma memorizzato da qualche parte (a bordo, oppure "in the cloud" - nella nuvola - come fa HotBlack Robotics). Anch'essi percepiscono l'ambiente circostante mediante sensori. 
 	
 	Nella figura vediamo che i robot hanno a bordo sensori ad ultrasuoni e piccole telecamere. L'azione modifica l'ambiente nel senso detto prima; cioè l'ambiente "oggettivo" non cambia, ma quello "soggettivo" si è modificato grazie al fatto che il robot si è mosso. 
