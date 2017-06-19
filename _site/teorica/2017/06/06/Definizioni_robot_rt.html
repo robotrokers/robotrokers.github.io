@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Introduzione alla robotica teorica 2</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+<!-- CSS -->
+<link rel="stylesheet" href="/css/owl.carousel.css" />
+<link rel="stylesheet" href="/css/bootstrap.min.css" />
+<link rel="stylesheet" href="/css/font-awesome.min.css" />
+<link rel="stylesheet" href="/css/airspace.css" />
+<link rel="stylesheet" href="/css/style.css" />
+<link rel="stylesheet" href="/css/ionicons.min.css" />
+<link rel="stylesheet" href="/css/animate.css" />
+<link rel="stylesheet" href="/css/responsive.css" />
+<link rel="stylesheet" href="/css/syntax.css" />
+
+<!-- Js -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/owl.carousel.min.js"></script>
+<script src="/js/plugins.js"></script>
+<script src="/js/min/waypoints.min.js"></script>
+<script src="/js/jquery.counterup.js"></script>
+
+
+<script src="/js/main.js"></script>
+
+<!--
+/*
+ * Airspace
+ * Ported to Jekyll by Andrew Lee
+ * https://github.com/luminousrubyist/airspace-jekyll
+ * Designed and Developed by ThemeFisher
+ * https://themefisher.com/
+ *
+ */
+-->
+
+
+  </head>
+  <body>
+
+
+    <!-- Header Start -->
+<header>
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <!-- header Nav Start -->
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">
+              <img src="/img/logo.png" alt="Logo">
+            </a>
+          </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="/">Home</a></li>
+                <li><a href="/blog-teorica">Blog Robotica Teorica</a></li>
+                <li><a href="/blog-makers">Blog Robotica Makers</a></li>
+                <li><a href="/blog-educativa">Blog Robotica Educativa</a></li>
+                <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSdacsFXWljnXINhFau6-zZgNw94zj0sfapZpmC0Xd5YJ02gbw/viewform?c=0&w=1">Iscriviti</a></li>
+                <li><a href="/contact">Contattaci</a></li>
+              </ul>
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+        </nav>
+      </div>
+    </div>
+  </div>
+</header><!-- header close -->
+
+
+
+    <div class="post">
+  <!-- Wrapper Start -->
+  <section id="intro" style="border: 1px dotted #ddd;">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-offset-2 col-md-8 col-md-offset-2">
+        <div>
+          <div class="block">
+            <h1>Introduzione alla robotica teorica 2</h1>
+            <div class="post-info-wrapper">
+              <p class="italic">By <span class="bold">Basilio Bona</span> on <span class="bold">June 6, 2017</span></p>
+            </div>
+            <hr />
+            <p><p>Come promesso, in questo secondo post analizzo le varie definizioni di robot che sono state formulate nel corso degli anni e successivamente fornisco alcune classificazioni dei vari tipi di robot.</p>
+
+<h1 id="cosè-la-robotica">Cos’è la Robotica</h1>
+
+<p>Si prevede che nei prossimi anni la robotica sia uno dei settori con il più alto tasso di crescita, insieme all’intelligenza artificiale fondata sul deep learning e i big data.</p>
+
+<p>Le stime per il 2020 del valore del mercato mondiale dei robot industriali è stimato intorno agli 80 miliardi di dollari e quello della robotica di servizio intorno ai 24 miliardi di dollari.</p>
+
+<p>La rivista Fortune nel 2016 stimava che nel 2019 il valore complessivo mondiale della robotica si sarebbe aggirato intorno ai 135 miliardi di dollari.</p>
+
+<p>Come si può definire la Robotica?</p>
+
+<p>Si può dire che sia un insieme sinergico di teorie e di tecnologie che formano la base per lo studio, la progettazione e la realizzazione dei robot.</p>
+
+<p>Quindi la Robotica è sostanzialmente un insieme di teoria e di pratica: la teoria che descrive il robot e le sue funzioni, e la pratica che permette di costruirlo.</p>
+
+<p>La teoria comprende molti aspetti: dalla definizione delle equazioni cinematiche ai modelli dinamici dei robot, dai controlli automatici all’informatica, dalla sensoristica agli azionamenti, per citarne solo alcuni. Intelligenza artificiale e big data saranno in futuro utilizzati per costruire robot sempre più “intelligenti” e adatti a lavorare spalla a spalla con gli esseri umani.</p>
+
+<p>La tecnologia, come si può immaginare, riguarda la capacità di tradurre la teoria in un funzionamento concreto della struttura robotica che si è descritta matematicamente.</p>
+
+<p>Nei post successivi affronterò principalmente gli aspetti teorici della Robotica, partendo dalla descrizione delle catene cinematiche e della loro rappresentazione matematica. In questo post mi limito a fornire alcune definizioni ed a individuare alcuni settori della robotica.</p>
+
+<h2 id="il-robot-definizioni">Il Robot: definizioni</h2>
+
+<p>Il <strong>Robotics Institute of America</strong> lo definisce così:</p>
+<blockquote>
+  <p><strong>Un robot è un manipolatore riprogrammabile, multi-funzionale, progettato per muovere materiali, parti, attrezzi o dispositivi specializzati, lungo cammini programmati e variabili, allo scopo di eseguire una varietà di compiti.</strong></p>
+</blockquote>
+
+<p>La definizione mette in evidenza due caratteristiche fondamentali</p>
+
+<ul>
+  <li>
+    <p>la capacità di <strong>manipolare</strong>. 
+Un robot deve essere in grado di afferrare e muovere materiali e attrezzi nello spazio di lavoro e compiere lavorazioni specifiche su oggetti fissi o in movimento; ad esempio, effettuare saldature di particolari meccanici, procedere al taglio laser di lamiere, assemblare parti, applicare vernici o collanti e molte altre lavorazioni.</p>
+  </li>
+  <li>
+    <p>la <strong>riprogrammabilità</strong>.
+Consiste nella possibilità di modificare movimenti, traiettorie e operazioni al variare dei compiti che il robot deve assolvere.</p>
+  </li>
+</ul>
+
+<p>Questa definizione andava bene per i primi robot manipolatori usati all’interno delle linee di produzione, soprattutto automobilistiche, mentre ora le tipologie di robot sono diventate molto più numerose ed essa risulta un po’ riduttiva.</p>
+
+<p>Un’altra definizione più aggiornata viene data da Maja Mataric, professoressa di Robotica all’<em>University of Southern California</em></p>
+<blockquote>
+  <h4 id="un-robot-è-un-sistema-autonomo-che-esiste-ed-opera-nello-spazio-fisico-che-può-percepire-lambiente-mediante-sensori-e-che-può-agire-su-di-esso-e-io-aggiungo-modificandolo-per-raggiungere-un-obbiettivo-specificato">Un robot è un sistema autonomo, che esiste ed opera nello spazio fisico, che può percepire l’ambiente mediante sensori e che può agire su di esso (e io aggiungo, <em>modificandolo</em>) per raggiungere un obbiettivo specificato.</h4>
+</blockquote>
+
+<p>I fattori caratteristici di un robot sono quindi l’autonomia, la percezione e l’azione.</p>
+
+<ul>
+  <li>
+    <p><strong>autonomia</strong> significa che il robot opera sulla base di un insieme di leggi che gli permettono di svolgere un compito senza l’intervento diretto dell’utente, cioè dell’essere umano che lo ha progettato o lo sta usando. Di solito le leggi sono codificate in un insieme di programmi software (algoritmi), mentre nel caso dei robot meccanici del Settecento, le leggi erano di tipo “meccanico” e corrispondevano ai meccanismi interni, simili a quelli di un cronometro. Spesso si dice che il robot possiede un’<strong>intelligenza</strong>, che però non ha nulla a che fare con l’intelligenza umana, ma è solo un modo sintetico per definite l’insieme di algoritmi che lo comandano.</p>
+  </li>
+  <li>
+    <p><strong>percezione</strong> significa che può misurare, attraverso opportuni sensori, alcune grandezze fisiche che caratterizzano lo stato del robot e/o l’ambiente in cui esso opera, a seconda dell’obbiettivo che viene formulato dall’utente. I sensori possono essere <strong>propriocettivi</strong> o <strong>eterocettivi</strong> (talvolta detti <strong>esterocettivi</strong>); i primi misurano le grandezze interne al robot, i secondi misurano le grandezze dell’ambiente in cui il robot opera</p>
+  </li>
+  <li>
+    <p><strong>azione</strong> significa che, sulla base delle misure e delle regole che ne definiscono l’autonomia, il robot può agire sull’ambiente che lo circonda, modificandolo in modo diretto o indiretto.</p>
+  </li>
+</ul>
+
+<p>Facciamo qualche esempio.</p>
+
+<ol>
+  <li>
+    <p>I bracci robotici industriali, come quelli illustrati in figura, sono strutture montate su una base fissa, dove l’unico movimento possibile è quello dei bracci che compongono la cosiddetta “catena cinematica”.</p>
+
+    <p><img src="http://i.imgur.com/yXR0yOj.jpg" alt="" /></p>
+
+    <p><img src="http://i.imgur.com/BMz3Fbg.jpg" alt="" /></p>
+
+    <p>Essi operano sulla base di un programma detto ‘part program’, codificato nel computer di bordo, che misura   gli angoli dei motori e, sulla base di queste misure e dell’obbiettivo da raggiungere, fa muovere i bracci per raggiungere il punto desiderato nello spazio. Una volta raggiunto il punto finale, il robot può o meno effettuare la lavorazione prevista.</p>
+
+    <p>In questo caso l’azione corrisponde alla lavorazione che modifica l’ambiente in cui il robot opera. Se poi il robot non effettua alcuna lavorazione, ma si è limitato a muovere la catena cinematica, la modifica dell’ambiente è indiretta e corrisponde al fatto che l’ambiente intorno al robot non è più quello di prima in quanto, essendosi il robot mosso, l’ambiente viene percepito in modo diverso.</p>
+  </li>
+  <li>
+    <p>I robot mobili, detti anche <strong>rover</strong>, come quelli illustrati in figura, al contrario dei robot industriali, possono muoversi nello spazio in cui si trovano mediante le ruote, ma non possiedono bracci in grado di effettuare lavorazioni o afferrare oggetti.</p>
+
+    <p><img src="http://i.imgur.com/nYfbBZg.jpg" alt="" /></p>
+
+    <p><img src="http://i.imgur.com/qn4gjf5.jpg" alt="" /></p>
+
+    <p>Anche questi robot operano sulla base di un programma memorizzato da qualche parte (a bordo, oppure “in the cloud” - nella nuvola - come fa HotBlack Robotics). Anch’essi percepiscono l’ambiente circostante mediante sensori.</p>
+
+    <p>Nella figura vediamo che i robot hanno a bordo sensori ad ultrasuoni e piccole telecamere. L’azione modifica l’ambiente nel senso detto prima; cioè l’ambiente “oggettivo” non cambia, ma quello “soggettivo” si è modificato grazie al fatto che il robot si è mosso.</p>
+  </li>
+  <li>
+    <p>I robot umanoidi, come quelli illustrati sotto, possono muoversi nello spazio utilizzando gambe o ruote, ma in più sono dotati di un paio di braccia capaci di muoversi, afferrare oggetti, spostarli o effettuare semplici lavorazioni.</p>
+
+    <p><img src="http://i.imgur.com/UxCtu2w.jpg" alt="" /></p>
+
+    <p><img src="http://i.imgur.com/97tGCiN.jpg" alt="" /></p>
+
+    <p>Anch’essi operano sulla base di un programma e percepiscono l’ambiente circostante mediante sensori. Hanno la possibilità di agire sull’ambiente e comunicare con gli esseri umani attraverso input e output vocali.</p>
+  </li>
+</ol>
+
+<p>Questi tre esempi ci fanno concludere che la definizione di Mataric è sostanzialmente corretta, perché descrive bene le caratteristiche che un oggetto complesso deve avere per essere definito robot. Il lettore può provare a riflettere se il robot da cucina presentato nel post precedente ricade in questa definizione oppure no.</p>
+
+<h1 id="classificazione-dei-robot">Classificazione dei robot</h1>
+
+<p>I robot possono essere classificati secondo diverse tipologie. Ad esempio, a seconda</p>
+
+<ul>
+  <li>
+    <p>della struttura meccanica che li contraddistingue</p>
+  </li>
+  <li>
+    <p>dell’ambiente in cui operano,</p>
+  </li>
+  <li>
+    <p>dell’uso a cui sono destinati</p>
+  </li>
+  <li>
+    <p>ecc.</p>
+  </li>
+</ul>
+
+<h2 id="strutture-meccaniche">Strutture meccaniche</h2>
+
+<h3 id="robot-industriali">Robot industriali</h3>
+
+<p>Si tratta di strutture meccaniche simili al braccio umano, che, come sappiamo, è composto da un una spalla attaccata al torso, un braccio, un gomito, un polso e una mano. Una struttura meccanica analoga caratterizza questi robot, detti anche <em>manipolatori robotici</em>, alla cui estremità è montato un polso e un organo di presa o un attrezzo per effettuare lavorazioni; si usa il termine <strong>punta operativa</strong> per definire genericamente l’estremità del robot includendo anche l’eventuale attrezzo.</p>
+
+<p><img src="http://i.imgur.com/ivfwZET.jpg" alt="" /></p>
+
+<p>Di solito sono fissati al pavimento o al soffitto delle linee di produzione, oppure montati su guide mobili che consentono una traslazione di qualche metro.</p>
+
+<h4 id="caratteristiche">Caratteristiche</h4>
+
+<ul>
+  <li>
+    <p>La struttura è molto rigida per garantire la ripetibilità e la precisione dei movimenti.</p>
+  </li>
+  <li>
+    <p>Sono provvisti di motori dotati di motoriduttori per erogare una coppia elevata a parità di potenza trasmessa.</p>
+  </li>
+  <li>
+    <p>Ciascun motore è provvisto di un sensore angolare (encoder o resolver, più raramente sensori potenziometrici) che ne misura la rotazione; talvolta sono dotati di sensori di visione sulla punta operativa.</p>
+  </li>
+  <li>
+    <p>Possono portare masse elevate. Un tempo il rapporto massa sollevata su massa propria era sfavorevole; per sollevare 10 kg un tipico robot pesava 1000 kg, quindi un rapporto 1/100. Ora questo rapporto è migliorato e si trovano robot che pesano 30 kg e portano una massa di 10 kg con uno sbraccio di 1 m.</p>
+  </li>
+  <li>
+    <p>Operano in ambienti ben noti e strutturati dal punto di vista geometrico. Ciò significa che tutti gli elementi necessari per la produzione che si trovano intorno al robot sono noti nelle caratteristiche geometriche e occupano posizioni stabili. Inoltre non sono presenti ostacoli incogniti all’interno dello spazio di lavoro.</p>
+  </li>
+  <li>
+    <p>La potenza elettrica viene fornita da sorgenti esterne al robot.</p>
+  </li>
+  <li>
+    <p>I movimenti sono quasi sempre ripetitivi e vengono definiti  da programmi caricati in memoria, detti part-program. Quando bisogna variare la sequenze di lavorazione, occorre modificare il programma o caricarne un altro.</p>
+  </li>
+  <li>
+    <p>È molto raro che siano dotati di sensori per percepire eventuali ostacoli nell’ambiente di lavoro ed evitarli; e quindi sono molto pericolosi per gli operatori. Per questa ragione devono lavorare all’interno di zone protette da apparecchiature di sicurezza che fermano il robot in caso di necessità, oppure operano in ambienti privi di operatori umani.</p>
+  </li>
+</ul>
+
+<p>Negli ultimi anni sono disponibili sul mercato robot industriali che possono lavorare vicino ad operatori umani senza particolari problemi o pericoli. Sono i cosiddetti “robot collaborativi” o cobots, come quello nella figura seguente</p>
+
+<p><img src="http://i.imgur.com/Et56r7e.jpg" alt="" /></p>
+
+<p>Si intuisce che l’operatore può avvicinarsi senza particolari problemi al braccio robotico che sta effettuando delle lavorazioni su una portiera.</p>
+
+<p>Il video seguente illustra le potenzialità dei bracci robotici collaborativi prodotti dalla Universal Robot, un’azienda danese che in pochi anni ha venduto migliaia di esemplari.</p>
+
+<p><a href="http://www.youtube.com/watch?v=Kb9uzqkfoHI"><img src="http://i.imgur.com/1EYao33.jpg" alt=" " /></a></p>
+
+<h3 id="robot-umanoidi">Robot umanoidi</h3>
+
+<p>Hanno una struttura simile a quella dell’intero corpo umano; sono dotati di un torso, due gambe, due braccia con mani, e una testa.</p>
+
+<p><img src="http://i.imgur.com/L40tw0r.jpg" alt="" /></p>
+
+<p>Possiedono quindi quattro catene cinematiche, due per le braccia, due per le gambe, che partono dal torso, su cui è montata la testa, anch’essa dotata della possibilità di muoversi in orizzontale e in verticale (un movimento che si definisce “pan-tilt”). Sulla testa vengono montati di solito numerosi sensori per l’analisi dell’ambiente circostante, mentre l’unità di comando di solito non è ubicata nella testa, ma nel torso.</p>
+
+<p><img src="http://i.imgur.com/1HR0TDk.png" alt="" /></p>
+
+<p>Le mani possono essere semplici, con due o tre dita, o più complesse, in modo da simulare la mano umana.</p>
+
+<p><img src="http://i.imgur.com/Cs8SwLe.jpg" alt="" /> 
+<img src="http://i.imgur.com/p3OYeIv.jpg" alt="" /></p>
+
+<h4 id="caratteristiche-1">Caratteristiche</h4>
+
+<ul>
+  <li>
+    <p>La struttura meccanica dei robot umanoidi è molto più complessa di quella dei robot industriali, perché comprende più catene cinematiche, che devono muoversi in maniera combinata per garantire la stabilità del moto e la manipolabilità degli oggetti.</p>
+  </li>
+  <li>
+    <p>Il numero di motori è quindi piuttosto alto. Essi possono essere dotati di motoriduttori oppure no (ad esempio quelli delle mani), spesso la loro collocazione è resa complessa dalla necessità di garantire che il centro di massa rimanga approssimativamente sulla verticale. Alcuni movimenti delle dita delle mani possono essere azionati da fili metallici o altre soluzioni simili ai tendini umani.</p>
+  </li>
+  <li>
+    <p>Non è necessario garantire una rigidezza elevata dell’insieme, in quanto non è previsto che vengano compiuti movimenti precisi e ripetibili. Tuttavia questo può comportare un’andatura a scatti, tipica dei robot umanoidi costruiti dai makers.</p>
+  </li>
+  <li>
+    <p>Sono dotati di sensori sia interni sia esterni, questi ultimi di solito sono sensori a ultrasuoni e/o telecamere.</p>
+  </li>
+  <li>
+    <p>Spesso hanno la possibilità di comunicare con l’utente attraverso suoni o parole e possono anche possedere sistemi di riconoscimento e sintesi vocale.</p>
+  </li>
+  <li>
+    <p>Il carico che possono trasportare con le braccia è molto limitato.</p>
+  </li>
+  <li>
+    <p>Operano in ambienti scarsamente strutturati e spesso ignoti a priori. Funzionano bene quasi sempre solo su superfici piane.</p>
+  </li>
+  <li>
+    <p>Hanno un’autonomia limitata, perché le batterie, se sono collocate a bordo, non devono essere troppo pesanti o ingombranti. I molti casi i robot umanoidi in fase sperimentale sono collegati ad una sorgente di potenza fissa esterna attraverso un “cordone ombelicale”.</p>
+  </li>
+  <li>
+    <p>I requisiti di sicurezza non sono ancora esattamente definiti, ma è chiaro che i robot umanoidi non devono arrecare danno alle persone o agli ambienti entro cui si operano.</p>
+  </li>
+  <li>
+    <p>Poiché questi robot operano a contatto con persone che non sono necessariamente dei tecnici, occorre prevedere delle interfacce uomo-macchina più sofisticate e usabili che non quelle di un robot industriale.</p>
+  </li>
+  <li>
+    <p>Esiste un problema di “accettabilità sociale” di questo tipo di robot. Nella nostra cultura, per ragioni che non voglio approfondire qui, un robot con forme “troppo” umane desta preoccupazione o anche rifiuto. Talvolta è opportuno de-umanizzare il robot per farlo chiaramente percepire come una macchina.</p>
+  </li>
+</ul>
+
+<p>Recentemente, la società giapponese SoftBank ha acquistato da Alphabet, holding a cui fanno capo Google Inc. e altre società controllate, l’azienda Boston Dynamics, un leader nel settore dei robot umanoidi e su zampe, come si può vedere nei seguenti video.</p>
+
+<p><a href="http://www.youtube.com/watch?v=rVlhMGQgDkY"><img src="http://i.imgur.com/VLVT2Wp.png" alt=" " /></a></p>
+
+<p><a href="http://www.youtube.com/watch?v=tf7IEVTDjng"><img src="http://i.imgur.com/OT95zk6.png" alt=" " /></a></p>
+
+<p><a href="http://www.youtube.com/watch?v=-7xvqQeoA8c"><img src="http://i.imgur.com/F2g9fx7.png" alt=" " /></a></p>
+
+<h3 id="robot-biomimetici">Robot biomimetici</h3>
+
+<p>Sono quelle strutture robotiche che imitano le soluzioni presenti in natura, soprattutto per quanto riguarda le soluzioni di locomozione e più recentemente anche di sensoristica avanzata.</p>
+
+<p>Alcuni esempi di robot biomimetici sono illustrati nella figura seguente.</p>
+
+<p><img src="http://i.imgur.com/awnTBDx.png" alt="" /></p>
+
+<p>Questa categoria di robot non ha al momento prodotto grandi ricadute applicative, in quanto è raro vedere soluzioni basate su queste strutture utilizzate per compiti reali, tranne i robot a zampe, che sembra possano avere interesse in applicazioni civili e militari.</p>
+
+<h4 id="caratteristiche-2">Caratteristiche</h4>
+
+<ul>
+  <li>
+    <p>Questi robot copiano le modalità di movimento di uccelli, pesci, insetti o altri animali terresti. Vi sono realizzazioni che imitano cavallette, ghepardi, salamandre, farfalle, colibrì, ecc.; chi li realizza ha lo scopo prevalente di dimostrare che è possibile pensare a soluzioni alternative alla locomozione su ruote o su gambe.</p>
+  </li>
+  <li>
+    <p>Possono avere quattro, sei o otto gambe oppure essere totalmente privi di gambe. Possono avere pinne, ali, zampe, o muoversi come i serpenti e i vermi. Alcuni sono di dimensioni minuscole, altri misurano anche qualche metro.</p>
+  </li>
+  <li>
+    <p>Salvo qualche eccezione, non possiedono una grande autonomia e spesso sono teleguidati.</p>
+  </li>
+  <li>
+    <p>La dotazione di sensori è scarsa o del tutto mancante, ma nelle strutture più adatte agli usi pratici, i sensori sono presenti.</p>
+  </li>
+  <li>
+    <p>Non prevedono alcun sistema di sicurezza verso gli utenti, salvo quelli di grandi dimensioni e massa notevole.</p>
+  </li>
+  <li>
+    <p>Si possono muovere in ambienti terrestri, marini e aerei.</p>
+  </li>
+</ul>
+
+<h2 id="ambienti-in-cui-operano">Ambienti in cui operano</h2>
+
+<h3 id="terrestre">Terrestre</h3>
+
+<p>Sono quei robot che si muovono sulla superficie terrestre o di altri corpi del sistema solare.</p>
+
+<p>I primi hanno moltissimi usi e sono quasi esclusivamente dotati di due o quattro ruote, talvolta di gambe o zampe.</p>
+
+<p>I secondi, prevalentemente dotati di ruote, sono stati usati per l’esplorazione in situ di altri corpi del sistema solare; ne sono un esempio ben noto i rover Beagle, Spirit, Opportunity e Curiosity che da molti anni percorrono il suolo marziano.</p>
+
+<p><img src="http://withouttheloop.com/articles/2015-04-17-mars-rover/curiosity.jpg" alt="" /></p>
+
+<h3 id="marino">Marino</h3>
+
+<p>Questi robot si muovono sulla superficie del mare o in profondità. I robot sottomarini sono utilizzati per diversi compiti, quali l’ispezione di strutture sommerse, la prospezione dei fondali alla ricerca di relitti, o per altri usi di ricerca e salvaguardia dell’ambiente sottomarino. Possono essere dotati di braccia e si muovono spinti da eliche o idrogetti.</p>
+
+<p><img src="http://cdni.wired.co.uk/1920x1280/s_v/Untitled-5_5.jpg" alt="" /></p>
+
+<h3 id="aereo">Aereo</h3>
+
+<p>Vengono anche chiamati <strong>droni</strong> ed hanno un uso militare o civile. Questi ultimi sono prevalentemente dei <strong>quadricotteri</strong>, cioè dotati di quattro eliche a due a due contro-rotanti per assicurare l’equilibrio.</p>
+
+<p>All’inizio venivano utilizzati prevalentemente per scopi ludici, mentre ora svolgono molte altre funzioni: dalle riprese aeree per uso cinematografico o sportivo, al sorvolo di zone investite da catastrofi naturali (terremoti, inondazioni, incendi ecc.), dal monitoraggio ambientale, all’uso in agricoltura per stimare lo stato delle colture, dalla consegna di pacchi o generi di prima necessità, all’ispezione di aree remote.</p>
+
+<p><img src="https://gadgetsdeal.in/wp-content/uploads/2013/08/Q450-quadcopter-kopen.jpg" alt="" /></p>
+
+<h2 id="utilizzo">Utilizzo</h2>
+
+<p>I robot possono essere classificati anche in relazione all’uso a cui sono destinati.</p>
+
+<p>Ne posso elencare molti e sicuramente ne dimentico altrettanti. I principali sono</p>
+
+<ul>
+  <li>
+    <p>Robot industriali (settore della <strong>Robotica Industriale</strong>):</p>
+
+    <p>è il settore tecnologicamente più maturo e con una storia più lunga; come abbiamo visto, si tratta prevalentemente di manipolatori industriali utilizzati all’interno di linee di produzione. Recentemente molte aziende di robotica stanno sviluppando piattaforme mobili da utilizzare come trasporto tra le celle di lavorazione, sia all’interno di magazzini e aree logistiche</p>
+  </li>
+  <li>
+    <p>Robot di servizio (settore della <strong>Robotica di Servizio</strong>):</p>
+
+    <p>è il settore che negli ultimi anni sta avendo una sviluppo tumultuoso e che rappresenta un grosso mercato futuro. Si possono individuare alcuni sottosettori</p>
+
+    <ul>
+      <li>
+        <p>Robot per esplorazione. Si tratta di robot mobili progettati per l’esplorazione di altri corpi del Sistema Solare, di aree sottomarine o con condizioni estreme (interno di vulcani, zone artiche o antartiche, ecc.).</p>
+      </li>
+      <li>
+        <p>Robot per usi logistici. Sono utilizzati per il trasporto di merci all’interno di depositi o magazzini, per la pulizia di grandi aree industriali e altro. Si tratta il più delle volte di robot a ruote, privi di organi di presa, anche se in futuro si pensa di integrarli con piccoli bracci per manipolazione.</p>
+      </li>
+      <li>
+        <p>Robot per telepresenza. Permettono di accedere ad eventi lontani da parte di utenti che possono così partecipare senza essere fisicamente in loco. Sono simili a soluzioni di teleconferenza, solo che qui la videocamera è montata su una base mobile, libera di muoversi a richiesta dell’utente.</p>
+      </li>
+      <li>
+        <p>Robot per sorveglianza, monitoraggio, sicurezza e prevenzione. Il settore ha un interesse notevole, ed è orientato sia alla sicurezza di grandi aree “critiche”, come aeroporti, eventi sportivi, sia al monitoraggio di dell’inquinamento in aree abitate o colpite da disastri naturali</p>
+      </li>
+      <li>
+        <p>Robot medici. Rappresentano un settore anch’esso molto interessante e in forte espansione e includono robot chirurgici, robot per la riabilitazione motoria, protesi robotiche, supporto a pazienti colpiti da malattie degenerative o neurologiche.</p>
+      </li>
+      <li>
+        <p>Robot per supporto alle vendite. Alcuni grandi magazzini ed alberghi stanno sperimentando robot mobili che svolgono funzioni di assistenza al cliente, come l’indicazione degli scaffali di prodotti specifici o il recapito di colazione o pranzo direttamente in camera attraverso fattorini robotici.</p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p>Robot per usi domestici.</p>
+
+    <ul>
+      <li>
+        <p>Robot di pulizia. Il primo esempio di robot di servizio è stato proprio un robot mobile per la pulizia  autonoma all’interno di un comune appartamento; avrete senz’altro capito che mi riferisco a Roomba, venduto in miglia di esemplari e imitato da molti. Da questo primo esempio di robot di servizio ne sono seguiti molti altri per la pulizia di grandi spazi pubblici, di piscine ecc.</p>
+      </li>
+      <li>
+        <p>Assistenza ad anziani soli. Con l’invecchiamento della popolazione negli stati tecnologicamente più avanzati, i robot sono pensati per accompagnare e sostenere nella vita di tutti i giorni gli anziani soli o altri soggetti che altrimenti potrebbero essere destinati a condurre gli ultimi anni della loro vita lontani dal loro ambiente domestico.</p>
+      </li>
+      <li>
+        <p>Robot per intrattenimento e gioco. Di solito si tratta di piccoli robot con ruote o zampe o cingoli che presentano un aspetto simpatico e rassicurante e interagiscono con segnali sonori con gli utenti, che possono essere bambini o adulti. Sembra che ci sia in futuro uno spazio per giochi basati su piccoli robot fisici integrati in ambienti di realtà aumentata.</p>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="conclusione">Conclusione</h1>
+
+<p>Le tipologie e gli utilizzi dei robot sono limitate solo dalla fantasia dei progettisti. L’intelligenza artificiale, lo sviluppo del learning basato sui big data, l’uso della cloud, la ricerca su nuovi materiali, i  futuri computer basati su <a href="http://www.treccani.it/enciclopedia/dispositivi-neuromorfi_%28Dizionario-di-Medicina%29/">dispositivi neuromorfi</a>, tutto questo spingerà la robotica verso strade che è difficile immaginare ora.</p>
+
+<p>Su tutte le attività connesse alla robotica grava però una paura … la paura che l’automazione in generale, e i robot in particolare, possano far crescere la disoccupazione in molte fasce di attività, ed escludere da una vita attiva vasti settori della società.</p>
+
+</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+</div>
+<p class="center-text" style="padding: 0px;">
+  <a href="/">Back to home</a>
+</p>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- footer Start -->
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="footer-manu">
+          <ul>
+
+            <p> Iscriviti alla community premendo "Iscriviti alla community" qui sotto ed entra nel gruppo Facebook "Rokers" così da rimanere sempre aggiornato/a sulle ultime news!</p>
+            <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSdacsFXWljnXINhFau6-zZgNw94zj0sfapZpmC0Xd5YJ02gbw/viewform?c=0&w=1">Iscriviti alla community</a></li>
+            <li><a href="/contact">Contattaci</a></li>
+            <li><a href="https://www.facebook.com/groups/robotrokers/">Gruppo Facebook</a>
+          </ul>
+    </div>
+  </div>
+</footer>
+
+
+    </body>
+</html>

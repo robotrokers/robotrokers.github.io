@@ -70,21 +70,21 @@ Facciamo qualche esempio.
  
 2. I robot mobili, detti anche **rover**, come quelli illustrati in figura, al contrario dei robot industriali, possono muoversi nello spazio in cui si trovano mediante le ruote, ma non possiedono bracci in grado di effettuare lavorazioni o afferrare oggetti.
 
- ![](http://i.imgur.com/nYfbBZg.jpg)
+   ![](http://i.imgur.com/nYfbBZg.jpg)
 
- ![](http://i.imgur.com/qn4gjf5.jpg)
+   ![](http://i.imgur.com/qn4gjf5.jpg)
 
 	
-	Anche questi robot operano sulla base di un programma memorizzato da qualche parte (a bordo, oppure "in the cloud" - nella nuvola - come fa HotBlack Robotics). Anch'essi percepiscono l'ambiente circostante mediante sensori. 
+   Anche questi robot operano sulla base di un programma memorizzato da qualche parte (a bordo, oppure "in the cloud" - nella nuvola - come fa HotBlack Robotics). Anch'essi percepiscono l'ambiente circostante mediante sensori. 
 	
-	Nella figura vediamo che i robot hanno a bordo sensori ad ultrasuoni e piccole telecamere. L'azione modifica l'ambiente nel senso detto prima; cioè l'ambiente "oggettivo" non cambia, ma quello "soggettivo" si è modificato grazie al fatto che il robot si è mosso. 
+   Nella figura vediamo che i robot hanno a bordo sensori ad ultrasuoni e piccole telecamere. L'azione modifica l'ambiente nel senso detto prima; cioè l'ambiente "oggettivo" non cambia, ma quello "soggettivo" si è modificato grazie al fatto che il robot si è mosso. 
 
 3. I robot umanoidi, come quelli illustrati sotto, possono muoversi nello spazio utilizzando gambe o ruote, ma in più sono dotati di un paio di braccia capaci di muoversi, afferrare oggetti, spostarli o effettuare semplici lavorazioni.
 
-![](http://i.imgur.com/UxCtu2w.jpg)
+    ![](http://i.imgur.com/UxCtu2w.jpg)
  	
 	
-![](http://i.imgur.com/97tGCiN.jpg)
+    ![](http://i.imgur.com/97tGCiN.jpg)
 	
 	Anch'essi operano sulla base di un programma e percepiscono l'ambiente circostante mediante sensori. Hanno la possibilità di agire sull'ambiente e comunicare con gli esseri umani attraverso input e output vocali.
 
