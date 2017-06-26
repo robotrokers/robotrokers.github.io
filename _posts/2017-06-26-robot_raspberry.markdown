@@ -1,8 +1,7 @@
 ---
 layout: post
 title: Emabot: trasformare una macchina radiocomandata in un robot
-subtitle: 
-date: 2017-06-26 15:17:00
+date: 2017-06-26 
 author: Emanuele Paiano
 categories: Makers
 ---
