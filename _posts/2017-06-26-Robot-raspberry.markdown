@@ -323,7 +323,7 @@ Il collegamento da realizzare è di tipo UART: consiste nel collegare il Pin TX 
 
 Collegato il raspberry, non resta che collegare anche il pin vin di Arduino al pin 5V del modulo L298N (staccate arduino dalla usb del pc), come mostrato nello schema successivo. Per alimentare raspberry, possiamo usare un alimentatore da smartphone (purchè sia a 5V), almeno per le fasi di test. Successivamente, si farà uso di un modulo dc step down: si prenderà parte della tensione globale del sistema, e la si ridurrà a 5 V per Raspberry. In questo modo, avremo due diramazioni a partire dalla sorgente a 12V: una a 5V per Raspberry e l’altra a 12 per alimentare il modulo motori (insieme al microcontrollore). L’importante è che fate arrivare almeno 9V (meglio 12) e 2400mAh in ingresso.
 
-![image](images/08.jpg)
+![image](img/08.jpg)
 
 Prima configurazione e test del collegamento
 --------------------------------------------
