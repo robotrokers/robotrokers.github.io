@@ -35,9 +35,11 @@ descriptions:
 
   - cat: dummy
     desc: "Just some placeholder posts, lorem ipsum and the rest."
-plugins_dir: [jekyll-admin]
+plugins_dir: [jekyll-admin, jekyll-seo-tag]
  # This will require each of these plugins automatically.
 group: jekyll_plugins do
    gem "jekyll-admin"
+   gem "jekyll-seo-tag"
  end
-
+gems:
+  - jekyll-seo-tag
