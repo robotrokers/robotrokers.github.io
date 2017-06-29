@@ -8,7 +8,7 @@ hosted.
 If you want to improve the site and/or create contents, please fork the repository
 and create a pull reqeust
 
-## Main Contributors:
+## Main Contributors:
 
  - Ludovico Russo
  - Gabriele Ermacora
