@@ -70,6 +70,7 @@ I  giunti prismatici si rappresentano in 3D con dei cubi o parallelepipedi attra
 ***
 
 METTERE FIGURA
+
 --------------
 
 ***
