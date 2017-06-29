@@ -126,6 +126,8 @@ Sulla base della struttura della catena cinematica è possibile classificare i r
 
 I costruttori di robot industriali fanno in modo che i primi tre bracci, che formano quella che viene chiamata **spalla**, servano a posizionare nello spazio i successivi tre bracci, che costituiscono quello che viene comunemente chiamato **polso**; a quest’ultimo in genere è affidato il compito di fornire l’orientamento nello spazio della punta operativa. 
 
+![](http://i.imgur.com/pZpRFTE.png)
+
 Esistono anche strutture meccaniche a bracci paralleli che non rispettano questo schema spalla-polso; queste strutture vengono chiamate, come abbiamo già visto, manipolatori a cinematiche parallele o, più semplicemente, manipolatori paralleli.
 
 Il polso ha una struttura praticamente standard, di solito RRR o 3R, mentre la spalla pu`o essere progettata in molti modi diversi. 
@@ -188,4 +190,4 @@ Il primo tipo di polso, rappresentato in Fig. 1.19 a), rientra nella categoria d
 CONTINUARE
 
 
-![](http://i.imgur.com/pZpRFTE.png)
+
