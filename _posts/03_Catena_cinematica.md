@@ -177,16 +177,15 @@ Nella Fig. 1.17 `e illustrato un robot SCARA di saldatura.
 Figura 1.10: Schema di manipolatore cilindrico.
 Figura 1.11: Schema di manipolatore polare.
 
-### Il polso
-Il polso di un manipolatore ha essenzialmente il compito di fornire i tre gdl necessari
-all’assetto della punta operativa. Per alcuni manipolatori, con compiti ridotti, il polso
-pu`o consentire solo uno o due gradi di libert`a.
-Le strutture cinematiche pi`u comunemente utilizzate nel polso sono quelle 3R, ma
-`e possibile un diverso allineamento degli assi; si pu`o avere una realizzazione meccanica
-detta ad angoli di Eulero, oppure una realizzazione che viene chiamata roll-pitch-yaw
-o RPY .
-Il primo tipo di polso, rappresentato in Fig. 1.19 a), rientra nella categoria dei
-polsi sferici, ossia quei polsi per cui i tre assi di rotazione si intersecano in un punto,
+## Il polso
+
+Il polso di un manipolatore ha essenzialmente il compito di realizzare i tre movimenti necessari a fornire l'orientamento della punta operativa. Per alcuni manipolatori, con compiti ridotti, il polso può consentire solo uno o due gradi di movimento.
+
+Le strutture cinematiche più comunemente utilizzate nel polso sono quelle 3R, ma è possibile distinguere due tipologie principali; si pu`o avere un polso detto Euleriano, oppure una realizzazione che viene chiamata roll-pitch-yaw (rollio-beccheggio-imbardata) o più semplicemente RPY.
+
+Il primo tipo di polso, rappresentato in Fig. 1.19 a), rientra nella categoria dei polsi sferici, ossia quei polsi per cui i tre assi di rotazione si intersecano in un punto,
+
+CONTINUARE
 
 
 ![](http://i.imgur.com/pZpRFTE.png)
