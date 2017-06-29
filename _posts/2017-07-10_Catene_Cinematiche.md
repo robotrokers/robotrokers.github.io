@@ -2,14 +2,14 @@
 layout: post
 title: Introduzione alla robotica teorica
 subtitle: Catene cinematiche
-date: 2016-06-019 15:17:00
+date: 2017-07-10 
 author: Basilio Bona
 categories: Teorica
 ---
 
 
 
-# Catena Cinematica
+# Catene Cinematiche
 
 In questo post descrivo le catene cinematiche, che sono una rappresentazione astratta dei bracci robotici.
 Dopo sarà possibile discutere le funzioni cinematiche dirette e inverse, cosa che farò in uno dei prossimi post. 
