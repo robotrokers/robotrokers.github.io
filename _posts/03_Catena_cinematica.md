@@ -128,55 +128,56 @@ I costruttori di robot industriali fanno in modo che i primi tre bracci, che for
 
 Esistono anche strutture meccaniche a bracci paralleli che non rispettano questo schema spalla-polso; queste strutture vengono chiamate, come abbiamo già visto, manipolatori a cinematiche parallele o, più semplicemente, manipolatori paralleli.
 
-Il polso ha una struttura praticamente standard, di solito RRR o 3R, mentre la spalla
-pu`o essere progettata in molti modi diversi.
-A seconda della struttura cinematica della spalla, i robot si possono classiﬁcare
-in:
-• robot cartesiani (3P);
-• robot cilindrici (1R-2P);
-• robot polari (2R-1P);
-• robot articolati o antropomorﬁ (3R);
-• robot SCARA (Selective Compliance Assembly Robot Arm) (2R-1P con assi di
-movimento verticali).
-1.3.1 Robot cartesiano
-La struttura 3P `e studiata per fornire tre traslazioni lungo i tre assi ortogonali, da
-cui il nome di robot cartesiano. Esso pu`o assumere la conﬁgurazione a colonna, come
-illustrato in Fig. 1.9 a), oppure a “carro-ponte” come in Fig. 1.9 b). Lo spazio di
-lavoro di questo tipo di robot `e dato idealmente da un parallelepipedo.
-1.3.2 Robot cilindrico
-Un robot cilindrico realizza le coordinate cilindriche: quindi ad un giunto di rotazione,
-di solito verticale, seguono un primo giunto prismatico, con asse anch’esso verticale, ed
-un secondo giunto prismatico, con asse orizzontale. Lo spazio di lavoro `e idealmente
-una corona cilindrica (si veda Fig. 1.10).1.3. CLASSIFICAZIONE DEI ROBOT 13
+Il polso ha una struttura praticamente standard, di solito RRR o 3R, mentre la spalla pu`o essere progettata in molti modi diversi. 
+
+A seconda della struttura cinematica della spalla, i robot si possono classiﬁcare in:
+
+- robot cartesiani: catena cinematica 3P;
+
+- robot cilindrici: catena cinematica 1R-2P;
+
+- robot polari: catena cinematica 2R-1P;
+
+- robot articolati o antropomorﬁ: catena cinematica 3R;
+
+- robot SCARA (Selective Compliance Assembly Robot Arm): catena cinematica 2R-1P con assi di movimento tutti verticali.
+
+### Robot cartesiani
+
+La struttura 3P è studiata per fornire tre traslazioni lungo i tre assi ortogonali, da cui il nome di robot cartesiano. Esso può assumere la conﬁgurazione a colonna, come illustrato
+
+oppure a “carro-ponte” come 
+
 Figura 1.9: Schema di manipolatore cartesiano: a) a colonna; b) a “carro ponte”.
-1.3.3 Robot polare
-Il robot polare realizza le coordinate polari: si ha un giunto di rotazione verticale,
-seguito da un secondo giunto di rotazione, con asse orizzontale, ed un giunto prisma-
-tico, con l’asse allineato lungo l’ultimo braccio (si veda Fig. 1.11). Lo spazio di lavoro
-`e idealmente una corona sferica.
-1.3.4 Robot articolato o antropomorfo
-Viene comunemente indicato anche con il nome di robot antropomorfo, perch´e la sua
-struttura `e simile a quella del tronco, braccio e avambraccio umano, su cui si innesta il
-polso. Consta di tre giunti rotoidali, il primo dei quali ha solitamente asse di rotazione
-verticale, mentre gli altri due sono orizzontali (vedi Fig. 1.12).
+ 
+
+Lo spazio di lavoro di questo tipo di robot è dato idealmente da un parallelepipedo. 
+
+### Robot cilindrici
+
+Un robot cilindrico realizza le coordinate cilindriche: quindi ad un giunto di rotazione, di solito verticale, seguono un primo giunto prismatico, con asse anch’esso verticale, ed un secondo giunto prismatico, con asse orizzontale. Lo spazio di lavoro è idealmente una corona cilindrica (si veda Fig. 1.10).1.3. 
+
+### Robot polari
+
+Il robot polare realizza le coordinate polari: si ha un giunto di rotazione verticale, seguito da un secondo giunto di rotazione, con asse orizzontale, ed un giunto prismatico, con l’asse allineato lungo l’ultimo braccio (si veda Fig. 1.11). Lo spazio di lavoro è idealmente una corona sferica.
+
+### Robot articolati o antropomorfi
+
+Vengonno indicati anche con il nome di robot antropomorfi, perchè la loro struttura è simile a quella del tronco, braccio e avambraccio umano, su cui si innesta il polso. Consta di tre giunti rotoidali, il primo dei quali ha solitamente asse di rotazione verticale, mentre gli altri due sono orizzontali (vedi Fig. 1.12). 
+
 In Fig. 1.13 `e riportato il robot antropomorfo Comau Smart S2, mentre in Fig.
 1.14 `e riportato un robot antropomorfo per saldatura e in Fig. 1.15 `e illustrato un
 robot articolato per verniciatura.
-1.3.5 Robot SCARA
-Questo tipo di robot, simile come struttura ad un robot polare, si diﬀerenzia per il
-fatto che tutti gli assi dei giunti rotoidali sono verticali; in questo modo l’eﬀetto della
-gravit`a `e compensato staticamente dalla struttura stessa. Questo tipo di struttura `e
-stato inizialmente concepito per compiti di montaggio di circuiti integrati; la pinza
-`e dotata di un dispositivo pi`u cedevole in alcune direzioni rispetto ad altre (da cui
-il termine selective compliance), che permette l’inserimento dei pezzi senza causare
-rotture, come potrebbe avvenire con un dispositivo troppo rigido (vedere Fig. 1.16).
-Nella Fig. 1.17 `e illustrato un robot SCARA di saldatura.14 CAPITOLO 1. INTRODUZIONE E DEFINIZIONI
+
+### Robot SCARA
+
+Questo tipo di robot, simile come struttura ad un robot polare, si diﬀerenzia per il fatto che tutti gli assi dei giunti rotoidali sono verticali; in questo modo l’eﬀetto della gravità è compensato staticamente dalla struttura stessa. Questo tipo di struttura è stato inizialmente concepito per compiti di montaggio di circuiti integrati; la pinza è dotata di un dispositivo più cedevole in alcune direzioni rispetto ad altre (da cui il termine selective compliance), che permette l’inserimento dei pezzi senza causare rotture, come potrebbe avvenire con un dispositivo troppo rigido (vedere Fig. 1.16).
+
+Nella Fig. 1.17 `e illustrato un robot SCARA di saldatura.
 Figura 1.10: Schema di manipolatore cilindrico.
 Figura 1.11: Schema di manipolatore polare.
-Il robot illustrato in Fig. 1.18 non appartiene ai tipi di robot indicati in precedenza,
-ma viene riportato come esempio di manipolatori a catena cinematica chiusa e bracci
-paralleli.
-1.3.6 Il polso
+
+### Il polso
 Il polso di un manipolatore ha essenzialmente il compito di fornire i tre gdl necessari
 all’assetto della punta operativa. Per alcuni manipolatori, con compiti ridotti, il polso
 pu`o consentire solo uno o due gradi di libert`a.
