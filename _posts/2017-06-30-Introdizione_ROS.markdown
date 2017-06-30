@@ -44,7 +44,7 @@ Limitiamoci al caso specifico di robot su ruote: i programmatori non possono far
 
  Queste 4 capacità vengono solitamente raggruppate sotto il noto problema detto **robot navigation**, problema ancora tecnologicamente aperto e non completamente risolto.
 
- Si noti inoltre che le 4 capacità sopra citate sono anchesse non ben definite, e dipendono molto dalla specifica applicazione. Per un robot che si muove in esterno le prime due sono quasi gratuite: basta sfruttare un qualsiasi servizio che fornisce mappe terrestri e dei GPS (anche se ci sarebbe un grosso discorso da fare sulla precisione degli stessi); ma il path following diventa molto delicato. Al contrario, in un robot che si muove all'interno di un edificio **mapping** e **localizzazione** spesso sono problemi che devono essere risolti contemporaneamente (il robot mentre costruisce la mappa deve sapere la posizione di se stesso nella mappa in contruzione): in questo caso, si parla di un noto e importante problema nella robotica chiamato **SLAM** (Simultaneous Localization and Mapping).
+ Si noti inoltre che le 4 capacità sopra citate sono anchesse non ben definite, e dipendono molto dalla specifica applicazione. Per un robot che si muove in esterno le prime due sono quasi gratuite: basta sfruttare un qualsiasi servizio che fornisce mappe terrestri e dei GPS (anche se ci sarebbe un grosso discorso da fare sulla precisione degli stessi); ma il path following diventa molto delicato. Al contrario, in un robot che si muove all'interno di un edificio **mapping** e **localizzazione** spesso sono problemi che devono essere risolti contemporaneamente (il robot mentre costruisce la mappa deve sapere la posizione di se stesso nella mappa in costruzione): in questo caso, si parla di un noto e importante problema nella robotica chiamato **SLAM** (Simultaneous Localization and Mapping).
 
  A tale complessità, si aggiungono altri problemi quando si sviluppano le applicazioni robotiche:
 
@@ -60,11 +60,11 @@ Capite quindi che, per un ingegnere robotico (come me), il tutto è un grosso ca
 
 Provo a tradurre:
 
-> Perchè ROS? Perchè sviluppare software robusti e general-porpose per robot è difficile. Dal punto di vista di un robot, problemi che sembrano banali agli essere umani spesso variano molto per le funzioni e gli ambienti. Affrontare queste variazioni è così difficile che nessun singolo individuo, laboratorio o istituto possa sperare di farlo da solo.
+> Perché ROS? Perché sviluppare software robusti e *general-porpose* per robot è difficile. Dal punto di vista di un robot, problemi che sembrano banali agli essere umani spesso variano molto per le funzioni e gli ambienti. Affrontare queste variazioni è così difficile che nessun singolo individuo, laboratorio o istituto possa sperare di farlo da solo.
 
-La volontà e l'intuizione degli ideatori di ROS era quindi quella di fornire un ecosistema per spingere vari gruppi di ricerca in tutto il mondo a collaborare per risolevere questi problemi tanto complessi unendo le forze.
+La volontà e l'intuizione degli ideatori di ROS era quindi quella di fornire un ecosistema per spingere vari gruppi di ricerca in tutto il mondo a collaborare per risolvere questi problemi tanto complessi unendo le forze.
 
-Dopo circa 10 anni dalla prima versione realizzata di ROS, posso certamente affermare che lo scopo principale (quello di creare una community a livello mondiale), è stato realizzato, ed infatti, all'interno del mondo ROS, è possibile trovare pacchetti che risolvono (o tentano di risovlere, in quanto la tencologia ancora non è perfetta) praticamente tutti i problemi tecnologici legati alla robotica di servizio.
+Dopo circa 10 anni dalla prima versione realizzata di ROS, posso certamente affermare che lo scopo principale (quello di creare una community a livello mondiale), è stato realizzato, ed infatti, all'interno del mondo ROS, è possibile trovare pacchetti che risolvono (o tentano di risolvere, in quanto la tecnologia ancora non è perfetta) praticamente tutti i problemi tecnologici legati alla robotica di servizio.
 
 ### Ma quindi, cosa cavolo è 'sto ROS???
 
@@ -72,4 +72,17 @@ Mi aspetto che chi è riuscito a leggere questo articolo fino a qui si sia fatto
 
  - Un framework per lo sviluppo di applicazione robotiche (connesse).
  - Un set di Librerie, strumenti di sviluppo e convenzioni che forniscono una base tecnologica robusta da cui partire per lo sviluppo di tali applicazioni.
- - Una grossisima community di ricercatori, scienziati e appassianati da tutto il mondo.
+ - Una grossissima community di ricercatori, scienziati e appassionati da tutto il mondo.
+
+
+ROS è quindi una grossissima ed importantissima fonte per chiunque voglia iniziare a sviluppare applicazioni robotiche. Si basa su Linux (in particolare Ubuntu e Debian), ma è possibile installarlo su una vasta quantità di macchine.
+
+Dal punto di vista tecnico, tra le caratteristiche più importanti di questo progetto, le più interessanti (secondo me, poi qualcuno potrebbe non essere d'accordo), sono le seguenti:
+
+ - Astrazione dell'hardware;
+ - Sistemi Multimacchina.
+
+ROS permette di *Astrarre l'hardware*, cioè fa si che gli sviluppatori non debbano pensare troppo al sistema reale su cui la propria applicazione deve girare. Il tutto ha alcuni svantaggi di performarce, ma certamente enormi vantaggi sul piano applicativo: un esempio è il seguente, il sistema di telecontrollo di un robot in ROS funziona, senza problemi, sia per controllare Robot su ruote che per controllare Robot umanoidi, e con alcune accortezze, permette di controllare droni.
+In altre parole, grazie a ROS, sotto opportune limitazioni, possiamo sviluppare applicazioni generiche e farle girare su sistemi robotici di vario tipo, un po' come fanno gli sviluppatori per Android, che quando sviluppano l'app per cellulare, non stanno a chiedersi se poi quest'app sarà scaricata su un Samsung, su un Nexus o un One Plus.
+
+Inoltre, ROS permette di sviluppare sistemi **Multimacchina**, in cui l'intelligenza non è centralizzata su un unico computer (di solito sul robot), ma può essere distribuita (tramite una rete di comunicazione), tra più computer connessi tra di loro. Il bello è che il tutto è trasparente allo sviluppatore e al codice. Io, sviluppatore, posso implementare un Nodo ROS (cioè un programma ROS), e poi decidere se farlo girare sul robot o su una macchina remota, senza dover cambiare una riga del codice originale.
