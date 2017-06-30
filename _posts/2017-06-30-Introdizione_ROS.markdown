@@ -6,15 +6,16 @@ author: Ludovico Russo
 categories: Teorica
 ---
 
-Scrivo questo post perchè ho visto molto interesse all'interno della community Rokers sul tema ROS (Robot Operating System). Il mio intento è quello di fare alcune precisazioni sul progetto, spiegare perchè è tanto interessante nonchè tanto popolare.
+Scrivo questo post perchè ho visto molto interesse all'interno della community Rokers sul tema della Robotica di Servizio e di ROS (Robot Operating System). Il mio intento è quello di fare alcune precisazioni su queste tencologie, e spiegarne le possibili applicazioni pratiche.
 
-In futuro, vorrei creare, all'interno di questo blog, una serie di tutorial pratici che spiegano come utilizzarlo in pratica.
+In futuro, vorrei creare, all'interno di questo blog, una serie di tutorial pratici che spiegano come utilizzare ROS per sviluppare veri e propri sistemi di Robotica di Servizio.
 
-Ma prima di tutto, vediamo esattamente cosa è questa tecnologia!
+Ma prima di tutto, vediamo esattamente cosa sono queste tecnologie!
 
 ## La Robotica di Servizio
 
-Per introdurre ROS, dobbiamo necessariamente introdurre il concetto di **Robotica di Servizio**. Molto spesso, infatti, quando si parla di Robotica, si pensa principalmente a tre differenti aspetti:
+Partiamo dal concetto di **Robotica di Servizio**.
+Molto spesso, quando si parla di Robotica, si pensa principalmente a tre differenti aspetti:
 
  - La robotica industriale, che è quella a cui tecnologicamente e realisticamente siamo più abituati. E il prof. Basilio Bona, su questo argomento, vi sta già tediando abbastanza :D
  - La robotica nella fantascienza, in cui solitamente si parla di Roboti Umanoidi non tanto distinguibili dagli essere umani (e che molto spesso tantano di distruggere la razza umana)!
@@ -85,4 +86,14 @@ Dal punto di vista tecnico, tra le caratteristiche più importanti di questo pro
 ROS permette di *Astrarre l'hardware*, cioè fa si che gli sviluppatori non debbano pensare troppo al sistema reale su cui la propria applicazione deve girare. Il tutto ha alcuni svantaggi di performarce, ma certamente enormi vantaggi sul piano applicativo: un esempio è il seguente, il sistema di telecontrollo di un robot in ROS funziona, senza problemi, sia per controllare Robot su ruote che per controllare Robot umanoidi, e con alcune accortezze, permette di controllare droni.
 In altre parole, grazie a ROS, sotto opportune limitazioni, possiamo sviluppare applicazioni generiche e farle girare su sistemi robotici di vario tipo, un po' come fanno gli sviluppatori per Android, che quando sviluppano l'app per cellulare, non stanno a chiedersi se poi quest'app sarà scaricata su un Samsung, su un Nexus o un One Plus.
 
-Inoltre, ROS permette di sviluppare sistemi **Multimacchina**, in cui l'intelligenza non è centralizzata su un unico computer (di solito sul robot), ma può essere distribuita (tramite una rete di comunicazione), tra più computer connessi tra di loro. Il bello è che il tutto è trasparente allo sviluppatore e al codice. Io, sviluppatore, posso implementare un Nodo ROS (cioè un programma ROS), e poi decidere se farlo girare sul robot o su una macchina remota, senza dover cambiare una riga del codice originale.
+Inoltre, ROS permette di sviluppare sistemi *Multimacchina*, in cui l'intelligenza non è centralizzata su un unico computer (di solito sul robot), ma può essere distribuita (tramite una rete di comunicazione), tra più computer connessi tra di loro. Il bello è che il tutto è trasparente allo sviluppatore e al codice. Io, sviluppatore, posso implementare un Nodo ROS (cioè un programma ROS), e poi decidere se farlo girare sul robot o su una macchina remota, senza dover cambiare una riga del codice originale.
+
+Queste due caratteristiche di ROS, aprono la strada un grandissimo cambio di paradigma, avvenuto negli ultimi temi, nel mondo della robotica di servizio: la **Cloud Robotics**.
+
+## Cloud Robotics: anche i robot usano DropBox
+
+Nel 2009, .... fece un ragionamento molto semplice ma anche distruptive:
+
+> i robot sono (essenzialmente) computer con delle ruote, i computer trovano un enorme beneficio nell'essere connessi ad internet: che succede se attacco un robot ad internet?
+
+Da questa semplice considerazione, che per certi versi ho banalizzato, ma spero che renda l'idea, è nato quindi il paradigma della **Cloud Robotics**, o **Robotica in Cloud**.
