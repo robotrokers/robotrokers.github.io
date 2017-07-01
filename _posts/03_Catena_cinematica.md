@@ -122,7 +122,7 @@ Tratterò in dettaglio in uno dei prossimi post i sistemi di riferimento e le ra
 
 ## Tipologie di catena cinematica 
 
-Sulla base della struttura della catena cinematica è possibile classificare i robot in alcune classi caratteristiche.
+I robot si possono anche classificare sulla base della struttura della catena cinematica.
 
 I costruttori di robot industriali fanno in modo che i primi tre bracci, che formano quella che viene chiamata **spalla**, servano a posizionare nello spazio i successivi tre bracci, che costituiscono quello che viene comunemente chiamato **polso**; a quest’ultimo in genere è affidato il compito di fornire l’orientamento nello spazio della punta operativa. 
 
