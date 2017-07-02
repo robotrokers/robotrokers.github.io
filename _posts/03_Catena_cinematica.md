@@ -201,6 +201,11 @@ Per concludere questo post, che spero non vi abbia troppo annoiato, i tipici rob
 
 ![](http://i.imgur.com/JY1YHG6.png)
 
+come si vede, ad esempio, nel nuovo robot e.Do della Comau.
+
+![](http://i.imgur.com/3zLZJtV.png)
+
+
 
 
 
