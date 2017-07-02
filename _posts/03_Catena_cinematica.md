@@ -1,3 +1,9 @@
+<head>
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+</head>
+
 ---
 layout: post
 title: Introduzione alla robotica teorica
@@ -100,7 +106,7 @@ Piattaforma di Stewart
 
 Nelle catene aperte è consuetudine descrivere la catena con una lista di simboli, dove R rappresenta un giunto rotoidale e P un giunto prismatico, a partire dalla base fino alla punta. 
 
-Nell'immagine seguente è schematizzata una catena aperta, descritta come R-R-P-R-R-R-R e detta anche 2R-1P-4R, in quanto ci sono 2 giunti di rotazione, quindi 1 giunto prismatico che è seguito da 4 giunti di rotazione. La catena ha perciò 7 gradi di movimento, o meglio. il grado di movimento è 7.
+Nell'immagine seguente è schematizzata una catena aperta, descritta come R-R-P-R-R-R-R e detta anche 2R-1P-4R, in quanto ci sono 2 giunti di rotazione, quindi 1 giunto prismatico che è seguito da 4 giunti di rotazione. La catena ha perciò  7 gradi di movimento, o meglio. il grado di movimento è 7.
 
 ![](http://i.imgur.com/sr5WHbS.png)
 
@@ -122,7 +128,7 @@ Tratterò in dettaglio in uno dei prossimi post i sistemi di riferimento e le ra
 
 ## Tipologie di catena cinematica 
 
-I robot si possono anche classificare sulla base della struttura della catena cinematica.
+Sulla base della struttura della catena cinematica è possibile classificare i robot in alcune classi caratteristiche.
 
 I costruttori di robot industriali fanno in modo che i primi tre bracci, che formano quella che viene chiamata **spalla**, servano a posizionare nello spazio i successivi tre bracci, che costituiscono quello che viene comunemente chiamato **polso**; a quest’ultimo in genere è affidato il compito di fornire l’orientamento nello spazio della punta operativa. 
 
@@ -130,61 +136,65 @@ I costruttori di robot industriali fanno in modo che i primi tre bracci, che for
 
 Esistono anche strutture meccaniche a bracci paralleli che non rispettano questo schema spalla-polso; queste strutture vengono chiamate, come abbiamo già visto, manipolatori a cinematiche parallele o, più semplicemente, manipolatori paralleli.
 
-Il polso ha una struttura praticamente standard, di solito R-R-R o 3R, mentre la spalla può essere progettata in molti modi diversi. 
+Il polso ha una struttura praticamente standard, di solito R-R-R o 3R, mentre la spalla può essere progettata in molti modi diversi. A seconda della struttura cinematica della spalla, i robot si possono classiﬁcare in:
 
-A seconda della struttura cinematica della spalla, i robot si possono classiﬁcare in:
+• Robot cartesiani (3P);
 
-- robot cartesiani: catena cinematica 3P;
+• Robot cilindrici (1R-2P);
 
-- robot cilindrici: catena cinematica 1R-2P;
+• Robot polari (2R-1P);
 
-- robot polari: catena cinematica 2R-1P;
+• Robot SCARA (Selective Compliance Assembly Robot Arm) (2R-1P con assi di movimento verticali).
 
-- robot articolati o antropomorﬁ: catena cinematica 3R;
+• Robot articolati o antropomorﬁ (3R);
 
-- robot SCARA (Selective Compliance Assembly Robot Arm): catena cinematica 2R-1P con assi di movimento tutti verticali.
+### Robot cartesiano (3P)
 
-### Robot cartesiani
+La struttura 3P è studiata per fornire tre traslazioni lungo i tre assi ortogonali, da cui il nome di robot cartesiano. Esso può assumere la conﬁgurazione a colonna, oppure a “carro-ponte”.
 
-La struttura 3P è studiata per fornire tre traslazioni lungo tre assi ortogonali, da cui il nome di robot cartesiano. Esso può assumere la conﬁgurazione a colonna, oppure a “carro-ponte” 
+![](http://i.imgur.com/1Rhxuv2.png)
 
-Figura 1.9: Schema di manipolatore cartesiano: a) a colonna; b) a “carro ponte”.
- 
-Lo spazio di lavoro di questo tipo di robot è dato idealmente da un parallelepipedo. 
+![](http://i.imgur.com/t37DKtV.png)
 
-### Robot cilindrici
+Lo spazio di lavoro di questo tipo di robot è un parallelepipedo.
 
-Un robot cilindrico realizza le coordinate cilindriche: quindi ad un giunto di rotazione, di solito verticale, seguono un primo giunto prismatico, con asse anch’esso verticale, ed un secondo giunto prismatico, con asse orizzontale. Lo spazio di lavoro è idealmente una corona cilindrica (si veda Fig. 1.10).1.3. 
 
-### Robot polari
+### Robot cilindrico (1R-2P)
 
-Il robot polare realizza le coordinate polari: si ha un giunto di rotazione verticale, seguito da un secondo giunto di rotazione, con asse orizzontale, ed un giunto prismatico, con l’asse allineato lungo l’ultimo braccio (si veda Fig. 1.11). Lo spazio di lavoro è idealmente una corona sferica.
+Un robot cilindrico realizza le coordinate cilindriche: quindi ad un giunto di rotazione verticale, seguono un primo giunto prismatico, con asse verticale, ed un secondo giunto prismatico, con asse orizzontale. Lo spazio di lavoro corrisponde ad una corona cilindrica.
 
-### Robot articolati o antropomorfi
+![](http://i.imgur.com/5iQDRCV.png)
 
-Vengonno indicati anche con il nome di robot antropomorfi, perchè la loro struttura è simile a quella del tronco, braccio e avambraccio umano, su cui si innesta il polso. Consta di tre giunti rotoidali, il primo dei quali ha solitamente asse di rotazione verticale, mentre gli altri due sono orizzontali (vedi Fig. 1.12). 
+### Robot polare (2R-1P)
 
-In Fig. 1.13 `e riportato il robot antropomorfo Comau Smart S2, mentre in Fig.
-1.14 `e riportato un robot antropomorfo per saldatura e in Fig. 1.15 `e illustrato un
-robot articolato per verniciatura.
+Il robot polare realizza le coordinate polari: si ha un giunto di rotazione verticale, seguito da un secondo giunto di rotazione, con asse orizzontale, ed un giunto prismatico, con l’asse allineato lungo l’ultimo braccio. Lo spazio di lavoro è una corona sferica.
 
-### Robot SCARA
 
-Questo tipo di robot, simile come struttura ad un robot polare, si diﬀerenzia per il fatto che tutti gli assi dei giunti rotoidali sono verticali; in questo modo l’eﬀetto della gravità è compensato staticamente dalla struttura stessa. Questo tipo di struttura è stato inizialmente concepito per compiti di montaggio di circuiti integrati; la pinza è dotata di un dispositivo più cedevole in alcune direzioni rispetto ad altre (da cui il termine selective compliance), che permette l’inserimento dei pezzi senza causare rotture, come potrebbe avvenire con un dispositivo troppo rigido (vedere Fig. 1.16).
 
-Nella Fig. 1.17 `e illustrato un robot SCARA di saldatura.
-Figura 1.10: Schema di manipolatore cilindrico.
-Figura 1.11: Schema di manipolatore polare.
+![](http://i.imgur.com/OLgBaSH.jpg)
 
-## Il polso
+### Robot SCARA (2R-1P)
 
-Il polso di un manipolatore ha essenzialmente il compito di realizzare i tre movimenti necessari a fornire l'orientamento della punta operativa. Per alcuni manipolatori, con compiti ridotti, il polso può consentire solo uno o due gradi di movimento.
+Questo tipo di robot è simile come struttura ad un robot polare, ma si diﬀerenzia per il fatto che tutti gli assi dei giunti rotoidali sono verticali; in questo modo l’eﬀetto della gravità è compensato staticamente dalla struttura stessa. Questo tipo di struttura è stato inizialmente concepito per compiti di montaggio di circuiti integrati; la pinza è dotata di un dispositivo più cedevole in alcune direzioni rispetto ad altre (da cui
+il termine *selective compliance*), che permette l’inserimento dei pezzi senza causare rotture, come potrebbe avvenire con un dispositivo troppo rigido 
 
-Le strutture cinematiche più comunemente utilizzate nel polso sono quelle 3R, ma è possibile distinguere due tipologie principali; si pu`o avere un polso detto Euleriano, oppure una realizzazione che viene chiamata roll-pitch-yaw (rollio-beccheggio-imbardata) o più semplicemente RPY.
+![](http://i.imgur.com/m7jFgRI.jpg)
 
-Il primo tipo di polso, rappresentato in Fig. 1.19 a), rientra nella categoria dei polsi sferici, ossia quei polsi per cui i tre assi di rotazione si intersecano in un punto,
+### Robot articolato o antropomorfo (3R)
 
-CONTINUARE
+Viene comunemente indicato anche con il nome di robot antropomorfo, perché la sua struttura è simile a quella del tronco, braccio e avambraccio umano, su cui si innesta il polso. 
 
+Consta di tre giunti rotoidali, il primo dei quali ha solitamente asse di rotazione verticale, mentre gli altri due sono orizzontali.
+
+![](http://i.imgur.com/tT3rhLj.jpg)
+
+### Il polso
+Il polso di un manipolatore ha essenzialmente il compito di fornire i tre gradi di movimento necessari per modificare l'orientamento (o **assetto**) della punta operativa. Per alcuni manipolatori, con compiti ridotti, il polso è limitato a fornire solo uno o due gradi di movimento. 
+
+Le strutture cinematiche più comunemente utilizzate nel polso sono quelle a tre giunti rotoidali, con diversi allineamenti degli assi; si può avere un polso **Euleriano**, cioè una realizzazione meccanica che realizza gli **angoli di Eulero**, oppure una realizzazione che viene chiamata Roll-Pitch-Yaw  (**RPY**), che in italiano sono il rollio, il beccheggio e l'imbardata . 
+
+![](http://i.imgur.com/ILeNFto.png)
+
+Il polso Euleriano rientra nella categoria dei **polsi sferici**, ossia quei polsi per cui i tre assi di rotazione si intersecano in un punto. Per un manipolatore robotico avere un polso sferico è molto importante, perché permette una più agevole soluzione della cinematica inversa.
 
 
