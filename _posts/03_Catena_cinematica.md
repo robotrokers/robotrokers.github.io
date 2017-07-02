@@ -197,4 +197,10 @@ Le strutture cinematiche più comunemente utilizzate nel polso sono quelle a tre
 
 Il polso Euleriano rientra nella categoria dei **polsi sferici**, ossia quei polsi per cui i tre assi di rotazione si intersecano in un punto. Per un manipolatore robotico avere un polso sferico è molto importante, perché permette una più agevole soluzione della cinematica inversa.
 
+In moltissimi casi i tipici robot industriali hanno questa struttura
+
+![](http://i.imgur.com/JY1YHG6.png)
+
+
+
 
