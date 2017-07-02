@@ -7,14 +7,10 @@ author: Basilio Bona
 categories: Teorica
 ---
 
-  <script type="text/javascript" async
-    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML">
-  </script>
-
 # Catene Cinematiche
 
 In questo post descrivo le catene cinematiche, che sono una rappresentazione astratta dei bracci robotici.
-Successivamente sarà possibile discutere le funzioni cinematiche dirette e inverse, cosa che farò in uno dei prossimi post. 
+Successivamente sarà possibile discutere le funzioni cinematiche dirette e inverse, cosa che farò in uno dei prossimi post.
 
 Per ragioni di spazio mi limito a considerare la classe dei robot industriali, tralasciando i robot umanoidi o quelli su zampe, anche se i concetti evidenziati qui si possono applicare a queste categorie di robot.
 
@@ -28,11 +24,11 @@ La terza ipotesi è che il moto della catena cinematica sia generato in modo ast
 
 La studio delle catene cinematiche fa riferimento quindi alle sole grandezze cinematiche, che sono le posizioni, le velocità e le accelerazioni delle varie parti della catena, prescindendo come detto dall'effetto di forze/coppie interne o applicate dall'esterno.
 
-Detto ciò,  una **catena cinematica** è composta da un certo numero di bracci (in inglese *arms* o *links*), ipotizzati privi di massa e, come detto, perfettamente rigidi, collegati tra loro tramite giunti (in inglese *joints*), anch'essi privi di massa, perfettamente rigidi, su cui non agiscono forze/coppie di attrito. 
+Detto ciò,  una **catena cinematica** è composta da un certo numero di bracci (in inglese *arms* o *links*), ipotizzati privi di massa e, come detto, perfettamente rigidi, collegati tra loro tramite giunti (in inglese *joints*), anch'essi privi di massa, perfettamente rigidi, su cui non agiscono forze/coppie di attrito.
 
 Il movimento della catena cinematica è reso possibile dalla presenza dei giunti, che permettono un moto relativo tra i bracci ad esso collegati.  
 
-I giunti che considero in questa trattazione sono solo di due tipi, 
+I giunti che considero in questa trattazione sono solo di due tipi,
 
  1. di **rotazione** o **rotoidali**
  2. di **traslazione** o **prismatici**
@@ -65,7 +61,7 @@ L'asse $z$ nella vista 2D è convenzionalmente quello normale al piano del diseg
 
 Il giunto di traslazione, detto anche giunto **prismatico**, introduce una traslazione lungo un solo asse, detto asse di traslazione o asse del moto, permettendo così ai bracci collegati a monte e a valle di modificare la loro distanza relativa.
 
-I  giunti prismatici si rappresentano in 3D con dei cubi o parallelepipedi attraversati da un segmento che rappresenta l'asse di traslazione. 
+I  giunti prismatici si rappresentano in 3D con dei cubi o parallelepipedi attraversati da un segmento che rappresenta l'asse di traslazione.
 
 ![](http://i.imgur.com/o8AMZj7.png)
 
@@ -79,8 +75,8 @@ Esistono anche giunti che permettono una rotazione contemporanea intorno a più 
 
 I giunti che consideriamo hanno un solo **grado di movimento** proprio perché permettono o una rotazione intorno ad un singolo asse o una traslazione lungo un singolo asse.
 
-## Catene aperte e catene chiuse 
-Convenzionalmente il basamento su cui si fissa il manipolatore è detto braccio zero (un po' come la terra nei circuiti elettronici) a cui fa seguito il giunto 1, il braccio 1, il giunto 2, e così via fino al braccio terminale, detto braccio $n$ che ha il compito di portare l'attrezzo o la pinza. 
+## Catene aperte e catene chiuse
+Convenzionalmente il basamento su cui si fissa il manipolatore è detto braccio zero (un po' come la terra nei circuiti elettronici) a cui fa seguito il giunto 1, il braccio 1, il giunto 2, e così via fino al braccio terminale, detto braccio $n$ che ha il compito di portare l'attrezzo o la pinza.
 
 La **catena cinematica aperta** è quella in cui non ci sono circuiti che si rinchiudono su sé stessi, ossia  ogni braccio è collegato ad un solo altro braccio a monte e a valle, salvo il primo, che non ha bracci a monte (tranne il braccio zero) e l’ultimo, che non ha bracci a valle; una **catena cinematica chiusa** è quella in cui qualche braccio può essere collegato a più di un braccio a monte e/o a valle.
 
@@ -100,7 +96,7 @@ Piattaforma di Stewart
 
 ![](http://i.imgur.com/10fkZI0.png)
 
-Nelle catene aperte è consuetudine descrivere la catena con una lista di simboli, dove R rappresenta un giunto rotoidale e P un giunto prismatico, a partire dalla base fino alla punta. 
+Nelle catene aperte è consuetudine descrivere la catena con una lista di simboli, dove R rappresenta un giunto rotoidale e P un giunto prismatico, a partire dalla base fino alla punta.
 
 Nell'immagine seguente è schematizzata una catena aperta, descritta come R-R-P-R-R-R-R e detta anche 2R-1P-4R, in quanto ci sono 2 giunti di rotazione, quindi 1 giunto prismatico che è seguito da 4 giunti di rotazione. La catena ha perciò  7 gradi di movimento, o meglio. il grado di movimento è 7.
 
@@ -108,13 +104,13 @@ Nell'immagine seguente è schematizzata una catena aperta, descritta come R-R-P-
 
 ## Spazio di lavoro
 
-Si chiama **spazio di lavoro** del manipolatore il volume di spazio raggiungibile dalla punta operativa, per ogni possibile movimento dei giunti, date la forma e le caratteristiche geometriche dei bracci. 
+Si chiama **spazio di lavoro** del manipolatore il volume di spazio raggiungibile dalla punta operativa, per ogni possibile movimento dei giunti, date la forma e le caratteristiche geometriche dei bracci.
 
 Lo spazio di lavoro è quindi formalmente deﬁnibile come un sottoinsieme dello "spazio cartesiano", cioè lo spazio tridimensionale in cui tutti noi operiamo.
 
 ![](http://i.imgur.com/cRCWI8S.png)
 
-Nello spazio di lavoro vengono deﬁniti un certo numero di sistemi di riferimento cartesiani; ad esempio: il riferimento alla base del robot, il riferimento locale della ﬂangia porta-attrezzo, il riferimento locale del pezzo da manipolare o dell’attrezzo. Tra questi si sceglie il sistema di riferimento principale, ad esempio quello alla base del robot, e si dice allora che i punti in questo riferimento sono dati come **coordinate mondo** o **coordinate assolute**; analogamente si deﬁniscono le coordinate attrezzo, le coordinate trasportatore, le coordinate pezzo ecc. 
+Nello spazio di lavoro vengono deﬁniti un certo numero di sistemi di riferimento cartesiani; ad esempio: il riferimento alla base del robot, il riferimento locale della ﬂangia porta-attrezzo, il riferimento locale del pezzo da manipolare o dell’attrezzo. Tra questi si sceglie il sistema di riferimento principale, ad esempio quello alla base del robot, e si dice allora che i punti in questo riferimento sono dati come **coordinate mondo** o **coordinate assolute**; analogamente si deﬁniscono le coordinate attrezzo, le coordinate trasportatore, le coordinate pezzo ecc.
 
 ![](http://i.imgur.com/R1Soztb.png)
 
@@ -122,11 +118,11 @@ Altri sistemi di riferimento vengono convenzionalmente ﬁssati ai bracci del ma
 
 Tratterò in dettaglio in uno dei prossimi post i sistemi di riferimento e le rappresentazioni vettoriali di punti geometrici e di variabili fisiche non scalari.
 
-## Tipologie di catena cinematica 
+## Tipologie di catena cinematica
 
 Sulla base della struttura della catena cinematica è possibile classificare i robot in alcune classi caratteristiche.
 
-I costruttori di robot industriali fanno in modo che i primi tre bracci, che formano quella che viene chiamata **spalla**, servano a posizionare nello spazio i successivi tre bracci, che costituiscono quello che viene comunemente chiamato **polso**; a quest’ultimo in genere è affidato il compito di fornire l’orientamento nello spazio della punta operativa. 
+I costruttori di robot industriali fanno in modo che i primi tre bracci, che formano quella che viene chiamata **spalla**, servano a posizionare nello spazio i successivi tre bracci, che costituiscono quello che viene comunemente chiamato **polso**; a quest’ultimo in genere è affidato il compito di fornire l’orientamento nello spazio della punta operativa.
 
 ![](http://i.imgur.com/pZpRFTE.png)
 
@@ -172,22 +168,22 @@ Il robot polare realizza le coordinate polari: si ha un giunto di rotazione vert
 ### Robot SCARA (2R-1P)
 
 Questo tipo di robot è simile come struttura ad un robot polare, ma si diﬀerenzia per il fatto che tutti gli assi dei giunti rotoidali sono verticali; in questo modo l’eﬀetto della gravità è compensato staticamente dalla struttura stessa. Questo tipo di struttura è stato inizialmente concepito per compiti di montaggio di circuiti integrati; la pinza è dotata di un dispositivo più cedevole in alcune direzioni rispetto ad altre (da cui
-il termine *selective compliance*), che permette l’inserimento dei pezzi senza causare rotture, come potrebbe avvenire con un dispositivo troppo rigido 
+il termine *selective compliance*), che permette l’inserimento dei pezzi senza causare rotture, come potrebbe avvenire con un dispositivo troppo rigido
 
 ![](http://i.imgur.com/m7jFgRI.jpg)
 
 ### Robot articolato o antropomorfo (3R)
 
-Viene comunemente indicato anche con il nome di robot antropomorfo, perché la sua struttura è simile a quella del tronco, braccio e avambraccio umano, su cui si innesta il polso. 
+Viene comunemente indicato anche con il nome di robot antropomorfo, perché la sua struttura è simile a quella del tronco, braccio e avambraccio umano, su cui si innesta il polso.
 
 Consta di tre giunti rotoidali, il primo dei quali ha solitamente asse di rotazione verticale, mentre gli altri due sono orizzontali.
 
 ![](http://i.imgur.com/tT3rhLj.jpg)
 
 ### Il polso
-Il polso di un manipolatore ha essenzialmente il compito di fornire i tre gradi di movimento necessari per modificare l'orientamento (o **assetto**) della punta operativa. Per alcuni manipolatori, con compiti ridotti, il polso è limitato a fornire solo uno o due gradi di movimento. 
+Il polso di un manipolatore ha essenzialmente il compito di fornire i tre gradi di movimento necessari per modificare l'orientamento (o **assetto**) della punta operativa. Per alcuni manipolatori, con compiti ridotti, il polso è limitato a fornire solo uno o due gradi di movimento.
 
-Le strutture cinematiche più comunemente utilizzate nel polso sono quelle a tre giunti rotoidali, con diversi allineamenti degli assi; si può avere un polso **Euleriano**, cioè una realizzazione meccanica che realizza gli **angoli di Eulero**, oppure una realizzazione che viene chiamata Roll-Pitch-Yaw  (**RPY**), che in italiano sono il rollio, il beccheggio e l'imbardata . 
+Le strutture cinematiche più comunemente utilizzate nel polso sono quelle a tre giunti rotoidali, con diversi allineamenti degli assi; si può avere un polso **Euleriano**, cioè una realizzazione meccanica che realizza gli **angoli di Eulero**, oppure una realizzazione che viene chiamata Roll-Pitch-Yaw  (**RPY**), che in italiano sono il rollio, il beccheggio e l'imbardata .
 
 ![](http://i.imgur.com/ILeNFto.png)
 
@@ -202,4 +198,6 @@ come si vede, ad esempio, nel nuovo robot [e.Do](http://edo.comau.com/) della Co
 ![](http://i.imgur.com/3zLZJtV.png)
 
 
-
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
