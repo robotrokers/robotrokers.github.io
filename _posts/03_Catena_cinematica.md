@@ -80,7 +80,7 @@ I giunti che consideriamo hanno un solo **grado di movimento** proprio perché p
 ## Catene aperte e catene chiuse 
 Convenzionalmente il basamento su cui si fissa il manipolatore è detto braccio zero (un po' come la terra nei circuiti elettronici) a cui fa seguito il giunto 1, il braccio 1, il giunto 2, e così via fino al braccio terminale, detto braccio $n$ che ha il compito di portare l'attrezzo o la pinza. 
 
-La **catena cinematica aperta** è quella in cui non ci sono circuiti che si rinchiudono su sé stessi, ossia  ogni braccio è collegato ad un solo altro braccio a monte e a valle, salvo il primo, che non ha bracci a monte (tranne il braccio zero) e l’ultimo, che non ha bracci a valle; nel secondo caso qualche braccio può essere collegato a pi`u di un braccio a monte e/o a valle, mentre una **catena cinematica chiusa** è quella in cui qualche braccio può essere collegato a più di un braccio a monte e/o a valle
+La **catena cinematica aperta** è quella in cui non ci sono circuiti che si rinchiudono su sé stessi, ossia  ogni braccio è collegato ad un solo altro braccio a monte e a valle, salvo il primo, che non ha bracci a monte (tranne il braccio zero) e l’ultimo, che non ha bracci a valle; una **catena cinematica chiusa** è quella in cui qualche braccio può essere collegato a più di un braccio a monte e/o a valle.
 
 Nella figura che segue sono illustrati i due tipi di catena cinematica
 
@@ -100,7 +100,7 @@ Piattaforma di Stewart
 
 Nelle catene aperte è consuetudine descrivere la catena con una lista di simboli, dove R rappresenta un giunto rotoidale e P un giunto prismatico, a partire dalla base fino alla punta. 
 
-Nell'immagine seguente è schematizzata una catena aperta, descritta come R-R-P-R-R-R-R e detta anche 2R-1P-4R, in quanto ci sono 2 giunti di rotazione, quindi 1 giunto prismatico che è seguito da 4 giunti di rotazione. La catena ha perciò  7 gradi di movimento, o meglio. il grado di movimento è 7.
+Nell'immagine seguente è schematizzata una catena aperta, descritta come R-R-P-R-R-R-R e detta anche 2R-1P-4R, in quanto ci sono 2 giunti di rotazione, quindi 1 giunto prismatico che è seguito da 4 giunti di rotazione. La catena ha perciò 7 gradi di movimento, o meglio. il grado di movimento è 7.
 
 ![](http://i.imgur.com/sr5WHbS.png)
 
@@ -130,7 +130,7 @@ I costruttori di robot industriali fanno in modo che i primi tre bracci, che for
 
 Esistono anche strutture meccaniche a bracci paralleli che non rispettano questo schema spalla-polso; queste strutture vengono chiamate, come abbiamo già visto, manipolatori a cinematiche parallele o, più semplicemente, manipolatori paralleli.
 
-Il polso ha una struttura praticamente standard, di solito RRR o 3R, mentre la spalla pu`o essere progettata in molti modi diversi. 
+Il polso ha una struttura praticamente standard, di solito R-R-R o 3R, mentre la spalla può essere progettata in molti modi diversi. 
 
 A seconda della struttura cinematica della spalla, i robot si possono classiﬁcare in:
 
@@ -146,13 +146,10 @@ A seconda della struttura cinematica della spalla, i robot si possono classiﬁc
 
 ### Robot cartesiani
 
-La struttura 3P è studiata per fornire tre traslazioni lungo i tre assi ortogonali, da cui il nome di robot cartesiano. Esso può assumere la conﬁgurazione a colonna, come illustrato
-
-oppure a “carro-ponte” come 
+La struttura 3P è studiata per fornire tre traslazioni lungo tre assi ortogonali, da cui il nome di robot cartesiano. Esso può assumere la conﬁgurazione a colonna, oppure a “carro-ponte” 
 
 Figura 1.9: Schema di manipolatore cartesiano: a) a colonna; b) a “carro ponte”.
  
-
 Lo spazio di lavoro di questo tipo di robot è dato idealmente da un parallelepipedo. 
 
 ### Robot cilindrici
