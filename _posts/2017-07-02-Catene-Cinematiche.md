@@ -196,8 +196,3 @@ Per concludere questo post, che spero non vi abbia troppo annoiato, i tipici rob
 come si vede, ad esempio, nel nuovo robot [e.Do](http://edo.comau.com/) della Comau.
 
 ![](http://i.imgur.com/3zLZJtV.png)
-
-
-<script type="text/javascript" async
-  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML">
-</script>
