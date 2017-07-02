@@ -2,15 +2,14 @@
 layout: post
 title: Introduzione alla robotica teorica
 subtitle: Catene cinematiche
-date: 2016-07-02 15:17:00
+date: 2017-07-02 15:17:00
 author: Basilio Bona
 categories: Teorica
 ---
 
-<script type="text/javascript" async
-  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML">
-</script>
-
+  <script type="text/javascript" async
+    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML">
+  </script>
 
 # Catene Cinematiche
 
