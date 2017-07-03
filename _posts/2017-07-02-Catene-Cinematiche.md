@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Introduzione alla robotica teorica
+title: Introduzione alla robotica industriale e le catene cinematiche
 subtitle: Catene cinematiche
 date: 2017-07-02 15:17:00
 author: Basilio Bona
