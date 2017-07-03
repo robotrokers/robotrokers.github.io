@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Le catene cinematiche
+title: La rappresentazione astratta dei bracci robotici: le catene cinematiche
 subtitle: Catene cinematiche
 date: 2017-07-02 15:17:00
 author: Basilio Bona
