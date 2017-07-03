@@ -82,9 +82,11 @@ La **catena cinematica aperta** è quella in cui non ci sono circuiti che si rin
 Nella figura che segue sono illustrati i due tipi di catena cinematica
 
 ![](http://i.imgur.com/hGr7MbC.png)
+
 Catena cinematica aperta
 
 ![](http://i.imgur.com/ukxJXaq.png)
+
 Catena cinematica chiusa
 
 Esistono anche delle catene cinematiche dette a bracci paralleli che sono anche note come piattaforme di Stewart. Sono composte da 6 giunti prismatici collegati a coppie a tre punti di una piasta che sorregge l'attrezzo. Vengono utilizzate per quei movimenti che devono avvenire a grande velocità, ma in un volume di lavoro non troppo grande. Alcune stampanti 3D sono basate su questo tipo di catena cinematica.
