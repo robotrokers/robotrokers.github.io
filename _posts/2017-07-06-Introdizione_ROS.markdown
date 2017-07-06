@@ -127,6 +127,6 @@ Tuttavia, esistono un'ambia classe di funzionalità di sistema robotico autonomo
 
 Spero, a questo punto, di aver fatto capire come mai sopra parlavo di **sistema robotico** e non di **robot**. Infatti, spesso questi tipi di robot non sono a se stanti, ma connessi ad internet, e parte del loro "cervello" viene spostata su un server in cloud, lasciando sul robot stesso, alcune funzionalità di base necessarie alla sicurezza nel caso che la connessione internet venga persa.
 
-## Conclusioni
+## Conclusioni
 
 Cosa ne pensate di queste tecnologie? Siete interessati ad approfondire alcuni concetti? Scrivendo questo post, ho trascurato tantissimi aspetti di cui avrei voluto parlare ma (per questioni di lunghezza, e perchè volevo evitare di tediarvi troppo, ho preferito non evidenziare, almeno per il momento). Scrivere cosa ne pensate!
