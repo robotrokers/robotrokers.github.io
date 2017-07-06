@@ -8,7 +8,7 @@ categories: Teorica
 
 Scrivo questo post perché ho visto molto interesse all'interno della community Rokers sul tema della Robotica di Servizio e di ROS (Robot Operating System). Il mio intento è quello di fare alcune precisazioni su queste tecnologie, e spiegarne le potenzialità.
 
-![Service Robotics](/assets/posts/2017-07-04-service-robotics-intro/service.png)
+![Robotica Illustrazione](https://i.ytimg.com/vi/jWYkzLSNmuc/maxresdefault.jpg)
 
 In futuro, vorrei portare avanti, all'interno di questo blog, una serie di tutorial pratici che spieghino come utilizzare ROS per sviluppare veri e propri sistemi di Robotica di Servizio.
 
@@ -18,6 +18,8 @@ Ma prima di tutto, vediamo esattamente cosa sono queste tecnologie!
 
 Partiamo dal concetto di **Robotica di Servizio**.
 Quando si parla di Robotica, si pensa principalmente a tre differenti aspetti:
+
+![Service Robotics](/assets/posts/2017-07-04-service-robotics-intro/service.png)
 
  - La robotica industriale, che è quel campo della robotica a cui tecnologicamente e realisticamente siamo più abituati. E il prof. Basilio Bona, su questo argomento, vi sta già tediando abbastanza :D
  - La robotica nella fantascienza, in cui solitamente si parla di Robot Umanoidi non tanto distinguibili dagli essere umani (e che molto spesso tentano di distruggere la razza umana)!
@@ -45,11 +47,13 @@ Limitiamoci al caso specifico di robot su ruote: i programmatori non possono far
  - **path planning** Il robot deve essere in grado di pianificare una traiettoria da seguire per raggiungere un punto specifico della mappa.
  - **path following** Il robot deve essere in grado di seguire una traiettoria pianificata nel punto sopra, considerando la possibilità di trovare ostacoli non previsti come persone in movimento o oggetti non presenti in fase di costruzione della mappa.
 
- Queste 4 capacità vengono solitamente raggruppate sotto il noto problema del **robot navigation**, problema ancora tecnologicamente aperto e non completamente risolto.
+![navigazione robotica](http://spectrum.ieee.org/image/MTUzNTI1OA)
 
- Si noti inoltre che le 4 capacità sopra citate sono anch'esse non ben definite, e dipendono molto dalla specifica applicazione. Per un robot che si muove in esterno le prime due sono quasi gratuite: basta sfruttare un qualsiasi servizio che fornisce mappe terrestri e dei GPS (anche se ci sarebbe un grosso discorso da fare sulla precisione degli stessi); ma il **path following** diventa molto delicato. Al contrario, in un robot che si muove all'interno di un edificio, **mapping** e **localizzazione** spesso sono problemi che devono essere risolti contemporaneamente (il robot mentre costruisce la mappa deve sapere la posizione di se stesso nella mappa in costruzione): in questo caso, si parla di un noto e importante problema nella robotica chiamato **SLAM** (*Simultaneous Localization and Mapping*).
+Queste 4 capacità vengono solitamente raggruppate sotto il noto problema del **robot navigation**, problema ancora tecnologicamente aperto e non completamente risolto.
 
- A tale complessità, si aggiungono altri problemi quando si sviluppano le applicazioni robotiche:
+Si noti inoltre che le 4 capacità sopra citate sono anch'esse non ben definite, e dipendono molto dalla specifica applicazione. Per un robot che si muove in esterno le prime due sono quasi gratuite: basta sfruttare un qualsiasi servizio che fornisce mappe terrestri e dei GPS (anche se ci sarebbe un grosso discorso da fare sulla precisione degli stessi); ma il **path following** diventa molto delicato. Al contrario, in un robot che si muove all'interno di un edificio, **mapping** e **localizzazione** spesso sono problemi che devono essere risolti contemporaneamente (il robot mentre costruisce la mappa deve sapere la posizione di se stesso nella mappa in costruzione): in questo caso, si parla di un noto e importante problema nella robotica chiamato **SLAM** (*Simultaneous Localization and Mapping*).
+
+A tale complessità, si aggiungono altri problemi quando si sviluppano le applicazioni robotiche:
 
   - Interazione con la persona
   - Limiti di batteria
@@ -58,6 +62,8 @@ Limitiamoci al caso specifico di robot su ruote: i programmatori non possono far
 Capite quindi che, per un ingegnere robotico (come me), il tutto è un grosso problema. E alla base di tutto questo c'è il progetto ROS.
 
 ## ROS: The Robot Operating System
+
+![ROS illustrazione](https://cdn.instructables.com/FAI/YQBV/H3M6BTPR/FAIYQBVH3M6BTPR.MEDIUM.jpg)
 
 > Why ROS? Because creating truly robust, general-purpose robot software is hard. From the robot's perspective, problems that seem trivial to humans often vary wildly between instances of tasks and environments. Dealing with these variations is so hard that no single individual, laboratory, or institution can hope to do it on their own. \[[ros.org/about-ros/](http://www.ros.org/about-ros/)\]
 
@@ -93,6 +99,8 @@ Inoltre, ROS permette di sviluppare sistemi *Multimacchina*, in cui l'intelligen
 Queste due caratteristiche di ROS, aprono la strada ad un grandissimo cambio di paradigma, avvenuto negli ultimi temi, nel mondo della robotica di servizio: la **Cloud Robotics**.
 
 ## Cloud Robotics: anche i robot usano DropBox
+
+![Cloud Robotics Illustrazione](http://goldberg.berkeley.edu/cloud-robotics/Cloud-Robotics-and-Automation-Illustration-Goldberg-Aug-2014-lo-res.jpg)
 
 Nel 2010, James Kuffner fece un ragionamento molto semplice ma anche distruptive:
 
