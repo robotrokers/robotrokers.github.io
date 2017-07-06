@@ -69,7 +69,7 @@ Capite quindi che, per un ingegnere robotico (come me), il tutto è un grosso pr
 
 Provo a tradurre:
 
-> Perché ROS? Perché sviluppare software robusti e *general-porpose* per robot è difficile. Dal punto di vista di un robot, problemi che sembrano banali agli essere umani spesso variano molto per le funzioni e gli ambienti. Affrontare queste variazioni è così difficile che nessun singolo individuo, laboratorio o istituto possa sperare di farlo da solo.
+> Perché ROS? Perché sviluppare software robusti e *general-purpose* per robot è difficile. Dal punto di vista di un robot, problemi che sembrano banali agli essere umani spesso variano molto per le funzioni e gli ambienti. Affrontare queste variazioni è così difficile che nessun singolo individuo, laboratorio o istituto possa sperare di farlo da solo.
 
 La volontà e l'intuizione degli ideatori di ROS era quindi quella di fornire un ecosistema per spingere vari gruppi di ricerca in tutto il mondo a collaborare per risolvere questi problemi tanto complessi unendo le forze.
 
@@ -91,7 +91,7 @@ Dal punto di vista tecnico, tra le caratteristiche più importanti di questo pro
  - Astrazione dell'hardware;
  - Sistemi Multimacchina.
 
-ROS permette di *Astrarre l'hardware*, cioè fa si che gli sviluppatori non debbano pensare troppo al sistema reale su cui la propria applicazione deve girare. Il tutto ha alcuni svantaggi di performarce, ma certamente enormi vantaggi sul piano applicativo: un esempio è il seguente, il sistema di telecontrollo di un robot in ROS funziona, senza problemi, sia per controllare Robot su ruote che per controllare Robot umanoidi, e con alcune accortezze, permette di controllare droni.
+ROS permette di *Astrarre l'hardware*, cioè fa sì che gli sviluppatori non debbano pensare troppo al sistema reale su cui la propria applicazione deve girare. Il tutto ha alcuni svantaggi di performarce, ma certamente enormi vantaggi sul piano applicativo: un esempio è il seguente, il sistema di telecontrollo di un robot in ROS funziona, senza problemi, sia per controllare Robot su ruote che per controllare Robot umanoidi, e con alcune accortezze, permette di controllare droni.
 In altre parole, grazie a ROS, sotto opportune limitazioni, possiamo sviluppare applicazioni generiche e farle girare su sistemi robotici di vario tipo, un po' come fanno gli sviluppatori per Android, che quando sviluppano l'app per cellulare, non stanno a chiedersi se poi quest'app sarà scaricata su un Samsung, su un Nexus o un One Plus.
 
 Inoltre, ROS permette di sviluppare sistemi *Multimacchina*, in cui l'intelligenza non è centralizzata su un unico computer (di solito sul robot), ma può essere distribuita (tramite una rete di comunicazione), tra più computer connessi tra di loro. Il bello è che il tutto è trasparente allo sviluppatore e al codice. Io, sviluppatore, posso implementare un Nodo ROS (cioè un programma ROS), e poi decidere se farlo girare sul robot o su una macchina remota, senza dover cambiare una riga del codice originale.
@@ -102,7 +102,7 @@ Queste due caratteristiche di ROS, aprono la strada ad un grandissimo cambio di 
 
 ![Cloud Robotics Illustrazione](/assets/imgs/2017-07-06-Introdizione_ROS.markdown/Cloud-Robotics-and-Automation-Illustration-Goldberg-Aug-2014-lo-res.jpg)
 
-Nel 2010, James Kuffner fece un ragionamento molto semplice ma anche distruptive:
+Nel 2010, James Kuffner fece un ragionamento molto semplice ma anche disruptive:
 
 > i robot sono (essenzialmente) computer con delle ruote, i computer trovano un enorme beneficio nell'essere connessi ad internet: che succede se attacco un robot ad internet?
 
@@ -129,4 +129,4 @@ Spero, a questo punto, di aver fatto capire come mai sopra parlavo di **sistema 
 
 ## Conclusioni
 
-Cosa ne pensate di queste tecnologie? Siete interessati ad approfondire alcuni concetti? Scrivendo questo post, ho trascurato tantissimi aspetti di cui avrei voluto parlare ma (per questioni di lunghezza, e perchè volevo evitare di tediarvi troppo, ho preferito non evidenziare, almeno per il momento). Scrivere cosa ne pensate!
+Cosa ne pensate di queste tecnologie? Siete interessati ad approfondire alcuni concetti? Scrivendo questo post, ho trascurato tantissimi aspetti di cui avrei voluto parlare ma (per questioni di lunghezza, e perchè volevo evitare di tediarvi troppo, ho preferito non evidenziare, almeno per il momento). Scrivete cosa ne pensate!
