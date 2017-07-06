@@ -1,0 +1,20 @@
+$$
+   \def\bold #1{\bf #1}
+   
+   \def\Rvet {\bold R}
+   
+   \def\kvet {\bold k}
+$$
+
+$$
+{\Rvet}_{\bold k}={\Rvet}_{\kvet}=
+\left(
+\begin{array}{lll}
+\cos q_1 & -\sin q_1 & 0 
+\\\\
+\sin q_1 & \cos q_1 & 0
+\\\\
+0 & 0 & 1
+\end{array}
+\right)
+$$
