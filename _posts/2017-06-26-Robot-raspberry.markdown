@@ -15,7 +15,7 @@ Con l’evoluzione delle varie board di sviluppo e dei sistemi embedded, oggi è
 
 Intuitivamente, possiamo paragonare un semplice robot mobile ad un piccolo computer dotato di sensori e attuatori: i primi sono dispositivi di input in grado di percepire lo stato dell’ambiente, mentre i secondi possiamo considerarli dei dispositivi di output che modificano tale stato (compresa la posizione del robot), in base a delle istruzioni contenute in memoria.
 
-![image](/img/01.jpg)
+![image](/assets/imgs/2017-06-26-Robot-raspberry.markdown/01.jpg)
 
 Prendendo spunto da una mia esperienza personale, in questa serie di articoli vedremo come realizzarne uno, equipaggiato con:
 
@@ -43,7 +43,7 @@ All’eventuale domanda sul perchè non ci si limita ad Arduino, la risposta met
 
 Implementare tali caratteristiche con un microcontrollore, appare molto più complesso. Il prezzo da pagare si riversa sui consumi energetici che saranno decisamente maggiori.
 
-![image](/img/02.jpg)
+![image](/assets/imgs/2017-06-26-Robot-raspberry.markdown/02.jpg)
 
 Una prima versione: un Raspberry con le ruote
 ---------------------------------------------
@@ -74,7 +74,7 @@ La lista del materiale occorrente prevede:
 
 Per avere un’idea del funzionamento generale del del robot, basta fare riferimento al seguente schema:
 
-![image](/img/03.jpg)
+![image](/assets/imgs/2017-06-26-Robot-raspberry.markdown/03.jpg)
 
 la webcam è collegata ad una porta USB di Raspberry, Arduino al GPIO del raspi e i motori al modulo L298N che a sua volta sarà collegato ad Arduino. Il motivo per cui non si collega il modulo direttamente al GPIO, è dovuto al fatto che Raspberry non è un sistema realtime (a meno che non si faccia uso di schede aggiuntive): ciò lo rende instabile di fronte a task che devono essere eseguiti e terminati in intervalli di tempo limitati. Infatti, può succedere che il sistema operativo dia maggiore priorità a processi che non riguardano la gestione dei motori, causando una risposta ritardata ai comandi ricevuti (per esempio, il robot potrebbe sterzare in ritardo). Arduino fa da tramite riducendo le operazioni da eseguire, quindi raspberry dovrà limitarsi ad inviare i comandi sulla porta seriale, al resto ci pensa il microcontrollore. Delegando la gestione degli attuatori, si risolve il problema dell’instabilità, dovuta all’impiego di un sistema che non sia realtime. Altre alternative (già pronte) sono le schede HAT, fatte appositamente per permettere a Raspberry di supportare Servo e Motori CC senza problemi, purtroppo tali schede non sono a disposizione dell’autore. Andiamo a vedere nel dettaglio come saranno effettuati i collegamenti di Arduino al modulo L298N.
 
@@ -83,7 +83,7 @@ Collegamento motori
 
 La prima componente da assemblare è la parte relativa ad Arduino e i Motori CC, seguito dalla realizzazione di un semplice sketch. Prima di procedere, diamo un’occhiata alle caratteristiche del modulo motori.
 
-![image](/img/04.jpg)
+![image](/assets/imgs/2017-06-26-Robot-raspberry.markdown/04.jpg)
 
 ### Il modulo L298N
 
@@ -102,7 +102,7 @@ Il modulo L298N (figura sopra), detto anche H-Bridge, è un modulo utilizzabile 
 | ruota in senso antiorario | low |    high |
     
 
-![image](/img/05.jpg)
+![image](/assets/imgs/2017-06-26-Robot-raspberry.markdown/05.jpg)
 
 ### Montaggio e sketch
 
@@ -306,11 +306,11 @@ Collegare il Raspberry
 
 Per collegare il Raspberry, abbiamo bisogno di un convertitore dei livelli di tensione (schema successivo, in alto a destra), in particolare sul pin di ricezione del raspi (UART\_RXD). L’elenco dei Pin è visibile sotto.
 
-![image](/img/06.jpeg)
+![image](/assets/imgs/2017-06-26-Robot-raspberry.markdown/06.jpeg)
 
 Il collegamento da realizzare è di tipo UART: consiste nel collegare il Pin TX di Arduino al Pin UART\_RXD di Raspberry, e il pin UART\_TXD al pin RX di Arduino come mostrato in figura sotto, facendo riferimento ai pin specificati nella tabella successiva. Il metodo è molto simile a quello della costruzione di un cavo null modem, ma le controparti hanno livelli di tensione differenti (Arduino lavora a 5V, mentre Raspberry a 3,3).
 
-![image](/img/07.jpg)
+![image](/assets/imgs/2017-06-26-Robot-raspberry.markdown/07.jpg)
 
 
 | PIN ARDUINO  | CONVERTER HV | CONVERTER LV | PIN RASPI |
@@ -323,7 +323,7 @@ Il collegamento da realizzare è di tipo UART: consiste nel collegare il Pin TX 
 
 Collegato il raspberry, non resta che collegare anche il pin vin di Arduino al pin 5V del modulo L298N (staccate arduino dalla usb del pc), come mostrato nello schema successivo. Per alimentare raspberry, possiamo usare un alimentatore da smartphone (purchè sia a 5V), almeno per le fasi di test. Successivamente, si farà uso di un modulo dc step down: si prenderà parte della tensione globale del sistema, e la si ridurrà a 5 V per Raspberry. In questo modo, avremo due diramazioni a partire dalla sorgente a 12V: una a 5V per Raspberry e l’altra a 12 per alimentare il modulo motori (insieme al microcontrollore). L’importante è che fate arrivare almeno 9V (meglio 12) e 2400mAh in ingresso.
 
-![image](/img/08.jpg)
+![image](/assets/imgs/2017-06-26-Robot-raspberry.markdown/08.jpg)
 
 Prima configurazione e test del collegamento
 --------------------------------------------
