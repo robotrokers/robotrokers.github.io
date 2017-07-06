@@ -6,7 +6,7 @@ hosted.
 ## Contribution
 
 If you want to improve the site and/or create contents, please fork the repository
-and create a pull reqeust
+and create a [Pull Request](https://github.com/robotrokers/robotrokers.github.io/pulls).
 
 ## Main Contributors:
 
