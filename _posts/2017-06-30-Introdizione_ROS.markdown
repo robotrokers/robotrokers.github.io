@@ -8,6 +8,8 @@ categories: Teorica
 
 Scrivo questo post perché ho visto molto interesse all'interno della community Rokers sul tema della Robotica di Servizio e di ROS (Robot Operating System). Il mio intento è quello di fare alcune precisazioni su queste tecnologie, e spiegarne le potenzialità.
 
+![Service Robotics](/assets/posts/2017-07-04-service-robotics-intro/service.png)
+
 In futuro, vorrei portare avanti, all'interno di questo blog, una serie di tutorial pratici che spieghino come utilizzare ROS per sviluppare veri e propri sistemi di Robotica di Servizio.
 
 Ma prima di tutto, vediamo esattamente cosa sono queste tecnologie!
@@ -31,9 +33,9 @@ Dal mio personalissimo punto di vista, un sistema robotico (ho scelto appositame
 
  - Non necessitare di una programmazione dell'utente per svolgere il suo lavoro.
 
-Questo è infatti ciò che distingue, sia da un punto di vista tecnologico che da un punto di vista applicativo, un sistema di robotica di servizio dai classici sistemi di robotica industriale.
+Questo è infatti ciò che distingue, sia da un punto di vista tecnologico che da un punto di vista applicativo, un sistema di robotica di servizio dai classici sistemi di robotica industriale. In quest'ultimo caso, infatti, l'utente del robot (l'utilizzatore), è anche colui che programma il robot, al contrario, nella robotica di servizio è il costruttore del robot (o chi lo vende) a doverlo programmare, mentre l'utente è un puro utilizzatore passivo del sistema.
 
-Applicativamente, infatti, un utente non deve essere "esperto" in robotica per poter usare il sistema. Pensate per esempio al Roomba (o ai vari robot per pulire i pavimenti): il loro utilizzo è quasi come quello di un'applicazione per uno smarphone: apri la scatola, accendi, fine. Il robot, con le dovute limitazioni, è quasi completamente autonomo nel pulire i pavimenti.
+Applicativamente, infatti, un utente non deve essere "esperto" in robotica per poter usare il sistema. Pensate per esempio al Roomba (o ai vari robot per pulire i pavimenti): il loro utilizzo è quasi come quello di un'applicazione per uno smartphone: apri la scatola, accendi, fine. Il robot, con le dovute limitazioni, è quasi completamente autonomo nel pulire i pavimenti.
 
 Il problema è tecnologico: infatti sviluppare un robot con un alto grado di autonomia risulta essere molto complesso.
 Limitiamoci al caso specifico di robot su ruote: i programmatori non possono fare "assunzioni" su cosa succederà intorno al robot, come avviene invece nei robot industriali. Il robot deve essere autonomo, sicuro e deve durare, e questo implica che questa debba essere in grado di eseguire alcuni compiti complessi, che sono (principalmente) quelli che trovate qui sotto:
@@ -119,4 +121,4 @@ Spero, a questo punto, di aver fatto capire come mai sopra parlavo di **sistema 
 
 ## Conclusioni
 
-Cosa ne pensate di queste tecnologie? Siete interessati ad approfondire alcuni concetti? Scrivendo questo post, ho trascurato tantissimi aspetti di cui avrei voluto parlare ma (per questioni di lunghezza, e perchè volevo evitare di tediarvi troppo, ho preferito non evidenziare, almeno per il momento). Scrivere cosa ne pensate! 
+Cosa ne pensate di queste tecnologie? Siete interessati ad approfondire alcuni concetti? Scrivendo questo post, ho trascurato tantissimi aspetti di cui avrei voluto parlare ma (per questioni di lunghezza, e perchè volevo evitare di tediarvi troppo, ho preferito non evidenziare, almeno per il momento). Scrivere cosa ne pensate!
