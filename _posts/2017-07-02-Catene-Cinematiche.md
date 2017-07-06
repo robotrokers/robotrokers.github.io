@@ -35,11 +35,11 @@ I giunti che considero in questa trattazione sono solo di due tipi,
 
 illustrati schematicamente nella figura seguente.
 
-![](http://i.imgur.com/UVpr5mu.png)
+![](/assets/imgs/2017-07-02-Catene-Cinematiche.md/UVpr5mu.png)
 
 Qui sotto invece è illustrato un tratto di catena cinematica con un braccio e due giunti rotoidali. Come potete osservare, il braccio è rappresentato da un semplice segmento, supposto privo di massa, come pure sono privi di massa i giunti.
 
-![](http://i.imgur.com/WvCPcAl.png)
+![](/assets/imgs/2017-07-02-Catene-Cinematiche.md/WvCPcAl.png)
 
 ## Giunto di rotazione ##
 
@@ -49,11 +49,11 @@ Poiché spesso si devono disegnare le catene cinematiche senza aggiungere troppi
 
 I giunti di rotazione si rappresentano in 3D come dei cilindri in assonometria ortogonale, orientati secondo la prospettiva desiderata. Nel disegno sottostante si deve immaginare che l'asse $x$ sia orizzontale, l'asse $y$ verticale e l'asse $z$ esca dal piano verso l'osservatore. Le frecce curve indicano il verso positivo del moto angolare, secondo una convenzione che chiariremo in seguito.
 
-![](http://i.imgur.com/SmCjpO0.png)
+![](/assets/imgs/2017-07-02-Catene-Cinematiche.md/SmCjpO0.png)
 
 Qui sotto invece è illustrata la rappresentazione grafica in 2D, dove i giunti hanno rappresentazioni diverse a seconda del punto di vista (da sopra o di lato) e corrispondono a cerchi oppure a due triangoli affacciati ad un vertice
 
-![](http://i.imgur.com/dROwFhk.png)
+![](/assets/imgs/2017-07-02-Catene-Cinematiche.md/dROwFhk.png)
 
 L'asse $z$ nella vista 2D è convenzionalmente quello normale al piano del disegno e può essere indicato con un pallino dentro un cerchio per indicare che "esce" dal piano e il verso positivo dell'angolo è antiorario, mentre si usa una X dentro un cerchio per indicare che "entra" nel piano e il verso positivo è orario. Torneremo più avanti a precisare come determinare il verso di rotazione a seconda del segno dell'angolo, utilizzando la "regola della mano destra" che penso sia nota a tutti voi.
 
@@ -63,7 +63,7 @@ Il giunto di traslazione, detto anche giunto **prismatico**, introduce una trasl
 
 I  giunti prismatici si rappresentano in 3D con dei cubi o parallelepipedi attraversati da un segmento che rappresenta l'asse di traslazione.
 
-![](http://i.imgur.com/o8AMZj7.png)
+![](/assets/imgs/2017-07-02-Catene-Cinematiche.md/o8AMZj7.png)
 
 Nella figura a) rappresenta un giunto con asse di traslazione lungo l’asse $z$ normale al foglio, b)  un giunto con asse di traslazione lungo l’asse $x$ e assi colineari; c) un giunto con asse di traslazione lungo l’asse $x$,  e assi ortogonali; d) un giunto con asse di traslazione lungo l’asse $y$ (assi colineari); e) un giunto con asse di traslazione lungo l’asse $y$ (assi ortogonali).
 
@@ -82,25 +82,25 @@ La **catena cinematica aperta** è quella in cui non ci sono circuiti che si rin
 
 Nella figura che segue sono illustrati i due tipi di catena cinematica
 
-![](http://i.imgur.com/hGr7MbC.png)
+![](/assets/imgs/2017-07-02-Catene-Cinematiche.md/hGr7MbC.png)
 Catena cinematica aperta
 
-![](http://i.imgur.com/ukxJXaq.png)
+![](/assets/imgs/2017-07-02-Catene-Cinematiche.md/ukxJXaq.png)
 Catena cinematica chiusa
 
 Esistono anche delle catene cinematiche dette a bracci paralleli che sono anche note come piattaforme di Stewart. Sono composte da 6 giunti prismatici collegati a coppie a tre punti di una piasta che sorregge l'attrezzo. Vengono utilizzate per quei movimenti che devono avvenire a grande velocità, ma in un volume di lavoro non troppo grande. Alcune stampanti 3D sono basate su questo tipo di catena cinematica.
 
-![](http://i.imgur.com/Dy3BjHs.png)
+![](/assets/imgs/2017-07-02-Catene-Cinematiche.md/Dy3BjHs.png)
 
 Piattaforma di Stewart
 
-![](http://i.imgur.com/10fkZI0.png)
+![](/assets/imgs/2017-07-02-Catene-Cinematiche.md/10fkZI0.png)
 
 Nelle catene aperte è consuetudine descrivere la catena con una lista di simboli, dove R rappresenta un giunto rotoidale e P un giunto prismatico, a partire dalla base fino alla punta.
 
 Nell'immagine seguente è schematizzata una catena aperta, descritta come R-R-P-R-R-R-R e detta anche 2R-1P-4R, in quanto ci sono 2 giunti di rotazione, quindi 1 giunto prismatico che è seguito da 4 giunti di rotazione. La catena ha perciò  7 gradi di movimento, o meglio. il grado di movimento è 7.
 
-![](http://i.imgur.com/sr5WHbS.png)
+![](/assets/imgs/2017-07-02-Catene-Cinematiche.md/sr5WHbS.png)
 
 ## Spazio di lavoro
 
@@ -108,11 +108,11 @@ Si chiama **spazio di lavoro** del manipolatore il volume di spazio raggiungibil
 
 Lo spazio di lavoro è quindi formalmente deﬁnibile come un sottoinsieme dello "spazio cartesiano", cioè lo spazio tridimensionale in cui tutti noi operiamo.
 
-![](http://i.imgur.com/cRCWI8S.png)
+![](/assets/imgs/2017-07-02-Catene-Cinematiche.md/cRCWI8S.png)
 
 Nello spazio di lavoro vengono deﬁniti un certo numero di sistemi di riferimento cartesiani; ad esempio: il riferimento alla base del robot, il riferimento locale della ﬂangia porta-attrezzo, il riferimento locale del pezzo da manipolare o dell’attrezzo. Tra questi si sceglie il sistema di riferimento principale, ad esempio quello alla base del robot, e si dice allora che i punti in questo riferimento sono dati come **coordinate mondo** o **coordinate assolute**; analogamente si deﬁniscono le coordinate attrezzo, le coordinate trasportatore, le coordinate pezzo ecc.
 
-![](http://i.imgur.com/R1Soztb.png)
+![](/assets/imgs/2017-07-02-Catene-Cinematiche.md/R1Soztb.png)
 
 Altri sistemi di riferimento vengono convenzionalmente ﬁssati ai bracci del manipolatore, in un modo che speciﬁcheremo in un altro post, per descriverne i movimenti relativi e ottenerne la descrizione cinematica e dinamica. Le rotazioni (ove il giunto è rotoidale) e le traslazioni (ove il giunto è prismatico), deﬁniscono le cosiddette **coordinate giunto** o **coordinate macchina**.
 
@@ -124,7 +124,7 @@ Sulla base della struttura della catena cinematica è possibile classificare i r
 
 I costruttori di robot industriali fanno in modo che i primi tre bracci, che formano quella che viene chiamata **spalla**, servano a posizionare nello spazio i successivi tre bracci, che costituiscono quello che viene comunemente chiamato **polso**; a quest’ultimo in genere è affidato il compito di fornire l’orientamento nello spazio della punta operativa.
 
-![](http://i.imgur.com/pZpRFTE.png)
+![](/assets/imgs/2017-07-02-Catene-Cinematiche.md/pZpRFTE.png)
 
 Esistono anche strutture meccaniche a bracci paralleli che non rispettano questo schema spalla-polso; queste strutture vengono chiamate, come abbiamo già visto, manipolatori a cinematiche parallele o, più semplicemente, manipolatori paralleli.
 
@@ -144,9 +144,9 @@ Il polso ha una struttura praticamente standard, di solito R-R-R o 3R, mentre la
 
 La struttura 3P è studiata per fornire tre traslazioni lungo i tre assi ortogonali, da cui il nome di robot cartesiano. Esso può assumere la conﬁgurazione a colonna, oppure a “carro-ponte”.
 
-![](http://i.imgur.com/1Rhxuv2.png)
+![](/assets/imgs/2017-07-02-Catene-Cinematiche.md/1Rhxuv2.png)
 
-![](http://i.imgur.com/t37DKtV.png)
+![](/assets/imgs/2017-07-02-Catene-Cinematiche.md/t37DKtV.png)
 
 Lo spazio di lavoro di questo tipo di robot è un parallelepipedo.
 
@@ -155,7 +155,7 @@ Lo spazio di lavoro di questo tipo di robot è un parallelepipedo.
 
 Un robot cilindrico realizza le coordinate cilindriche: quindi ad un giunto di rotazione verticale, seguono un primo giunto prismatico, con asse verticale, ed un secondo giunto prismatico, con asse orizzontale. Lo spazio di lavoro corrisponde ad una corona cilindrica.
 
-![](http://i.imgur.com/5iQDRCV.png)
+![](/assets/imgs/2017-07-02-Catene-Cinematiche.md/5iQDRCV.png)
 
 ### Robot polare (2R-1P)
 
@@ -163,14 +163,14 @@ Il robot polare realizza le coordinate polari: si ha un giunto di rotazione vert
 
 
 
-![](http://i.imgur.com/OLgBaSH.jpg)
+![](/assets/imgs/2017-07-02-Catene-Cinematiche.md/OLgBaSH.jpg)
 
 ### Robot SCARA (2R-1P)
 
 Questo tipo di robot è simile come struttura ad un robot polare, ma si diﬀerenzia per il fatto che tutti gli assi dei giunti rotoidali sono verticali; in questo modo l’eﬀetto della gravità è compensato staticamente dalla struttura stessa. Questo tipo di struttura è stato inizialmente concepito per compiti di montaggio di circuiti integrati; la pinza è dotata di un dispositivo più cedevole in alcune direzioni rispetto ad altre (da cui
 il termine *selective compliance*), che permette l’inserimento dei pezzi senza causare rotture, come potrebbe avvenire con un dispositivo troppo rigido
 
-![](http://i.imgur.com/m7jFgRI.jpg)
+![](/assets/imgs/2017-07-02-Catene-Cinematiche.md/m7jFgRI.jpg)
 
 ### Robot articolato o antropomorfo (3R)
 
@@ -178,21 +178,21 @@ Viene comunemente indicato anche con il nome di robot antropomorfo, perché la s
 
 Consta di tre giunti rotoidali, il primo dei quali ha solitamente asse di rotazione verticale, mentre gli altri due sono orizzontali.
 
-![](http://i.imgur.com/tT3rhLj.jpg)
+![](/assets/imgs/2017-07-02-Catene-Cinematiche.md/tT3rhLj.jpg)
 
 ### Il polso
 Il polso di un manipolatore ha essenzialmente il compito di fornire i tre gradi di movimento necessari per modificare l'orientamento (o **assetto**) della punta operativa. Per alcuni manipolatori, con compiti ridotti, il polso è limitato a fornire solo uno o due gradi di movimento.
 
 Le strutture cinematiche più comunemente utilizzate nel polso sono quelle a tre giunti rotoidali, con diversi allineamenti degli assi; si può avere un polso **Euleriano**, cioè una realizzazione meccanica che realizza gli **angoli di Eulero**, oppure una realizzazione che viene chiamata Roll-Pitch-Yaw  (**RPY**), che in italiano sono il rollio, il beccheggio e l'imbardata .
 
-![](http://i.imgur.com/ILeNFto.png)
+![](/assets/imgs/2017-07-02-Catene-Cinematiche.md/ILeNFto.png)
 
 Il polso Euleriano rientra nella categoria dei **polsi sferici**, ossia quei polsi per cui i tre assi di rotazione si intersecano in un punto. Per un manipolatore robotico avere un polso sferico è molto importante, perché permette una più agevole soluzione della cinematica inversa.
 
 Per concludere questo post, che spero non vi abbia troppo annoiato, i tipici robot industriali hanno questa struttura
 
-![](http://i.imgur.com/JY1YHG6.png)
+![](/assets/imgs/2017-07-02-Catene-Cinematiche.md/JY1YHG6.png)
 
 come si vede, ad esempio, nel nuovo robot [e.Do](http://edo.comau.com/) della Comau.
 
-![](http://i.imgur.com/3zLZJtV.png)
+![](/assets/imgs/2017-07-02-Catene-Cinematiche.md/3zLZJtV.png)

@@ -60,9 +60,9 @@ Facciamo qualche esempio.
 
 1. I bracci robotici industriali, come quelli illustrati in figura, sono strutture montate su una base fissa, dove l'unico movimento possibile è quello dei bracci che compongono la cosiddetta "catena cinematica". 
 
-	![](http://i.imgur.com/yXR0yOj.jpg)
+	![](/assets/imgs/2017-06-15-Definizioni_robot_rt.md/yXR0yOj.jpg)
 	
-	![](http://i.imgur.com/BMz3Fbg.jpg)
+	![](/assets/imgs/2017-06-15-Definizioni_robot_rt.md/BMz3Fbg.jpg)
 	
 	Essi operano sulla base di un programma detto 'part program', codificato nel computer di bordo, che misura   gli angoli dei motori e, sulla base di queste misure e dell'obbiettivo da raggiungere, fa muovere i bracci per raggiungere il punto desiderato nello spazio. Una volta raggiunto il punto finale, il robot può o meno effettuare la lavorazione prevista.
 	
@@ -70,9 +70,9 @@ Facciamo qualche esempio.
  
 2. I robot mobili, detti anche **rover**, come quelli illustrati in figura, al contrario dei robot industriali, possono muoversi nello spazio in cui si trovano mediante le ruote, ma non possiedono bracci in grado di effettuare lavorazioni o afferrare oggetti.
 
-   ![](http://i.imgur.com/nYfbBZg.jpg)
+   ![](/assets/imgs/2017-06-15-Definizioni_robot_rt.md/nYfbBZg.jpg)
 
-   ![](http://i.imgur.com/qn4gjf5.jpg)
+   ![](/assets/imgs/2017-06-15-Definizioni_robot_rt.md/qn4gjf5.jpg)
 
 	
    Anche questi robot operano sulla base di un programma memorizzato da qualche parte (a bordo, oppure "in the cloud" - nella nuvola - come fa HotBlack Robotics). Anch'essi percepiscono l'ambiente circostante mediante sensori. 
@@ -81,10 +81,10 @@ Facciamo qualche esempio.
 
 3. I robot umanoidi, come quelli illustrati sotto, possono muoversi nello spazio utilizzando gambe o ruote, ma in più sono dotati di un paio di braccia capaci di muoversi, afferrare oggetti, spostarli o effettuare semplici lavorazioni.
 
-    ![](http://i.imgur.com/UxCtu2w.jpg)
+    ![](/assets/imgs/2017-06-15-Definizioni_robot_rt.md/UxCtu2w.jpg)
  	
 	
-    ![](http://i.imgur.com/97tGCiN.jpg)
+    ![](/assets/imgs/2017-06-15-Definizioni_robot_rt.md/97tGCiN.jpg)
 	
 	Anch'essi operano sulla base di un programma e percepiscono l'ambiente circostante mediante sensori. Hanno la possibilità di agire sull'ambiente e comunicare con gli esseri umani attraverso input e output vocali.
 
@@ -108,7 +108,7 @@ I robot possono essere classificati secondo diverse tipologie. Ad esempio, a sec
 
 Si tratta di strutture meccaniche simili al braccio umano, che, come sappiamo, è composto da un una spalla attaccata al torso, un braccio, un gomito, un polso e una mano. Una struttura meccanica analoga caratterizza questi robot, detti anche *manipolatori robotici*, alla cui estremità è montato un polso e un organo di presa o un attrezzo per effettuare lavorazioni; si usa il termine **punta operativa** per definire genericamente l'estremità del robot includendo anche l'eventuale attrezzo.
 
-![](http://i.imgur.com/ivfwZET.jpg)
+![](/assets/imgs/2017-06-15-Definizioni_robot_rt.md/ivfwZET.jpg)
 
 Di solito sono fissati al pavimento o al soffitto delle linee di produzione, oppure montati su guide mobili che consentono una traslazione di qualche metro.
 
@@ -133,29 +133,29 @@ Di solito sono fissati al pavimento o al soffitto delle linee di produzione, opp
 
 Negli ultimi anni sono disponibili sul mercato robot industriali che possono lavorare vicino ad operatori umani senza particolari problemi o pericoli. Sono i cosiddetti "robot collaborativi" o cobots, come quello nella figura seguente
 
-![](http://i.imgur.com/Et56r7e.jpg)
+![](/assets/imgs/2017-06-15-Definizioni_robot_rt.md/Et56r7e.jpg)
 
 Si intuisce che l'operatore può avvicinarsi senza particolari problemi al braccio robotico che sta effettuando delle lavorazioni su una portiera.
 
 Il video seguente illustra le potenzialità dei bracci robotici collaborativi prodotti dalla Universal Robot, un'azienda danese che in pochi anni ha venduto migliaia di esemplari.
 
-[![ ](http://i.imgur.com/1EYao33.jpg)](http://www.youtube.com/watch?v=Kb9uzqkfoHI)
+[![ ](/assets/imgs/2017-06-15-Definizioni_robot_rt.md/1EYao33.jpg)](http://www.youtube.com/watch?v=Kb9uzqkfoHI)
 
 
 ### Robot umanoidi
 
 Hanno una struttura simile a quella dell'intero corpo umano; sono dotati di un torso, due gambe, due braccia con mani, e una testa. 
 
-![](http://i.imgur.com/L40tw0r.jpg)
+![](/assets/imgs/2017-06-15-Definizioni_robot_rt.md/L40tw0r.jpg)
 
 Possiedono quindi quattro catene cinematiche, due per le braccia, due per le gambe, che partono dal torso, su cui è montata la testa, anch'essa dotata della possibilità di muoversi in orizzontale e in verticale (un movimento che si definisce "pan-tilt"). Sulla testa vengono montati di solito numerosi sensori per l'analisi dell'ambiente circostante, mentre l'unità di comando di solito non è ubicata nella testa, ma nel torso.
 
-![](http://i.imgur.com/1HR0TDk.png)
+![](/assets/imgs/2017-06-15-Definizioni_robot_rt.md/1HR0TDk.png)
 
 Le mani possono essere semplici, con due o tre dita, o più complesse, in modo da simulare la mano umana.
 
-![](http://i.imgur.com/Cs8SwLe.jpg) 
-![](http://i.imgur.com/p3OYeIv.jpg)
+![](/assets/imgs/2017-06-15-Definizioni_robot_rt.md/Cs8SwLe.jpg) 
+![](/assets/imgs/2017-06-15-Definizioni_robot_rt.md/p3OYeIv.jpg)
 
 
 #### Caratteristiche
@@ -186,11 +186,11 @@ Le mani possono essere semplici, con due o tre dita, o più complesse, in modo d
 
 Recentemente, la società giapponese SoftBank ha acquistato da Alphabet, holding a cui fanno capo Google Inc. e altre società controllate, l'azienda Boston Dynamics, un leader nel settore dei robot umanoidi e su zampe, come si può vedere nei seguenti video.
 
-[![ ](http://i.imgur.com/VLVT2Wp.png)](http://www.youtube.com/watch?v=rVlhMGQgDkY)
+[![ ](/assets/imgs/2017-06-15-Definizioni_robot_rt.md/VLVT2Wp.png)](http://www.youtube.com/watch?v=rVlhMGQgDkY)
 
-[![ ](http://i.imgur.com/OT95zk6.png)](http://www.youtube.com/watch?v=tf7IEVTDjng)
+[![ ](/assets/imgs/2017-06-15-Definizioni_robot_rt.md/OT95zk6.png)](http://www.youtube.com/watch?v=tf7IEVTDjng)
 
-[![ ](http://i.imgur.com/F2g9fx7.png)](http://www.youtube.com/watch?v=-7xvqQeoA8c)
+[![ ](/assets/imgs/2017-06-15-Definizioni_robot_rt.md/F2g9fx7.png)](http://www.youtube.com/watch?v=-7xvqQeoA8c)
 
 ### Robot biomimetici
 
@@ -198,7 +198,7 @@ Sono quelle strutture robotiche che imitano le soluzioni presenti in natura, sop
 
 Alcuni esempi di robot biomimetici sono illustrati nella figura seguente.
 
-![](http://i.imgur.com/awnTBDx.png)
+![](/assets/imgs/2017-06-15-Definizioni_robot_rt.md/awnTBDx.png)
 
 Questa categoria di robot non ha al momento prodotto grandi ricadute applicative, in quanto è raro vedere soluzioni basate su queste strutture utilizzate per compiti reali, tranne i robot a zampe, che sembra possano avere interesse in applicazioni civili e militari. 
 
@@ -228,13 +228,13 @@ I primi hanno moltissimi usi e sono quasi esclusivamente dotati di due o quattro
 
 I secondi, prevalentemente dotati di ruote, sono stati usati per l'esplorazione in situ di altri corpi del sistema solare; ne sono un esempio ben noto i rover Beagle, Spirit, Opportunity e Curiosity che da molti anni percorrono il suolo marziano.
 
-![](http://withouttheloop.com/articles/2015-04-17-mars-rover/curiosity.jpg)
+![](/assets/imgs/2017-06-15-Definizioni_robot_rt.md/curiosity.jpg)
 
 ### Marino
 
 Questi robot si muovono sulla superficie del mare o in profondità. I robot sottomarini sono utilizzati per diversi compiti, quali l'ispezione di strutture sommerse, la prospezione dei fondali alla ricerca di relitti, o per altri usi di ricerca e salvaguardia dell'ambiente sottomarino. Possono essere dotati di braccia e si muovono spinti da eliche o idrogetti.
 
-![](http://cdni.wired.co.uk/1920x1280/s_v/Untitled-5_5.jpg)
+![](/assets/imgs/2017-06-15-Definizioni_robot_rt.md/Untitled-5_5.jpg)
 
 ### Aereo
 
@@ -242,7 +242,7 @@ Vengono anche chiamati **droni** ed hanno un uso militare o civile. Questi ultim
 
 All'inizio venivano utilizzati prevalentemente per scopi ludici, mentre ora svolgono molte altre funzioni: dalle riprese aeree per uso cinematografico o sportivo, al sorvolo di zone investite da catastrofi naturali (terremoti, inondazioni, incendi ecc.), dal monitoraggio ambientale, all'uso in agricoltura per stimare lo stato delle colture, dalla consegna di pacchi o generi di prima necessità, all'ispezione di aree remote. 
 
-![](https://gadgetsdeal.in/wp-content/uploads/2013/08/Q450-quadcopter-kopen.jpg)
+![](/assets/imgs/2017-06-15-Definizioni_robot_rt.md/Q450-quadcopter-kopen.jpg)
 
 ## Utilizzo
 
