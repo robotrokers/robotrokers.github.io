@@ -3,7 +3,7 @@
  * In airspace, it is called style.css
  * However, style.css now holds additional styles for this jekyll port. (Not written by ThemeFisher)
  * The original style.css is now called airspace.css
- * 
+ *
  */
 
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
@@ -41,6 +41,8 @@ ul {
  /* padding: 0;
   margin: 0;
   list-style: none;*/
+  font-size: 16px;
+  line-height: 28px;
 }
 a,
 a:active,
