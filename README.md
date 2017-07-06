@@ -1,6 +1,6 @@
 # rokers.github.io
 
-This is the main repository where the [rokers.io](http://rokers.io/) main site is
+This is the main repository where the [rokers.io](https://www.rokers.io/) main site is
 hosted.
 
 ## Contribution
