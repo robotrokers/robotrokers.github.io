@@ -1,4 +1,13 @@
-Questo post è dedicato a cercare di illustrare il concetto di ridondanza e non ridondanza nei robot industriali. Per fare questo è necessario avere chiari alcuni concetti.
+---
+layout: post
+title:  Gradi di Movimento, gradi di libertà, ridondanza
+subtitle:
+date: 2017-07-10 00:00:00
+author: Basilio Bona
+categories: Teorica
+---
+
+Questo post è dedicato a illustrare il concetto di ridondanza e non ridondanza nei robot industriali. Per fare questo è necessario avere chiari alcuni concetti.
 
 Si dice che il braccio umano è ridondante, cioè esso è in grado - fortunatamente - di poter, entro certi limiti, far assumere alla mano una posizione nello spazio con diverse configurazioni della catena braccio-avambraccio. 
 Per rendersene conto, basta appoggiare saldamente la mano su una superficie piana, come un tavolo, e, tenendola ferma, muovere il gomito con continuità tra due posizioni che sono più o meno ampie a seconda del grado di "anchilosamento" del soggetto.
