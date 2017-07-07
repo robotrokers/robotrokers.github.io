@@ -1,19 +1,13 @@
-<head>
-<script type="text/javascript" async
-  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML">
-</script>
-</head>
-
 ---
 layout: post
-title:  Gradi di Movimento, gradi di libertà, ridondanza
-subtitle:
+title:  Gradi di Movimento, gradi di libertà
+subtitle: Ridondanza
 date: 2017-07-10 00:00:00
 author: Basilio Bona
 categories: Teorica
 ---
 
-Questo post è dedicato a illustrare il concetto di ridondanza e non ridondanza nei robot industriali. Per fare questo è necessario avere chiari alcuni concetti.
+Questo post è dedicato ad illustrare il concetto di ridondanza e non ridondanza nei robot industriali. Per fare questo è necessario avere chiari alcuni concetti.
 
 Si dice che il braccio umano è ridondante, cioè esso è in grado - fortunatamente - di poter, entro certi limiti, far assumere alla mano una posizione nello spazio con diverse configurazioni della catena braccio-avambraccio. 
 Per rendersene conto, basta appoggiare saldamente la mano su una superficie piana, come un tavolo, e, tenendola ferma, muovere il gomito con continuità tra due posizioni che sono più o meno ampie a seconda del grado di "anchilosamento" del soggetto.
@@ -53,7 +47,7 @@ $$
 
 Adesso, se vogliamo capire se un robot è ridondante oppure non ridondante, occorre paragonare tra loro due numeri, uno che dipende dal compito che vogliamo effettuare, l'altro che dipende da quanti giunti (gradi di movimento) ha il robot.
 
-Facciamo un esempio sul piano; supponiamo di voler effettuare lo spostamento di un oggetto da una posizione ad un'altra, ma non ci interessa un particolare assetto dell'oggetto, che può essere qualsiasi. Il compito richiede quindi di poter determinare due soli parametri, $x$ e $y$ ad esempio del centro di massa dell'oggetto. Questi li chiamiamo "gradi di libertà" del compito e li indichiamo con $n$.
+Facciamo un esempio sul piano; supponiamo che vogliamo effettuare lo spostamento di un oggetto da una posizione ad un'altra, ma non ci interessa una particolare assetto dell'oggetto, che può essere qualsiasi. Il compito richiede quindi di poter determinare due soli parametri, $x$ e $y$ ad esempio del centro di massa dell'oggetto. Questi li chiamiamo "gradi di libertà" del compito e li indichiamo con $n$.
 
 Per essere in grado di svolgere il compito, il nostro robot non potrà avere meno di due giunti, cioè due gradi di movimento che indichiamo con $m$, ma che devono essere opportunamente collocati; infatti, se per disattenzione o ignoranza, collochiamo due giunti prismatici con entrambi gli assi paralleli, ad esempio alla direzione $x$, avremo ottenuto un risultato insoddisfacente perché la punta operativa non potrà che muoversi lungo l'asse $x$ e quindi consentire un solo grado di libertà alla stessa.
 
@@ -61,6 +55,36 @@ Quindi anche se i gradi di libertà del compito e i gradi di movimento del robot
 
 Nel caso planare considerato il TCP ha due gradi di libertà, il compito richiede due gradi di libertà e quindi abbiamo ottenuto un robot che definiamo **non-ridondante**, perché $n-m=0$. 
 
-Si hanno due tipi di ridondanza: la **ridondanza intrinseca** e la **ridondanza estrinseca** o rispetto al compito. 
-La prima, data da $m-n_p$, è quella più comunemente conosciuta come ridondanza e basta. Viene utile quando occorre aumentare la cosiddetta manipolabilità del manipolatore per consentire al robot di evitare ostacoli che potrebbero rendere impossibili certe lavorazioni
+Si hanno due tipi di ridondanza: la **ridondanza intrinseca** e la **ridondanza estrinseca** o relativamente al compito. 
+
+La prima, data da $m-n_p$, è quella più comunemente conosciuta come ridondanza senza ulteriori aggettivi. Viene utile quando occorre aumentare la cosiddetta **manipolabilità** del manipolatore che consente al robot di evitare ostacoli che potrebbero rendere impossibili certe lavorazioni, oppure per aumentare lo spazio di lavoro.
+
+Nella figura che segue il robot effettua le lavorazioni su parti che sono sorrette da basi rotanti, in modo da poter eseguire le lavorazioni su ambo i lati del pezzo. In questo caso il sistema di lavorazione possiede 6 + 3 gradi di movimento, ma i gradi di libertà del pezzo e della punta operativa del robot sono sempre pari a 6.
+
+![](http://i.imgur.com/cI6msai.png)
+
+Anche in questo secondo caso si ha una situazione analoga: oltre ai due porta-pezzi rotanti, ora la base del robot trasla su una rotaia, cosa che permette di aumentare il volume dello spazio di lavoro. Il sistema possiede 9 gradi di movimento, ma il pezzo lavorato e la punta operativa continua ad avere solo 6 s gradi di libertà.
+
+
+![](http://i.imgur.com/KAIWB3e.png)
+
+$$
+   \def\bold #1{\bf #1}
+   \def\Rvet {\bold{R}}
+   \def\kbold {\bold{k}}
+   \def\Avet {\bold{A}}
+$$
+
+$$
+{\Rvet}_{\bold{k}}={\Rvet}_{\kbold}={\Avet}
+\left(
+\begin{array}{lll}
+\cos q_1 & -\sin q_1 & 0 
+\\\\
+\sin q_1 & \cos q_1 & 0
+\\\\
+0 & 0 & 1
+\end{array}
+\right)
+$$
 
