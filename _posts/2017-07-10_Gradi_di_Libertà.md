@@ -36,7 +36,7 @@ Anticipo brevemente che per me i vettori sono vettori colonna, e se devo metterl
 
 La posa è dunque l'informazione di posizione e di assetto di un corpo rigido.
 
-Se poi il corpo si muove solo in un piano, sono sufficienti tre parametri, due di posizione $x,y$ e uno di rotazione $\phi$, che rappresenta l'angolo di rotazione del corpo intorno ad un asse perpendicolare al piano, con uno zero definito dall'utente (di solito l'asse orizzontale). Quindi la posa di un corpo rigido che si muove su un piano è un vettore con tre sole componenti.
+Se poi il corpo si muove solo in un piano, sono sufficienti tre parametri, due di posizione $x,y$ e uno di rotazione $\phi$, che rappresenta l'angolo di rotazione del corpo intorno ad un asse perpendicolare al piano, rispetto ad un valore zero definito dall'utente (di solito l'asse orizzontale). Quindi la posa di un corpo rigido che si muove su un piano è un vettore con tre sole componenti.
 $$
 \left(
 \begin{array}{c}
@@ -47,44 +47,48 @@ $$
 
 Adesso, se vogliamo capire se un robot è ridondante oppure non ridondante, occorre paragonare tra loro due numeri, uno che dipende dal compito che vogliamo effettuare, l'altro che dipende da quanti giunti (gradi di movimento) ha il robot.
 
-Facciamo un esempio sul piano; supponiamo che vogliamo effettuare lo spostamento di un oggetto da una posizione ad un'altra, ma non ci interessa una particolare assetto dell'oggetto, che può essere qualsiasi. Il compito richiede quindi di poter determinare due soli parametri, $x$ e $y$ ad esempio del centro di massa dell'oggetto. Questi li chiamiamo "gradi di libertà" del compito e li indichiamo con $n$.
+Facciamo un esempio sul piano; supponiamo di voler effettuare lo spostamento di un oggetto da una posizione ad un'altra, ma non ci interessa una particolare assetto dell'oggetto, che può essere qualsiasi. Il compito richiede quindi di poter determinare due soli parametri, $x$ e $y$ ad esempio del centro di massa dell'oggetto. Questi li chiamiamo "gradi di libertà" del compito e li indichiamo con $n_c$.
 
 Per essere in grado di svolgere il compito, il nostro robot non potrà avere meno di due giunti, cioè due gradi di movimento che indichiamo con $m$, ma che devono essere opportunamente collocati; infatti, se per disattenzione o ignoranza, collochiamo due giunti prismatici con entrambi gli assi paralleli, ad esempio alla direzione $x$, avremo ottenuto un risultato insoddisfacente perché la punta operativa non potrà che muoversi lungo l'asse $x$ e quindi consentire un solo grado di libertà alla stessa.
 
-Quindi anche se i gradi di libertà del compito e i gradi di movimento del robot sono uguali, bisogna stare attenti a come progettare la catena cinematica, perché dobbiamo fare in modo da garantire che la punta del manipolatore, cioè il TCP, abbia tanti gradi di libertà quanti sono i gradi di movimento. Questi li chiamiamo gradi di libertà della punta operativa e li indichiamo con $n_p$. Se il progettista è saggio e non ci sono ragioni per fare in modo diverso, vogliamo che sia sempre $m=n_p$
+Quindi anche se i gradi di libertà del compito e i gradi di movimento del robot sono uguali, bisogna stare attenti a come progettare la catena cinematica, perché dobbiamo fare in modo da garantire che la punta del manipolatore, cioè il TCP, abbia i gradi di libertà richiesti dal compito se non di più (ma comunque non è possibile andare oltre sei). Questi li chiamiamo gradi di libertà della punta operativa e li indichiamo con $n_p$. Se il progettista è saggio e non ci sono ragioni per fare in modo diverso (per esempio, volendo una catena ridondante), vogliamo che sia sempre $m=n_p$.
 
-Nel caso planare considerato il TCP ha due gradi di libertà, il compito richiede due gradi di libertà e quindi abbiamo ottenuto un robot che definiamo **non-ridondante**, perché $n-m=0$. 
+Nel caso planare considerato il TCP ha due gradi di libertà, il compito richiede due gradi di libertà e quindi abbiamo ottenuto un robot che definiamo **non-ridondante**, perché $m-n_p=0$. 
 
-Si hanno due tipi di ridondanza: la **ridondanza intrinseca** e la **ridondanza estrinseca** o relativamente al compito. 
+Pare di capire che la ridondanza si ottiene ponendo più gradi di movimento di quelli necessari a ottenere i gradi di libertà desiderati per la punte operativa, cioè $m\gt n_p$
 
-La prima, data da $m-n_p$, è quella più comunemente conosciuta come ridondanza senza ulteriori aggettivi. Viene utile quando occorre aumentare la cosiddetta **manipolabilità** del manipolatore che consente al robot di evitare ostacoli che potrebbero rendere impossibili certe lavorazioni, oppure per aumentare lo spazio di lavoro.
+Si hanno due tipi di ridondanza: la **ridondanza intrinseca** e la **ridondanza estrinseca** o relativa al compito. 
 
-Nella figura che segue il robot effettua le lavorazioni su parti che sono sorrette da basi rotanti, in modo da poter eseguire le lavorazioni su ambo i lati del pezzo. In questo caso il sistema di lavorazione possiede 6 + 3 gradi di movimento, ma i gradi di libertà del pezzo e della punta operativa del robot sono sempre pari a 6.
+## Ridondanza intrinseca
+
+La prima è quella più comunemente conosciuta come ridondanza senza ulteriori aggettivi. Viene misurata dal **grado di ridondanza** $m-n_p$. I progettisti la realizzano quando occorre aumentare la cosiddetta **manipolabilità** che consente al robot di evitare ostacoli che potrebbero rendere impossibili certe lavorazioni, oppure per aumentare lo spazio di lavoro.
+
+Nella figura che segue il robot effettua le lavorazioni su parti che sono sorrette da basi rotanti, in modo da poter eseguire le lavorazioni su ambo i lati del pezzo. In questo caso il sistema di lavorazione possiede 6 + 3 gradi di movimento, ma i gradi di libertà della punta operativa del robot sono sempre pari a 6. Quanti sono i gradi di libertà del pezzo da lavorare? Li sapreste calcolare?
 
 ![](http://i.imgur.com/cI6msai.png)
 
-Anche in questo secondo caso si ha una situazione analoga: oltre ai due porta-pezzi rotanti, ora la base del robot trasla su una rotaia, cosa che permette di aumentare il volume dello spazio di lavoro. Il sistema possiede 9 gradi di movimento, ma il pezzo lavorato e la punta operativa continua ad avere solo 6 s gradi di libertà.
+Anche in questo seconda figura si ha una situazione analoga: oltre ai due porta-pezzi rotanti, ora la base del robot trasla su una rotaia, cosa che permette di aumentare il volume dello spazio di lavoro. Il sistema possiede 9 gradi di movimento, ma la punta operativa continua ad avere solo 6 gradi di libertà.
 
 
 ![](http://i.imgur.com/KAIWB3e.png)
 
-$$
-   \def\bold #1{\bf #1}
-   \def\Rvet {\bold{R}}
-   \def\kbold {\bold{k}}
-   \def\Avet {\bold{A}}
-$$
 
-$$
-{\Rvet}_{\bold{k}}={\Rvet}_{\kbold}={\Avet}
-\left(
-\begin{array}{lll}
-\cos q_1 & -\sin q_1 & 0 
-\\\\
-\sin q_1 & \cos q_1 & 0
-\\\\
-0 & 0 & 1
-\end{array}
-\right)
-$$
+## Ridondanza estrinseca
+
+La ridondanza estrinseca, come detto, riguarda il compito. Vediamo alcuni esempi.
+
+
+1. Supponiamo per semplicità di voler praticare dei tagli su una piastra di metallo con una testa laser attaccata al TCP. Una volta che il laser sia posto alla distanza corretta dal piano di taglio, sono necessari solo due gradi di libertà, perché l'assetto della testa non è importante, essendo l'effetto di taglio sul metallo indipendente dall'orientamento della testa laser.
+
+2. utilizziamo un robot 6R come stampante 3D. Sappiamo che le normali stampanti 3D sono strutture cartesiane a soli 3 gradi di libertà, quindi in questo caso, pur sapendo che il robot 6R non è intrinsecamente ridondante, il compito che deve eseguire lo rende estrinsecamente ridondante.
+
+In conclusione la situazione si può riassumere così: se in un robot i gradi di movimento sono $m$, la punta operativa ha $n_p$ gradi di libertà e se il compito ne richiede $n_c$, allora
+
+- se $m=n_p=n_c$ siamo nella situazione più comune. Il robot non è ridondante, ma perfettamente adatto ad eseguire il compito richiesto. Il numero di giunti è il minimo necessario.
+
+- se $m=n_p\gt n_c$ il robot, pur non essendo intrinsecamente ridondante, lo è nei confronti del compito.
+
+- se $m\ge n_p = n_c$ il robot è intrinsecamente non ridondante.
+
+Negli ultimi anni molte aziende di robot hanno iniziato ad produrre robot con sette gradi di movimento, tutti a giunti rotoidali. Tali robot imitano la struttura del braccio umano, come si vede dalla figura seguente
 
