@@ -7,9 +7,9 @@ author: Basilio Bona
 categories: Teorica
 ---
 
-Questo post è dedicato ad illustrare il concetto di ridondanza e non ridondanza nei robot industriali. Per fare questo è necessario avere chiari alcuni concetti.
+Questo post è dedicato ad illustrare il concetto di **ridondanza** e di **non ridondanza** nei robot industriali. Per fare questo è necessario avere chiari alcuni concetti.
 
-Si dice che il braccio umano è ridondante, cioè esso è in grado - fortunatamente - di poter, entro certi limiti, far assumere alla mano una posizione nello spazio con diverse configurazioni della catena braccio-avambraccio. 
+Si dice che il braccio umano è ridondante, perché esso è in grado - fortunatamente - di poter, entro certi limiti, far assumere alla mano una posizione nello spazio con diverse configurazioni della catena braccio-avambraccio. 
 Per rendersene conto, basta appoggiare saldamente la mano su una superficie piana, come un tavolo, e, tenendola ferma, muovere il gomito con continuità tra due posizioni che sono più o meno ampie a seconda del grado di "anchilosamento" del soggetto.
 
 Quindi, in maniera per ora qualitativa, possiamo dire che la ridondanza consente di raggiungere una determinata posizione con diverse configurazioni della catena cinematica.
@@ -20,7 +20,7 @@ In primo luogo occorre ricordare che un robot industriale di solito sposta la su
 
 Di solito questa piastra prende il nome di **punta operativa** (in inglese Tool Center Point o **TCP**).
 
-In secondo luogo dovremmo ricordare che un corpo rigido nello spazio è univocamente determinato da 6 parametri, 3 dei quali individuano la posizione, e altri tre che individuano l'orientamento o assetto.
+In secondo luogo dovremmo ricordare che un corpo rigido nello spazio è univocamente determinato da sei parametri, tre dei quali individuano la posizione, e altri tre che individuano l'orientamento o assetto.
 
 I primi tre sono di solito specificati utilizzando le coordinate cartesiane $x,y,z$, gli altri tre specificando tre angoli $\phi,\theta,\psi$. Più avanti dedicherò un post a caratterizzare matematicamente l'assetto di un corpo mediante vari tipi di angoli (Eulero, Roll-Pitch-Yaw, e altri) oppure le matrici di rotazione, oppure i quaternioni. Per ora limitiamoci a pensare che siano tre angoli opportunamente definiti.
 
