@@ -90,6 +90,11 @@ In conclusione la situazione si può riassumere così: se in un robot i gradi di
 
 - se $m\ge n_p = n_c$ il robot è intrinsecamente non ridondante.
 
-Negli ultimi anni molte aziende di robot hanno iniziato ad produrre robot con sette gradi di movimento, tutti a giunti rotoidali. Tali robot imitano la struttura del braccio umano, come si vede dalla figura seguente
+Negli ultimi anni molte aziende di robot hanno iniziato ad produrre robot con sette gradi di movimento, tutti a giunti rotoidali. Tali robot imitano la struttura del braccio umano, come si vede dalla figura seguente e vengono utilizzati per evitare ostacoli e risolvere problemi di **singolarità cinematiche**. In un post successivo spiegherò cosa sono queste singolarità
 
-![](https://youtu.be/VHfx4unIASM)
+![](http://i.imgur.com/ZJFvbqE.png)
+
+Si veda il video di questo [robot ridondante](https://youtu.be/VHfx4unIASM) che evita gli ostacoli nello spazio di lavoro.
+Bene, il prossimo post sarà dedicato a ripassare il concetto di vettori e matrici, per introdurre poi le matrici di rotazione che sono utlilissime per esprimere l'assetto di un corpo rigido nello spazio e ... non solo. 
+
+A presto. I commenti sono benvenuti.
