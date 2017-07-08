@@ -94,7 +94,7 @@ Negli ultimi anni molte aziende di robot hanno iniziato ad produrre robot con se
 
 ![](http://i.imgur.com/ZJFvbqE.png)
 
-Si veda il video di questo [robot ridondante](https://youtu.be/VHfx4unIASM) che evita gli ostacoli nello spazio di lavoro.
+Si veda il video di questo [**robot ridondante**](https://youtu.be/VHfx4unIASM) che evita gli ostacoli nello spazio di lavoro.
 Bene, il prossimo post sarà dedicato a ripassare il concetto di vettori e matrici, per introdurre poi le matrici di rotazione che sono utlilissime per esprimere l'assetto di un corpo rigido nello spazio e ... non solo. 
 
 A presto. I commenti sono benvenuti.
