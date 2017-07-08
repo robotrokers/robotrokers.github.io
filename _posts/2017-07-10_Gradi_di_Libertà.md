@@ -92,3 +92,4 @@ In conclusione la situazione si può riassumere così: se in un robot i gradi di
 
 Negli ultimi anni molte aziende di robot hanno iniziato ad produrre robot con sette gradi di movimento, tutti a giunti rotoidali. Tali robot imitano la struttura del braccio umano, come si vede dalla figura seguente
 
+![](https://youtu.be/VHfx4unIASM)
