@@ -1,0 +1,11 @@
+---
+layout: post
+title:  Matrici e vettori
+subtitle: Le basi matematiche della cinematica dei robot
+date: 2017-07-10 00:00:00
+author: Basilio Bona
+categories: Teorica
+---
+
+Cari affezionatissimi lettori, questo post sarà forse un po' troppo indigesto, ma vi chiedo di essere pazienti. 
+Da parte mia farò il possibile per 
