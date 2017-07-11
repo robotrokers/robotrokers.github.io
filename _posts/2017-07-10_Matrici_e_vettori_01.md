@@ -29,7 +29,7 @@ Incominciamo dai sistemi di riferimento e dai vettori.
 
 ### Quello che i vettori sono
 
-I vettori sono **astrazioni matematiche**, oggetti scaturiti, nel corso del XIX secolo, dalla mente dei matematici/fisici/ingegneri/ecc. dopo un lungo periodo di gestazione, una crescita a tratti tormentata ed una definitiva affermazione.
+I vettori sono **astrazioni matematiche**, oggetti scaturiti, nel corso del XIX secolo, dalla mente dei matematici, fisici, ingegneri ecc. dopo un lungo periodo di gestazione, una crescita a tratti tormentata ed una definitiva affermazione.
 
 Per chi fosse interessato ad una storia del concetto di vettore, consiglio l'interessante libro di Michael J. Crowe intitolato "*A History of Vector Analysis*" del 1967 
 
