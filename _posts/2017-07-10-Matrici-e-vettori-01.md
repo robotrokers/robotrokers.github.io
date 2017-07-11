@@ -33,7 +33,7 @@ I vettori sono **astrazioni matematiche**, oggetti scaturiti, nel corso del XIX 
 
 Per chi fosse interessato ad una storia del concetto di vettore, consiglio l'interessante libro di Michael J. Crowe intitolato "*A History of Vector Analysis*" del 1967
 
-![](http://i.imgur.com/EwuITji.png)
+![](/assets/imgs/2017-07-10-Matrici-e-vettori-01.md/EwuITji.png)
 
 e poi, dello stesso autore, un breve intervento che potrete trovare [qui](http://worrydream.com/refs/Crowe-HistoryOfVectorAnalysis.pdf).
 
@@ -45,7 +45,7 @@ Anche la [voce corrispondente](https://en.wikipedia.org/wiki/A_History_of_Vector
 
 A proposito di icone, ecco un altro libro interessante: "*Icons and Symmetries*" di  Simon L. Altmann, pubblicato nel 1992, da cui ho tratto qualche utile insegnamento.
 
-![](http://i.imgur.com/ZA3nKRo.png)
+![](/assets/imgs/2017-07-10-Matrici-e-vettori-01.md/ZA3nKRo.png)
 
 Adesso basta con i libri e affrontiamo l'argomento "vettore che non è una freccia".
 
@@ -55,7 +55,7 @@ Iniziamo con l’esporre i concetti di base relativi ai **sistemi di riferimento
 
 Lo spazio in tridimensionale cui operiamo, secondo la teoria della relatività generale è uno spazio curvo a causa dell'effetto distorsivo dei corpi dotati di massa.
 
-![](http://i.imgur.com/rVm9FQE.png)
+![](/assets/imgs/2017-07-10-Matrici-e-vettori-01.md/rVm9FQE.png)
 
 Tuttavia, con ottima approssimazione, possiamo dire che localmente esso può essere considerato non-curvo, cioè piano (occhio, non significa che siamo in un piano, ma che lo spazio non è curvo).
 
@@ -77,13 +77,13 @@ $$
 
 Ci sono due modi per posizionare i segmenti orientati, come si può vedere nella figura sottostante
 
-![](http://i.imgur.com/WRFu5SZ.png)
+![](/assets/imgs/2017-07-10-Matrici-e-vettori-01.md/WRFu5SZ.png)
 
 Il modo illustrato sulla sinistra prende il nome di **riferimento sinistrorso**, mentre quello di destra prende il nome di **riferimento destrorso**. I nomi derivano da una semplice regola mnemonica: se prendiamo la nostra mano destra e orientiamo $\k$ lungo il pollice, $\i$  lungo l'indice e $\j$ lungo il dito medio, otteniamo un riferimento, appunto, destrorso. Se invece prendiamo la mano sinistra e facciamo la stessa cosa, cioè $k=$ pollice, $\i=$ indice $\j=$ medio otteniamo un sistema di riferimento sinistrorso.
 
 Noi useremo sempre e dovunque il riferimento destrorso, detto anche **terna destrorsa**.
 
-![](http://i.imgur.com/Y6cRQ8B.png)
+![](/assets/imgs/2017-07-10-Matrici-e-vettori-01.md/Y6cRQ8B.png)
 
 ## Vettori
 
@@ -105,7 +105,7 @@ $$
 \right)
 $$
 
-![](http://i.imgur.com/j6SM0Uc.png)
+![](/assets/imgs/2017-07-10-Matrici-e-vettori-01.md/j6SM0Uc.png)
 
 Se spostiamo il sistema di riferimento in un'altra origine, oppure lo ruotiamo, il vettore cambia le sue componenti.
 
@@ -113,7 +113,7 @@ Quindi, prima considerazione, un vettore che rappresenta un punto geometrico non
 
 Adesso vi propongo un quiz: come cambia il vettore $\v$ se poniamo il nostro riferimento al Politecnico, ma con gli assi orientati $\i$ verso nord e $\j$ verso ovest?
 
-![](http://i.imgur.com/Xj1OSrL.png)
+![](/assets/imgs/2017-07-10-Matrici-e-vettori-01.md/Xj1OSrL.png)
 
 Dopo che avrete risposto al quiz, continuerò con un nuovo post, sempre su questi benedetti vettori.
 
