@@ -21,7 +21,7 @@ La seconda ipotesi è che sul moto delle varie parti della catena cinematica non
 
 La terza ipotesi è che il moto della catena cinematica sia generato in modo astratto; cioè per ora non viene introdotto alcun tipo di motore o azionatore. La relazione che le forze/coppie applicate alle masse hanno con la generazione del moto della catena cinematica (e viceversa) sarà descritta in futuro quando parleremo del **modello dinamico** del manipolatore.
 
-La studio delle catene cinematiche fa riferimento quindi alle sole grandezze cinematiche, che sono le posizioni, le velocità e le accelerazioni delle varie parti della catena, prescindendo come detto dall'effetto di forze/coppie interne o applicate dall'esterno.
+Lo studio delle catene cinematiche fa riferimento quindi alle sole grandezze cinematiche, che sono le posizioni, le velocità e le accelerazioni delle varie parti della catena, prescindendo come detto dall'effetto di forze/coppie interne o applicate dall'esterno.
 
 Detto ciò,  una **catena cinematica** è composta da un certo numero di bracci (in inglese *arms* o *links*), ipotizzati privi di massa e, come detto, perfettamente rigidi, collegati tra loro tramite giunti (in inglese *joints*), anch'essi privi di massa, perfettamente rigidi, su cui non agiscono forze/coppie di attrito.
 
