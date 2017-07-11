@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  Matrici e vettori - post 1
+title:  Matrici e vettori - parte 1
 subtitle: Le basi matematiche della cinematica dei robot
-date: 2017-07-10 00:00:00
+date: 2017-07-10
 author: Basilio Bona
 categories: Teorica
 ---
@@ -31,11 +31,11 @@ Incominciamo dai sistemi di riferimento e dai vettori.
 
 I vettori sono **astrazioni matematiche**, oggetti scaturiti, nel corso del XIX secolo, dalla mente dei matematici, fisici, ingegneri ecc. dopo un lungo periodo di gestazione, una crescita a tratti tormentata ed una definitiva affermazione.
 
-Per chi fosse interessato ad una storia del concetto di vettore, consiglio l'interessante libro di Michael J. Crowe intitolato "*A History of Vector Analysis*" del 1967 
+Per chi fosse interessato ad una storia del concetto di vettore, consiglio l'interessante libro di Michael J. Crowe intitolato "*A History of Vector Analysis*" del 1967
 
 ![](http://i.imgur.com/EwuITji.png)
 
-e poi, dello stesso autore, un breve intervento che potrete trovare [qui](http://worrydream.com/refs/Crowe-HistoryOfVectorAnalysis.pdf). 
+e poi, dello stesso autore, un breve intervento che potrete trovare [qui](http://worrydream.com/refs/Crowe-HistoryOfVectorAnalysis.pdf).
 
 Anche la [voce corrispondente](https://en.wikipedia.org/wiki/A_History_of_Vector_Analysis) su Wikipedia merita di essere letta. Purtroppo questi documenti sono tutti in inglese, ma spero che per voi non sia una difficoltà eccessiva.
 
@@ -43,7 +43,7 @@ Anche la [voce corrispondente](https://en.wikipedia.org/wiki/A_History_of_Vector
 
 **I vettori non sono delle frecce!** Le frecce, che ormai tutti conoscono e usano, sono delle semplici **icone**, simboli utilizzati per riassumere le proprietà base dei vettori, che però vanno capite e utilizzate correttamente. Per analogia sarebbe un po' come dire che gli atomi sono dei sistemi solari in miniatura e le molecole sono delle palle collegate da segmenti.
 
-A proposito di icone, ecco un altro libro interessante: "*Icons and Symmetries*" di  Simon L. Altmann, pubblicato nel 1992, da cui ho tratto qualche utile insegnamento. 
+A proposito di icone, ecco un altro libro interessante: "*Icons and Symmetries*" di  Simon L. Altmann, pubblicato nel 1992, da cui ho tratto qualche utile insegnamento.
 
 ![](http://i.imgur.com/ZA3nKRo.png)
 
@@ -51,17 +51,17 @@ Adesso basta con i libri e affrontiamo l'argomento "vettore che non è una frecc
 
 ## Sistemi di riferimento
 
-Iniziamo con l’esporre i concetti di base relativi ai **sistemi di riferimento** e ai vettori e successivamente introduciamo gli operatori di traslazione, rotazione e roto-traslazione di corpi rigidi, limitandoci per semplicità allo spazio tridimensionale. 
+Iniziamo con l’esporre i concetti di base relativi ai **sistemi di riferimento** e ai vettori e successivamente introduciamo gli operatori di traslazione, rotazione e roto-traslazione di corpi rigidi, limitandoci per semplicità allo spazio tridimensionale.
 
 Lo spazio in tridimensionale cui operiamo, secondo la teoria della relatività generale è uno spazio curvo a causa dell'effetto distorsivo dei corpi dotati di massa.
 
 ![](http://i.imgur.com/rVm9FQE.png)
 
-Tuttavia, con ottima approssimazione, possiamo dire che localmente esso può essere considerato non-curvo, cioè piano (occhio, non significa che siamo in un piano, ma che lo spazio non è curvo). 
+Tuttavia, con ottima approssimazione, possiamo dire che localmente esso può essere considerato non-curvo, cioè piano (occhio, non significa che siamo in un piano, ma che lo spazio non è curvo).
 
 Questo spazio piano prende il nome di **spazio Euclideo**, perché obbedisce agli assiomi della geometria euclidea (ricordate ... due rette parallele non si incontrano mai, ecc. ecc.)
 
-Per caratterizzare i vettori è opportuno, se non necessario, definire all'interno dello spazio euclideo uno o più **sistemi di riferimento** detti anche **terne cartesiane**, caratterizzati da un'origine $O$ da cui si irradiano tre segmenti orientati di lunghezza unitaria $\i,\j,\k$, tra loro ortogonali, che poi non sono altro che i soliti assi $x,y,z$. 
+Per caratterizzare i vettori è opportuno, se non necessario, definire all'interno dello spazio euclideo uno o più **sistemi di riferimento** detti anche **terne cartesiane**, caratterizzati da un'origine $O$ da cui si irradiano tre segmenti orientati di lunghezza unitaria $\i,\j,\k$, tra loro ortogonali, che poi non sono altro che i soliti assi $x,y,z$.
 
 Indichiamo un sistema di riferimento con uno di questi simboli (io preferisco il primo a sinistra):
 $$
@@ -70,16 +70,16 @@ $$
 \def\k{\boldsymbol{k}}
 \def\v{\boldsymbol{v}}
 \mathcal{R}(O,\i,\j,\k) \qquad
-\mathcal{R}(O,x,y,z) 
+\mathcal{R}(O,x,y,z)
 \qquad
-\mathcal{R}(O,\overrightarrow{OX},\overrightarrow{OY},\overrightarrow{OZ}) 
+\mathcal{R}(O,\overrightarrow{OX},\overrightarrow{OY},\overrightarrow{OZ})
 $$
 
 Ci sono due modi per posizionare i segmenti orientati, come si può vedere nella figura sottostante
 
 ![](http://i.imgur.com/WRFu5SZ.png)
 
-Il modo illustrato sulla sinistra prende il nome di **riferimento sinistrorso**, mentre quello di destra prende il nome di **riferimento destrorso**. I nomi derivano da una semplice regola mnemonica: se prendiamo la nostra mano destra e orientiamo $\k$ lungo il pollice, $\i$  lungo l'indice e $\j$ lungo il dito medio, otteniamo un riferimento, appunto, destrorso. Se invece prendiamo la mano sinistra e facciamo la stessa cosa, cioè $k=$ pollice, $\i=$ indice $\j=$ medio otteniamo un sistema di riferimento sinistrorso. 
+Il modo illustrato sulla sinistra prende il nome di **riferimento sinistrorso**, mentre quello di destra prende il nome di **riferimento destrorso**. I nomi derivano da una semplice regola mnemonica: se prendiamo la nostra mano destra e orientiamo $\k$ lungo il pollice, $\i$  lungo l'indice e $\j$ lungo il dito medio, otteniamo un riferimento, appunto, destrorso. Se invece prendiamo la mano sinistra e facciamo la stessa cosa, cioè $k=$ pollice, $\i=$ indice $\j=$ medio otteniamo un sistema di riferimento sinistrorso.
 
 Noi useremo sempre e dovunque il riferimento destrorso, detto anche **terna destrorsa**.
 
@@ -91,7 +91,7 @@ Ci sono due tipi di vettori: i cosiddetti **vettori geometrici**, che descrivono
 
 ### Vettori geometrici
 
-I vettori geometrici rappresentano le coordinate di un punto geometrico rispetto ad un sistema di riferimento che l'utente ha fissato da qualche parte nello spazio (o nel piano). 
+I vettori geometrici rappresentano le coordinate di un punto geometrico rispetto ad un sistema di riferimento che l'utente ha fissato da qualche parte nello spazio (o nel piano).
 
 Ad esempio, se fissiamo un sistema di riferimento in Piazza Castello a Torino (O), orientato con $\i$ verso est e $\j$ verso nord, e vogliamo rappresentare il punto geometrico dato dalla basilica di Superga (S), abbiamo il seguente risultato: il segmento $\overrightarrow{OS}$ è lungo approssimativamente 6381 m, e le due componenti sono date in metri dal vettore
 $$
@@ -118,8 +118,3 @@ Adesso vi propongo un quiz: come cambia il vettore $\v$ se poniamo il nostro rif
 Dopo che avrete risposto al quiz, continuerò con un nuovo post, sempre su questi benedetti vettori.
 
 P.S. per fare i calcoli ho usato le coordinate Lat.+Long. datemi da Google Earth e poi le ho convertite in km andando [qui](https://www.sunearthtools.com/it/tools/distance.php). Potevo fare meglio o in modo diverso? Probabilmente sì, e ora aspetto la vostra soluzione ...
-
-
-
-
-
