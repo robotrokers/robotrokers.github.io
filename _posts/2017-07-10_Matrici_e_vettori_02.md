@@ -40,7 +40,7 @@ Torniamo a quanto detto prima, cioè che una freccia non è un punto. Eppure usi
 
 Le cose tornano se ci immaginiamo che il vettore geometrico rappresenti lo **spostamento** (in inglese, displacement) necessario per andare dall'origine del riferimento al punto geometrico considerato.
 
-Allora nel caso del vettore che rappresenta la basilica di Superga rispetto al riferimento in Piazza Castello a Torino, possiamo dire che e necessario spostarsi di circa 6,286 km verso est e di circa 1,122 km verso nord per un cammino totale la cui lunghezza è (teorema di Pitagora)
+Allora nel caso del vettore che rappresenta la basilica di Superga rispetto al riferimento in Piazza Castello a Torino, possiamo dire che è necessario spostarsi di circa 6,286 km verso est e di circa 1,122 km verso nord per un cammino totale la cui lunghezza è (teorema di Pitagora)
 $$
 L=\sqrt{6.286^2+1.122^2}\approx 6.381 \text{km}
 $$
