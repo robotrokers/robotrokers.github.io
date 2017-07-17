@@ -38,16 +38,16 @@ ed ha una lunghezza pari a $\sqrt{2}\approx 1,41$.
 
 Torniamo a quanto detto prima, cioè che una freccia non è un punto. Eppure usiamo i vettori geometrici, che sono delle frecce, per rappresentare dei punti.
 
-Le cose tornano se ci immaginiamo che il vettore geometrico rappresenti lo **spostamento** (in inglese, displacement) necessario per andare dall'origine del riferimento al punto geometrico considerato.
+Le cose tornano se ci immaginiamo che il vettore geometrico rappresenti lo **spostamento** (in inglese, *displacement*) necessario per andare dall'origine del riferimento al punto geometrico considerato.
 
 Allora nel caso del vettore che rappresenta la basilica di Superga rispetto al riferimento in Piazza Castello a Torino, possiamo dire che è necessario spostarsi di circa 6,286 km verso est e di circa 1,122 km verso nord per un cammino totale la cui lunghezza è (teorema di Pitagora)
 $$
-L=\sqrt{6.286^2+1.122^2}\approx 6.381 \text{km}
+L=\sqrt{6.286^2+1.122^2}\approx 6.381 \text{ km}
 $$
 
-E ricordate che l'unità di misura "kilometri" si indica con **km** e non con **Km**.
+E ricordate che l'unità di misura chilometri si indica con **km** e non con **Km**.
 
-Il calcolo è stato fatto considerando solo il piano orizzontale; se non trascuriamo la terza dimensione, poiché Piazza Castello si trova a 239 m sul livello del mare, mentre la Basilica di Superga a 672 m s.l.m, abbiamo uno scarto di 433 m. Il vettore $\v$ visto nel precedente post diventa tridimensionale:
+Il calcolo è stato fatto considerando solo il piano orizzontale; se non trascuriamo la terza dimensione, poiché Piazza Castello si trova a 239 m sul livello del mare, mentre la Basilica di Superga a 672 m s.l.m, abbiamo uno scarto di 433 m. Il vettore $\v$ visto nel precedente post diventa allora tridimensionale:
 $$
 \v= \left( \begin{array}{c} 6286 \\ 1122 \\ 433 \end{array}  \right) \text{m}
 $$
@@ -56,9 +56,9 @@ Se vogliamo trovare il vettore che rappresenta il punto geometrico $S$ non più 
 $$
 \v_{PO}+\v_{OS}=\v_{PS}
 $$
-e quindi conoscere $\v_{PO}$
+e quindi conoscere $\v_{PO}$.
 
-Ma non basta; gli assi del riferimento in $P$, che indichiamo con $\calR_P$ per qualche ragione che non conosciamo, sono stati orientati in modo diverso da quelli del riferimento in $O$, che indichiamo con $\calR_O$. In particolare $\calR_P$ è ruotato di 90 gradi in senso antiorario rispetto a  $\calR_O$. O viceversa $\calR_O$ è ruotato di 90 gradi in senso orario rispetto a  $\calR_P$
+Ma non basta; gli assi del riferimento in $P$, che indichiamo con $\calR_P$, per una qualche ragione che non conosciamo, sono stati orientati in modo diverso da quelli del riferimento in $O$, che indichiamo con $\calR_O$. In particolare $\calR_P$ è ruotato di 90 gradi in senso antiorario rispetto a  $\calR_O$. O viceversa $\calR_O$ è ruotato di 90 gradi in senso orario rispetto a  $\calR_P$
 
 Quindi dobbiamo uniformare le rappresentazioni: o la somma va calcolata rispetto a $\calR_P$ oppure rispetto a $\calR_O$. Diamo la rappresentazione di $\v_{PO}$ nel sistema di riferimento $\calR_P$; essa vale
 
@@ -118,7 +118,7 @@ $$
 
 Adesso un commento finale: che relazione c'è tra quanto illustrato fino ad ora e la **cinematica** di un robot?
 
-Per analogia, la punta operativa (TCP) del robot è la Basilica di Superga, il riferimento alla base del robot è il Politecnico, un riferimento su un braccio intermedio è Piazza Castello.
+Per analogia, la Basilica di Superga è la punta operativa (TCP) di un robot, il riferimento Politecnico è il riferimento alla base del robot e Piazza Castello è un riferimento su un qualunque braccio intermedio.
 
 Insomma, per calcolare la cinematica diretta di un robot occorre fissare tanti riferimenti quanti sono i bracci mobili, più uno sulla base fissa, e calcolare la posizione del TCP rispetto alla base fissa, sommando i vari vettori che rappresentano lo spostamento da un riferimento al successivo.
 
