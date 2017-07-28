@@ -16,19 +16,19 @@ $$
 \def\calR{\mathcal{R}}
 $$
 
-Nel post precedente ho introdotto i vettori "**geometrici**", cioè quei vettori che contengono le coordinate di un punto geometrico rispetto ad un sistema di riferimento assegnato. 
+Nel post precedente ho introdotto i vettori "**geometrici**", cioè quei vettori che contengono le coordinate di un punto geometrico rispetto ad un sistema di riferimento assegnato.
 
 Notiamo che usare la freccia come simbolo per caratterizzare questo tipo di vettori non è particolarmente corretto, perché un punto è un punto, mentre la freccia/vettore ha una direzione, un verso, che va dalla coda in A  alla punta in B e un lunghezza, detta anche **modulo** o **norma del vettore**
 
-![](http://i.imgur.com/p82KHaj.png) 
+![](/assets/imgs/2017-07-10-Matrici-e-vettori-02.md/p82KHaj.png)
 
-In questo esempio la direzione è circa 45 gradi rispetto all'orizzontale mentre la lunghezza dipende dalla scala adottata per l'unità di misura. La scala è implicitamente assegnata dalla lunghezza dei vettori unitari $\i,\j,\k$ che compongono il sistema di riferimento utilizzato. 
+In questo esempio la direzione è circa 45 gradi rispetto all'orizzontale mentre la lunghezza dipende dalla scala adottata per l'unità di misura. La scala è implicitamente assegnata dalla lunghezza dei vettori unitari $\i,\j,\k$ che compongono il sistema di riferimento utilizzato.
 
 Nel caso della figura, se il sistema di riferimento è quello mostrato,
 
-![](http://i.imgur.com/EGfEXyr.png)
+![](/assets/imgs/2017-07-10-Matrici-e-vettori-02.md/EGfEXyr.png)
 
-allora il vettore $\v_{AB}$  è 
+allora il vettore $\v_{AB}$  è
 
 $$
 \v_{AB}= \left( \begin{array}{l} 1 \\ 1 \end{array}  \right)
@@ -86,28 +86,28 @@ $$
  - I **vettori geometrici**, cioè i vettori che rappresentano punti nello spazio, sono rappresentabili da frecce solo se li pensiamo come spostamenti dall'origine del riferimento al punto stesso.
 
  - La scelta del sistema di riferimento incide sulla rappresentazione del vettore: se cambia il riferimento, cambia la rappresentazione, compreso il suo modulo.
- 
+
  - I vettori si sommano con la solita regola: ogni componente del vettore somma è la somma delle corrispondenti componenti dei vettori addendi
- 
+
  $$
-\a+\b=
-\left( \begin{array}{c} a_1\\ a_2 \\ a_3\end{array}  \right)+
-\left( \begin{array}{c} b_1\\ b_2 \\ b_3\end{array}  \right)=
-\left( \begin{array}{c} a_1+b_1\\ a_2+b_2 \\ a_3+b_3\end{array}  \right)
+  \a+\b=
+  \left( \begin{array}{c} a_1\\ a_2 \\ a_3\end{array}  \right)+
+  \left( \begin{array}{c} b_1\\ b_2 \\ b_3\end{array}  \right)=
+  \left( \begin{array}{c} a_1+b_1\\ a_2+b_2 \\ a_3+b_3\end{array}  \right)
  $$
 
- -  Il modulo $|\cdot|$ (o la norma $\|\cdot\|$ ) di un vettore si ottiene applicando il Teorema di Pitagora
- 
- $$
- |{\a}|=\|\a\|=\sqrt{a_1^2+a_2^2+a_3^2}
- $$
+ - Il modulo  $\|\cdot\|$ (o la norma $\|\|\cdot\|\|$ ) di un vettore si ottiene applicando il Teorema di Pitagora
+
+   $$
+   |{\a}|=\|\a\|=\sqrt{a_1^2+a_2^2+a_3^2}
+   $$
 
 	ma non bisogna sbagliare, infatti
 
- $$
- |{\a+\b}|=\|\a+\b\|=\sqrt{(a_1+b_1)^2+(a_2+b_2)^2+(a_3+b_3)^2}
- $$
-
+   $$
+   |{\a+\b}|=\|\a+\b\|=\sqrt{(a_1+b_1)^2+(a_2+b_2)^2+(a_3+b_3)^2}
+   $$
+ 
 	e non
 
 $$
