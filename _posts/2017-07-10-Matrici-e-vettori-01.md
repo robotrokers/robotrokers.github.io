@@ -61,14 +61,18 @@ Tuttavia, con ottima approssimazione, possiamo dire che localmente esso può ess
 
 Questo spazio piano prende il nome di **spazio Euclideo**, perché obbedisce agli assiomi della geometria euclidea (ricordate ... due rette parallele non si incontrano mai, ecc. ecc.)
 
-Per caratterizzare i vettori è opportuno, se non necessario, definire all'interno dello spazio euclideo uno o più **sistemi di riferimento** detti anche **terne cartesiane**, caratterizzati da un'origine $O$ da cui si irradiano tre segmenti orientati di lunghezza unitaria $\i,\j,\k$, tra loro ortogonali, che poi non sono altro che i soliti assi $x,y,z$.
-
-Indichiamo un sistema di riferimento con uno di questi simboli (io preferisco il primo a sinistra):
 $$
 \def\i{\boldsymbol{i}}
 \def\j{\boldsymbol{j}}
 \def\k{\boldsymbol{k}}
 \def\v{\boldsymbol{v}}
+$$
+
+Per caratterizzare i vettori è opportuno, se non necessario, definire all'interno dello spazio euclideo uno o più **sistemi di riferimento** detti anche **terne cartesiane**, caratterizzati da un'origine $O$ da cui si irradiano tre segmenti orientati di lunghezza unitaria $\i,\j,\k$, tra loro ortogonali, che poi non sono altro che i soliti assi $x,y,z$.
+
+Indichiamo un sistema di riferimento con uno di questi simboli (io preferisco il primo a sinistra):
+
+$$
 \mathcal{R}(O,\i,\j,\k) \qquad
 \mathcal{R}(O,x,y,z)
 \qquad
