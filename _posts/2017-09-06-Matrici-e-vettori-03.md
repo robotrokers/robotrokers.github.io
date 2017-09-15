@@ -46,7 +46,7 @@ Le velocità lineari sono le derivate delle coordinate di posizione (vettori geo
 
 Ad esempio, nella Figura seguente troviamo un sistema di riferimento $(O,\ivet,\jvet,\kvet)$ (destrorso, come sempre), una massa $m$ collocata in un punto geometrico rappresentato dal vettore geometrico $\pvet$ che possiede una velocità $\vvet$ e su cui agisce una forza esterna $\fvet$.
  
-![](https://i.imgur.com/QFVGaqC.png)
+![](/assets/imgs/2017-09-06-Matrici-e-vettori-03.md/QFVGaqC.png)
 
 Facciamo ora una piccola parentesi. In robotica è importante lo studio della cinematica, ma anche quello della dinamica. Nella cinematica ci occupiamo solo del problema di stabilire le posizioni e le velocità (lineari e/o angolari) di punti particolari del robot, come la punta operativa o i centri di massa dei vari bracci; escludiamo perciò l'interazione con le forze, che invece sono importanti nello studio della dinamica, che appunto studia la relazione tra forze applicate e accelerazioni risultanti. Ricordiamo la famosissima Legge di Newton che stabilisce la seguente identità (vettoriale)
 $$
@@ -59,7 +59,7 @@ Per il momento lasciamo da parte la dinamica e focalizziamoci sulla cinematica, 
 
 Tutti i vettori fisici sono rappresentati graficamente da frecce, perché possiedono intensità (il modulo o norma del vettore), direzione e verso, ma queste frecce sono un'icona ambigua perché non distinguono tra **vettori polari** e **vettori assiali**. Bisognerebbe usare due tipi diversi di icone, come quelle indicata qui sotto
 
-![](https://i.imgur.com/WJ6VWM0.png)
+![](/assets/imgs/2017-09-06-Matrici-e-vettori-03.md/WJ6VWM0.png)
 
 A sinistra l'icona del vettore polare, che è la solita freccia, mentre a destra c'è la proposta per un'icona del vettore assiale, che potrebbe essere un segmento intorno a cui si chiude un ricciolo con una freccia.
 
@@ -75,7 +75,7 @@ $$
 \vvet_2=\vvet_1 \quad \vvet_3=-\vvet_1 \quad \mbox{ con } \|{\vvet_1}\|= \|\vvet_2\|=\|\vvet_3\|
 $$
 
-![](https://i.imgur.com/QioR8Yy.png)
+![](/assets/imgs/2017-09-06-Matrici-e-vettori-03.md/QioR8Yy.png)
 
 Esempi di vettori polari sono quelli relativi a grandezze fisiche come le posizioni, le velocità e le accelerazioni lineari, le forze lineari e molti altri che al momento non interessano per lo studio della cinematica dei robot.
 
@@ -88,13 +88,13 @@ Chi fosse interessato, può leggere la voce [pseudovettore](https://en.wikipedia
 
 Prima di procedere è necessario trasformare idealmente l'icona "freccia" del vettore assiale nell'icona "ricciolo", come illustrato qui sotto
 
-![](https://i.imgur.com/BicXSaf.png)
+![](/assets/imgs/2017-09-06-Matrici-e-vettori-03.md/BicXSaf.png)
 
 Come si vede, utilizziamo la regola della mano destra per passare dalla direzione/verso della freccia, lungo cui sia allinea il pollice della mano destra, al ricciolo, che è raffigurato dalle altre dita della mano destra.
 
 Fatto questo, possiamo rappresentare le simmetrie e le antisimmetrie del vettore assiale. Facendo riferimento alla Figura seguente
 
-![](https://i.imgur.com/DQLyCMp.png)
+![](/assets/imgs/2017-09-06-Matrici-e-vettori-03.md/DQLyCMp.png)
 
 vediamo che il vettore assiale cambia il verso del ricciolo (antisimmetria) se lo si riflette rispetto ad un piano parallelo al vettore stesso, mentre il verso del ricciolo non cambia (simmetria) se lo si riflette rispetto ad un piano perpendicolare al vettore stesso. 
 
@@ -115,7 +115,7 @@ $$
 
 Ci ricordiamo che il vettore $\cvet$ ha un modulo pari all'area del parallelogramma definito dai lati $\avet$ e $\bvet$, direzione ortogonale al piano formato da  $\avet$ e $\bvet$, e verso ottenuto applicando la regola della mano destra, che fa ruotare $\avet$ fino a soprapporsi alla direzione di $\bvet$ secondo il minore dei due angoli possibili (nel nostro caso il verso orario).
 
-![](https://i.imgur.com/1b4eNPk.png)
+![](/assets/imgs/2017-09-06-Matrici-e-vettori-03.md/1b4eNPk.png)
 
 ##Vettori fisici e sistemi di riferimento##
 
@@ -137,7 +137,7 @@ Nella Figura che segue ho disegnato una massa $m$ la cui posizione è data da du
 
 Invece i vettori fisici velocità $\vvet$ e forza $\fvet$, hanno componenti diverse nei due riferimento, ma lo stesso modulo.
 
-![](https://i.imgur.com/nqtRJAF.png)
+![](/assets/imgs/2017-09-06-Matrici-e-vettori-03.md/nqtRJAF.png)
 
 ##Conclusioni##
 
