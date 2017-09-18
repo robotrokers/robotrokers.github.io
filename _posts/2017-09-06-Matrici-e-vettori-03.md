@@ -27,11 +27,11 @@ Come promesso nell'ultimo post prima delle vacanze estive, vi parlerò dei **vet
 
 #Vettori Fisici
 
-Cosa intendo per **vettori fisici**? Sono quei vettori che rappresentano matematicamente le grandezze fisiche che possono tornare utili alla rappresentazione della cinematica e della dinamica dei robot. 
+Cosa intendo per **vettori fisici**? Sono quei vettori che rappresentano matematicamente le grandezze fisiche che possono tornare utili alla rappresentazione della cinematica e della dinamica dei robot.
 
-Ci sono molti tipi di grandezze fisiche; alcune non sono rappresentabili come vettori. 
+Ci sono molti tipi di grandezze fisiche; alcune non sono rappresentabili come vettori.
 
-Ad esempio, la temperatura è una grandezza fisica **scalare** perché non ha una direzione e un verso, ma solo un'intensità. 
+Ad esempio, la temperatura è una grandezza fisica **scalare** perché non ha una direzione e un verso, ma solo un'intensità.
 
 Altre invece sono dotate di intensità, direzione e verso e quindi sono **grandezze vettoriali**; in robotica se ne utilizzano relativamente poche:
 
@@ -45,7 +45,7 @@ Altre invece sono dotate di intensità, direzione e verso e quindi sono **grande
 Le velocità lineari sono le derivate delle coordinate di posizione (vettori geometrici) dei punti materiali che ci interessano, mentre le velocità angolari sono le derivate delle coordinate angolari dei sistemi di riferimento che ci interessano. Parleremo diffusamente delle coordinate angolari in un post dedicato alla rappresentazione delle **rotazioni**.
 
 Ad esempio, nella Figura seguente troviamo un sistema di riferimento $(O,\ivet,\jvet,\kvet)$ (destrorso, come sempre), una massa $m$ collocata in un punto geometrico rappresentato dal vettore geometrico $\pvet$ che possiede una velocità $\vvet$ e su cui agisce una forza esterna $\fvet$.
- 
+
 ![](/assets/imgs/2017-09-06-Matrici-e-vettori-03.md/QFVGaqC.png)
 
 Facciamo ora una piccola parentesi. In robotica è importante lo studio della cinematica, ma anche quello della dinamica. Nella cinematica ci occupiamo solo del problema di stabilire le posizioni e le velocità (lineari e/o angolari) di punti particolari del robot, come la punta operativa o i centri di massa dei vari bracci; escludiamo perciò l'interazione con le forze, che invece sono importanti nello studio della dinamica, che appunto studia la relazione tra forze applicate e accelerazioni risultanti. Ricordiamo la famosissima Legge di Newton che stabilisce la seguente identità (vettoriale)
@@ -65,7 +65,7 @@ A sinistra l'icona del vettore polare, che è la solita freccia, mentre a destra
 
 Purtroppo l'icona "ricciolo" per il vettore assiale non viene (quasi) mai usata e allora bisogna fare attenzione alla diversa interpretazione della stessa icona "freccia".
 
-Insomma, quali sono le caratteristiche di questi due tipi di vettore? 
+Insomma, quali sono le caratteristiche di questi due tipi di vettore?
 
 ## Vettori polari
 
@@ -96,7 +96,7 @@ Fatto questo, possiamo rappresentare le simmetrie e le antisimmetrie del vettore
 
 ![](/assets/imgs/2017-09-06-Matrici-e-vettori-03.md/DQLyCMp.png)
 
-vediamo che il vettore assiale cambia il verso del ricciolo (antisimmetria) se lo si riflette rispetto ad un piano parallelo al vettore stesso, mentre il verso del ricciolo non cambia (simmetria) se lo si riflette rispetto ad un piano perpendicolare al vettore stesso. 
+vediamo che il vettore assiale cambia il verso del ricciolo (antisimmetria) se lo si riflette rispetto ad un piano parallelo al vettore stesso, mentre il verso del ricciolo non cambia (simmetria) se lo si riflette rispetto ad un piano perpendicolare al vettore stesso.
 
 Nel caso illustrato si avrebbe dunque
 
@@ -106,7 +106,7 @@ $$
 
 Esempi di vettori assiali sono quelli relativi a grandezze fisiche come gli angoli, le velocità e le accelerazioni angolari, le forze angolari e altri nell'ambito dell'elettromagnetismo, che al momento non interessano per lo studio della cinematica dei robot.
 
-Per essere precisi, gli angoli che definiscono l'orientamento di un corpo e che spiegherò diffusamente in un prossimo post, non possono essere definiti come vettori (mentre ad esempio le posizioni sono vettori a tutti gli effetti) per una ragione matematica che al momento non vi spiego. 
+Per essere precisi, gli angoli che definiscono l'orientamento di un corpo e che spiegherò diffusamente in un prossimo post, non possono essere definiti come vettori (mentre ad esempio le posizioni sono vettori a tutti gli effetti) per una ragione matematica che al momento non vi spiego.
 
 Un altro esempio di vettore assiale che viene spesso considerato nella cinematica è quello che risulta da un prodotto vettoriale tra due vettori polari $\avet$ e $\bvet$:
 $$
@@ -125,8 +125,8 @@ Questo invece non accade per i vettori fisici: ad esempio, una velocità in un s
 
 Cioè, dato il vettore fisico (polare oppure assiale) $\vvet_A$ rappresentato nel riferimento $\calR_A$ e lo stesso vettore chiamato $\vvet_B$ quando viene rappresentato nel riferimento $\calR_B$, si avrà
 $$
-\vvet_A=\left( \begin{array}{c} v_{A,1}\\ v_{A,2} \\ v_{A,3} \end{array}\right) 
-\neq\vvet_B=\left( \begin{array}{c} v_{B,1}\\ v_{B,2} \\ v_{B,3} \end{array}\right) 
+\vvet_A=\left( \begin{array}{c} v_{A,1}\\ v_{A,2} \\ v_{A,3} \end{array}\right)
+\neq\vvet_B=\left( \begin{array}{c} v_{B,1}\\ v_{B,2} \\ v_{B,3} \end{array}\right)
 $$
 ma
 $$
@@ -137,7 +137,7 @@ Nella Figura che segue ho disegnato una massa $m$ la cui posizione è data da du
 
 Invece i vettori fisici velocità $\vvet$ e forza $\fvet$, hanno componenti diverse nei due riferimento, ma lo stesso modulo.
 
-![](/assets/imgs/2017-09-06-Matrici-e-vettori-03.md/nqtRJAF.png)
+![](/assets/imgs/2017-09-06-Matrici-e-vettori-03.md/gPViTr9.png)
 
 ##Conclusioni##
 
