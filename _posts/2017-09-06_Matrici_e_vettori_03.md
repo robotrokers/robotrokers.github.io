@@ -137,7 +137,7 @@ Nella Figura che segue ho disegnato una massa $m$ la cui posizione è data da du
 
 Invece i vettori fisici velocità $\vvet$ e forza $\fvet$, hanno componenti diverse nei due riferimento, ma lo stesso modulo.
 
-![](https://i.imgur.com/nqtRJAF.png)
+![](https://i.imgur.com/gPViTr9.png)
 
 ##Conclusioni##
 
