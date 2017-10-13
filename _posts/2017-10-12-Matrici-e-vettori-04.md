@@ -139,19 +139,27 @@ $$\calK= \frac{1}{2}m ||\vvet_1+\vvet_2||^2\quad \text{ oppure }\quad\frac{1}{2}
 
 ### Esercizio 4.2
 
-Prendete il vettore $\vvet=\left[\begin{array}{c} -3 \\ 8 \\ -2 \end{array}\right]$ e due matrici  $\Rvet_1=\left[
+Prendete il vettore $\vvet=\left[\begin{array}{c} -3 \\ 8 \\ -2 \end{array}\right]$ e due matrici  
+$$
+\Rvet_1=\left[
 \begin{array}{ccc}
 0 & 0 & -1 \\
 -1 & 0 & 0 \\
 0 & 1 & 0
 \end{array}
-\right]$ e  $\Rvet_2=\left[
+\right]
+$$
+e
+$$
+\Rvet_2=\left[
 \begin{array}{ccc}
 0 & 0.7071 & 0.7071 \\
 0 & 0.7071 & -0.7071  \\
 -1 & 0 & 0
 \end{array}
-\right]$ dove $0.7071 \approx \frac{\sqrt 2}{2}$.
+\right]
+$$
+dove $0.7071 \approx \frac{\sqrt 2}{2}$.
 
 Fate i seguenti prodotti
 $$
