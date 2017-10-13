@@ -68,7 +68,7 @@ la cui norma vale $||\vvet|| =\sqrt{\pi^2+72.5^2+2}\approx  \sqrt{5268.1}$.
 
 Nella figura qui sotto abbiamo un sistema di riferimento con l'origine nel punto $O$. Poi immaginiamo due punti $P$ e $Q$ e il vettore fisico $\vvet_1$, che rappresenta una velocità applicata nel punto $A$ ed un'altra velocità $\vvet_2$ applicata nello stesso punto $A$. Insomma, il punto $A$ è soggetto a due velocità per cause che non ci interessa indagare ora.
 
-![](https://i.imgur.com/gfBmdKb.png)
+![](/assets/imgs/2017-09-06-Matrici-e-vettori-04.md/gfBmdKb.png)
 
 Cosa possiamo dire?
 
