@@ -1,15 +1,15 @@
-﻿<script type="text/javascript"
-src="https://stackedit.io/libs/MathJax/MathJax.js?config=TeXAMS_HTML">
-</script>
-
 ---
 layout: post
 title:  Matrici e vettori - parte 4
 subtitle: Rotazioni, traslazioni, roto-traslazioni
-date: 2017-10-11 00:00:00
+date: 2017-10-12 00:00:00
 author: Basilio Bona
 categories: Teorica
 ---
+<script type="text/javascript"
+src="https://stackedit.io/libs/MathJax/MathJax.js?config=TeXAMS_HTML">
+</script>
+
 $$
 \def\ivet{\boldsymbol{i}}
 \def\jvet{\boldsymbol{j}}
@@ -41,7 +41,7 @@ Do per scontato che vi ricordiate qualcosa del calcolo vettoriale; infatti lo sc
 
 Ricapitoliamo quello che abbiamo imparato nei post precedenti:
 
- 1. Un **punto** è descritto da un **vettore geometrico** che rappresenta lo spostamento dall'origine di un sistema di riferimento al punto stesso. Da un punto (scusate il bisticcio) di vista "metafisico" un punto esiste indipendentemente dalla presenza di un sistema di riferimento, ma se vogliamo darne una rappresentazione, ci dobbiamo sobbarcare la presenza di un sistema di riferimento (cartesiano e destro, ricordate). Quindi il punto è visto come spostamento e la freccia (cioè l'icona usata per rappresentare il vettore) ci rappresenta appunto questo spostamento. 
+ 1. Un **punto** è descritto da un **vettore geometrico** che rappresenta lo spostamento dall'origine di un sistema di riferimento al punto stesso. Da un punto (scusate il bisticcio) di vista "metafisico" un punto esiste indipendentemente dalla presenza di un sistema di riferimento, ma se vogliamo darne una rappresentazione, ci dobbiamo sobbarcare la presenza di un sistema di riferimento (cartesiano e destro, ricordate). Quindi il punto è visto come spostamento e la freccia (cioè l'icona usata per rappresentare il vettore) ci rappresenta appunto questo spostamento.
 
  2. Una grandezza fisica (come una forza o una velocità) caratterizzata da un modulo (la sua "grandezza"), una direzione e un verso, è rappresentata anch'essa da un **vettore fisico**, ma i due tipi di vettore sono diversi, come vedremo poi quando dobbiamo trasformarli passando da un riferimento ad un altro. Anche qui le grandezze vettoriali esistono indipendentemente da ogni sistema di riferimento (quando battete la testa e il muro esercita una forza impulsiva sulla vostra fronte, non vi ponete il problema della presenza di un sistema di riferimento in cui rappresentare la forza). Però se è necessario quantificare e individuare la direzione e il verso della forza vi occorre avere un sistema di riferimento.
 
@@ -125,10 +125,11 @@ $$
 
  1. Calcolate le distanze di ciascun punto $A$, $B$ e $C$ dall'origine.
  2. Dite quale sia la maggiore distanza reciproca tra i punti $A$, $B$ e $C$.
- 3. Ponete a zero la terza componente ($z=0$) dei punti  $A$, $B$ e $C$, in modo da immaginare che i vettori stiano tutti sul piano base. Calcolate l'angolo tra $\vvet_1$ e $\vvet_2$ (suggerimento: il prodotto scalare tra due vettori vale $||\vvet_1||\cdot||\vvet_2||\cdot \cos \theta$ dove $\theta$ è l'angolo tra i vettori e il prodotto scalare si calcola come $\vvet_1^T \vvet_2$, cioè riga per colonna).
+ 3. Ponete a zero la terza componente ($z=0$) dei punti  $A$, $B$ e $C$, in modo da immaginare che i vettori stiano tutti sul piano base. Calcolate l'angolo tra $\vvet_1$ e $\vvet_2$ (suggerimento: il prodotto scalare tra due vettori vale
+   $||\vvet_1||\cdot||\vvet_2||\cdot \cos \theta$ dove $\theta$ è l'angolo tra i vettori e il prodotto scalare si calcola come $\vvet_1^T \vvet_2$, cioè riga per colonna).
  4. Disegnate su un foglio a quadretti i vettori del punto 3. e verificate di aver ottenuto l'angolo corretto.
  5. Supponete che nel punto $A$ ci sia la massa di 1 kg. L'energia cinetica associata alla massa vale
- 
+
  $$\calK= \frac{1}{2}m ||\vvet||^2$$ dove $\vvet$ è la velocità totale della massa.
 
 Quale delle due formule riportate qui sotto è quella corretta e perché?
@@ -141,13 +142,13 @@ Prendete il vettore $\vvet=\left[\begin{array}{c} -3 \\ 8 \\ -2 \end{array}\righ
 \begin{array}{ccc}
 0 & 0 & -1 \\
 -1 & 0 & 0 \\
-0 & 1 & 0 
+0 & 1 & 0
 \end{array}
 \right]$ e  $\Rvet_2=\left[
 \begin{array}{ccc}
 0 & 0.7071 & 0.7071 \\
 0 & 0.7071 & -0.7071  \\
--1 & 0 & 0 
+-1 & 0 & 0
 \end{array}
 \right]$ dove $0.7071 \approx \frac{\sqrt 2}{2}$.
 
@@ -159,9 +160,9 @@ $$
 \quad
 \vvet_3 = \Rvet_1\Rvet_2 \vvet
 $$
-per ottenere i tre vettori $\vvet_1,\vvet_2,\vvet_3$. 
+per ottenere i tre vettori $\vvet_1,\vvet_2,\vvet_3$.
 
-Adesso confrontate la norma di $\vvet$ con le norme dei tre nuovi vettori. Cosa notate? Sono tutte uguali. Nonostante $\vvet$ sia stato "trasformato" dal prodotto di matrice, la sua norma non cambia. Sarà per caso "merito" della struttura delle matrici $\Rvet$? 
+Adesso confrontate la norma di $\vvet$ con le norme dei tre nuovi vettori. Cosa notate? Sono tutte uguali. Nonostante $\vvet$ sia stato "trasformato" dal prodotto di matrice, la sua norma non cambia. Sarà per caso "merito" della struttura delle matrici $\Rvet$?
 
 Infatti è così.
 
