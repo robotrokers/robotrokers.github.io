@@ -6,9 +6,6 @@ date: 2017-10-12 00:00:00
 author: Basilio Bona
 categories: Teorica
 ---
-<script type="text/javascript"
-src="https://stackedit.io/libs/MathJax/MathJax.js?config=TeXAMS_HTML">
-</script>
 
 $$
 \def\ivet{\boldsymbol{i}}
@@ -130,7 +127,11 @@ $$
  4. Disegnate su un foglio a quadretti i vettori del punto 3. e verificate di aver ottenuto l'angolo corretto.
  5. Supponete che nel punto $A$ ci sia la massa di 1 kg. L'energia cinetica associata alla massa vale
 
- $$\calK= \frac{1}{2}m ||\vvet||^2$$ dove $\vvet$ è la velocità totale della massa.
+   $$
+   \calK= \frac{1}{2}m ||\vvet||^2
+   $$
+
+   dove $\vvet$ è la velocità totale della massa.
 
 Quale delle due formule riportate qui sotto è quella corretta e perché?
 
