@@ -133,7 +133,7 @@ $$
 
 Quale delle due formule riportate qui sotto è quella corretta e perché?
 
-$$\calK= \frac{1}{2}m ||\vvet_1+\vvet_2||^2\quad \text{ oppure }\quad\frac{1}{2}m (||\vvet_1||^2+\vvet_2||^2)$$  
+$$\calK= \frac{1}{2}m ||\vvet_1+\vvet_2||^2\quad \text{ oppure }\quad\frac{1}{2}m (||\vvet_1||^2+||\vvet_2||^2)$$  
 
 ### Esercizio 4.2
 
