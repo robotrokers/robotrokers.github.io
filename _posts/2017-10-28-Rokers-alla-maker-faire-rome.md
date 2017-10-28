@@ -11,7 +11,7 @@ categories: [Makers, Educativa]
 
 Eccoci, ci siamo!
 
-Rokers è stata ufficialmetne ammessa alla Maker Faire Europe di Roma, il più
+Rokers è stata ufficialmente ammessa alla Maker Faire Europe di Roma, il più
 grande evento Europeo di Making in Europa.
 
 Cosa aspettarsi?
@@ -28,8 +28,9 @@ Ludovico, Gabriele e Michele saranno presenti allo stand della Maker Faire tra i
 In questi mesi, molte persone ci contattano per ricevere supporto o per semplice intersse
 su alcune tematiche che ci riguardano parecchio.
 
-Per la maker faire, abbiamo quindi avuto l'idea di organizzare dei Mini Talk, di 15/30 minuti
-ciauscuno, in cui Ludovico e Michele vi parleranno delle loro esperienze in alcuni ambiti:
+Per la Maker Faire 2017, abbiamo quindi avuto l'idea di organizzare dei Mini Talk,
+di 15/30 minuti ciascuno, in cui Ludovico e Michele vi parleranno
+delle loro esperienze in alcuni ambiti:
 
  - ROS: Robot Operative System
  - Robotica di Servizio
@@ -43,7 +44,7 @@ Tuttavia serve un aiuto da parte vostra: non sappiamo su quali di questi Talk fo
 
 ## Ma non è finita qui!
 
-Chiuque, all'interno della community, voglia partecipare alla Makers, fino ad esaurimento di spazio può tranquillamente portare i propri progetti di robotica ed esporli presso lo stend,
+Chiuque, all'interno della community, voglia partecipare alla Maker Faire 2017, fino ad esaurimento di spazio a noi riservato, può tranquillamente portare i propri progetti di robotica ed esporli presso lo stend,
 in questo modo saremo tanti e ci divertiremo di più!
 
 Non chiediamo nemmeno di essere presenti tutti i giorni, fateci sapere, tramite il form
