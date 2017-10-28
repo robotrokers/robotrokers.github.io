@@ -113,18 +113,18 @@ permalink: /
     <div class="row">
       <div class="col-md-6">
         <div class="block">
-          <ul class="counter-box clearfix">
+          <ul class="counter-box clearfix" style="list-style-type: none">
             <li>
               <div class="block">
                 <i class="ion-ios-chatboxes-outline"></i>
-                <h4 class="counter">198</h4>
+                <h4 class="counter">703</h4>
                 <span>Persone iscritte</span>
               </div>
             </li>
             <li>
               <div class="block">
                 <i class="ion-ios-compose-outline"></i>
-                <h4 class="counter">9</h4>
+                <h4 class="counter">{% assign counter = 1 %}{% for item in site.posts %}{% unless item.published == false %}{% assign counter=counter | plus:1 %}{% endunless %}{% endfor %}{{ counter }}</h4>
                 <span>Numero di post</span>
               </div>
             </li>
