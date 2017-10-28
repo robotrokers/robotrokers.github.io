@@ -7,6 +7,8 @@ author: Ludovico Russo
 categories: [Makers, Educativa]
 ---
 
+![Maker Faire](/assets/imgs/2017-10-28-Rokers-alla-maker-faire-rome.md/mfr.png)
+
 Eccoci, ci siamo!
 
 Rokers è stata ufficialmetne ammessa alla Maker Faire Europe di Roma, il più
