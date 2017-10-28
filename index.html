@@ -8,15 +8,43 @@ permalink: /
 <section id="slider">
   <div class="container">
     <div class="row">
-      <div class="col-md-10 col-md-offset-2">
+      <div class="col-md-8 col-md-offset-2">
         <div class="block">
-          <h1 class="animated fadeInUp"> ROKERS <br> RObot + maKERS</h1>
-          <p class="animated fadeInUp">La prima community italiana per promuovere la robotica in tutte le sue forme e declinazioni</p>
+          <h1 > <strong>ROKERS</strong> <br> RObot + maKERS</h1>
+          <p >La prima community italiana per promuovere la robotica in tutte le sue forme e declinazioni</p>
+        </div>
+        <div class="block">
+          <a href="/" class="btn btn-primary btn-lg"> Iscriviti alla Community</a>
+          <a href="/" class="btn btn-default btn-lg"> Trovaci su Facebook</a>
         </div>
       </div>
     </div>
   </div>
 </section>
+
+<!-- Slider Start -->
+<section id="intro">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="section-title">
+          <h2>Gli ultimi post del blog</h2>
+        </div>
+        <p>
+          Il nostro blog è pieno di post interessanti sulla robotica da parte
+          della community! Guarda gli ultimi o accedi alle categorie!
+        </p>
+        {% for post in site.posts limit:5 %}
+        <li>
+          <a href="{{ post.url | prepend: site.baseurl }}" class="bold">{{ post.title }}</a>
+        </li>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+
 <!-- Wrapper Start -->
 <section id="intro">
   <div class="container">
@@ -52,7 +80,7 @@ permalink: /
       <p>Tutti possono postare e contribuire alla community offrendo i propri contenuti. Sei hai un'esperienza realtiva alla robotica aiutaci a migliorare la qualità dei nostri contenuti! Il blog per adesso tratta di: robotica educativa, pensiero computazionale, teoria sulla robotica, progetti di making e design... crea un nuovo filone a seconda della tua esperienza per dare un nuovo valore alla community! </p>
       <p>Ecco la rapida guida che ti spiega come fare! </p>
 
-      <a href="{{site.baseurl}}/makers/educativa/teorica/2017/05/28/contributions.html" class="btn btn-view-works">Crea Contenuti</a>
+      <a href="http://www.rokers.io/makers/educativa/teorica/2017/05/28/contributions.html" class="btn btn-view-works">Crea Contenuti</a>
     </div>
   </div>
 </div>
@@ -89,14 +117,14 @@ permalink: /
             <li>
               <div class="block">
                 <i class="ion-ios-chatboxes-outline"></i>
-                <h4 class="counter">298</h4>
+                <h4 class="counter">198</h4>
                 <span>Persone iscritte</span>
               </div>
             </li>
             <li>
               <div class="block">
                 <i class="ion-ios-compose-outline"></i>
-                <h4 class="counter">10</h4>
+                <h4 class="counter">9</h4>
                 <span>Numero di post</span>
               </div>
             </li>
