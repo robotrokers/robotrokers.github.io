@@ -16,7 +16,7 @@ grande evento Europeo di Making in Europa.
 
 Cosa aspettarsi?
 
-Ludovico, Gabriele e Michele saranno presenti allo stend della Maker Faire tra il primo e il tre Dicembre, e porteremo e faremo vedere alcuni dei nostri progetti, tra cui:
+Ludovico, Gabriele e Michele saranno presenti allo stand della Maker Faire tra il primo e il tre Dicembre, e porteremo e faremo vedere alcuni dei nostri progetti, tra cui:
  - HotBlack Robotics
  - DotBot
  - Orobot101 di Olivetti
@@ -32,7 +32,7 @@ Per la Maker Faire 2017, abbiamo quindi avuto l'idea di organizzare dei Mini Tal
 di 15/30 minuti ciascuno, in cui Ludovico e Michele vi parleranno
 delle loro esperienze in alcuni ambiti:
 
- - ROS: Robot Operative System
+ - ROS: Robot Operating System
  - Robotica di Servizio
  - Navigazione Autonomo di Robot
  - Bracci Robotici
@@ -44,7 +44,7 @@ Tuttavia serve un aiuto da parte vostra: non sappiamo su quali di questi Talk fo
 
 ## Ma non è finita qui!
 
-Chiuque, all'interno della community, voglia partecipare alla Maker Faire 2017, fino ad esaurimento di spazio a noi riservato, può tranquillamente portare i propri progetti di robotica ed esporli presso lo stend,
+Chiuque, all'interno della community, voglia partecipare alla Maker Faire 2017, fino ad esaurimento di spazio a noi riservato, può tranquillamente portare i propri progetti di robotica ed esporli presso lo stand,
 in questo modo saremo tanti e ci divertiremo di più!
 
 Non chiediamo nemmeno di essere presenti tutti i giorni, fateci sapere, tramite il form
