@@ -16,7 +16,7 @@ grande evento Europeo di Making in Europa.
 
 Cosa aspettarsi?
 
-Ludovico, Gabriele e Michele saranno presenti allo stand della Maker Faire tra il primo e il tre Dicembre, e porteremo e faremo vedere alcuni dei nostri progetti, tra cui:
+Ludovico, Gabriele e Michele saranno presenti allo stend della Maker Faire tra il primo e il tre Dicembre, e porteremo e faremo vedere alcuni dei nostri progetti, tra cui:
  - HotBlack Robotics
  - DotBot
  - Orobot101 di Olivetti
