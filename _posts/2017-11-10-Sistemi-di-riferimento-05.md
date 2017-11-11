@@ -1,39 +1,11 @@
-﻿<script type="text/javascript"
-src="https://stackedit.io/libs/MathJax/MathJax.js?config=TeXAMS_HTML">
-</script>
-
 ---
 layout: post
 title:  Rotazioni dei corpi rigidi - parte 5
 subtitle: Rotazioni, traslazioni, roto-traslazioni
-date: 2017-10-15 00:00:00
+date: 2017-11-10
 author: Basilio Bona
 categories: Teorica
 ---
-$$
-\def\ivet{\boldsymbol{i}}
-\def\jvet{\boldsymbol{j}}
-\def\kvet{\boldsymbol{k}}
-\def\avet{\boldsymbol{a}}
-\def\bvet{\boldsymbol{b}}
-\def\cvet{\boldsymbol{c}}
-\def\fvet{\boldsymbol{f}}
-\def\ovet{\boldsymbol{o}}
-\def\pvet{\boldsymbol{p}}
-\def\tvet{\boldsymbol{t}}
-\def\uvet{\boldsymbol{u}}
-\def\vvet{\boldsymbol{v}}
-\def\omvet{\boldsymbol{\omega}}
-\def\tauvet{\boldsymbol{\tau}}
-\def\Ivet{\boldsymbol{I}}
-\def\Mvet{\boldsymbol{M}}
-\def\Rvet{\boldsymbol{R}}
-\def\calK{\mathcal{K}}
-\def\calP{\mathcal{P}}
-\def\calR{\mathcal{R}}
-\def\de{\textrm{d}}
-\def\T{^{\sf T}}
-$$
 
 In questa puntata voglio spiegare, possibilmente in termini semplici, una serie di concetti:
 
@@ -51,9 +23,9 @@ In questo post è possibile che ripeta cose già dette in precedenza, ma dovete 
 
 Prendiamo un oggetto qualunque posto nello spazio tridimensionale, facciamo l'ipotesi che sia rigido e pensiamo a come poter descrivere il suo stato.
 
-Ci possono essere molti modi per descrivere lo stato di un corpo, ad esempio il specificandone il colore, o la forma, o le proprietà della sostanza di cui è composto, ecc. Ma noi siamo interessati al suo moto, che è un concetto relativo, cioè il moto è la variazione di posizione (e assetto) di qualcosa rispetto a qualcos'altro. 
+Ci possono essere molti modi per descrivere lo stato di un corpo, ad esempio il specificandone il colore, o la forma, o le proprietà della sostanza di cui è composto, ecc. Ma noi siamo interessati al suo moto, che è un concetto relativo, cioè il moto è la variazione di posizione (e assetto) di qualcosa rispetto a qualcos'altro.
 
-In questo senso, il modo più semplice per individuarne lo stato è quello di di associare all'oggetto un sistema di riferimento cartesiano destrorso, cioè una terna di vettori a lunghezza unitaria, tra loro mutuamente ortogonali, che "partono" tutti da un punto comune $O$ detto origine. 
+In questo senso, il modo più semplice per individuarne lo stato è quello di di associare all'oggetto un sistema di riferimento cartesiano destrorso, cioè una terna di vettori a lunghezza unitaria, tra loro mutuamente ortogonali, che "partono" tutti da un punto comune $O$ detto origine.
 
 I tre vettori (l'avevamo già visto in precedenza) li indichiamo con $\ivet,\jvet$ e $\kvet$. Essi hanno norma unitaria, cioè
 
@@ -72,7 +44,7 @@ dove il simbolo $\times$ sta ad indicare il **prodotto vettoriale** o prodotto e
 
 In ogni caso un sistema di riferimento destrorso ha l'aspetto che vedete nella Figura sottostante
 
-![](https://i.imgur.com/qYnWhDA.png)
+![](/assets/imgs/2017-11-10-Sistemi-di-riferimento-05.md/qYnWhDA.png)
 
 Il vettore unitario $\ivet$ individua la direzione $x$ e di solito lo si colora di rosso, il vettore unitario $\jvet$ individua la direzione $y$ e di solito lo si colora di verde, il vettore unitario $\kvet$ individua la direzione $z$ e di solito lo si colora di blu. Il significato dei colori è intuitivo: ogni colore è costituito da una mistura delle tre componenti primarie rosso-verde-blu (in  inglese red-gren-blue o più semplicemente RGB), così come ogni punto geometrico dello spazio è costituito da una "mistura" delle  tre componenti rispetto ai tre vettori unitari.
 
@@ -139,7 +111,7 @@ Adesso procediamo. Come possiamo dire che un corpo è "qui" e non "lì"? Oppure 
 
 Vediamo la Figura sottostante, dove ci sono due teiere identiche.
 
-![](https://i.imgur.com/7OPHTOg.png)
+![](/assets/imgs/2017-11-10-Sistemi-di-riferimento-05.md/7OPHTOg.png)
 
 Possiamo pensare a due situazioni alternative
 
@@ -159,13 +131,13 @@ per mettere in evidenza la sua origine e i tre vettori unitari che compongono il
 
 2. Fissiamo un **riferimento**, che chiameremo **assoluto**, rispetto al quale misurare il moto dei corpi. Nelle lezioni Fisica avrete sicuramente sentito parlare di **[sistema di riferimento inerziale](https://it.wikipedia.org/wiki/Sistema_di_riferimento_inerziale)**, cioè di un riferimento che non è soggetto a moti accelerati di nessun genere.
 
-Bene, un sistema di riferimento assoluto è praticamente un riferimento "quasi" inerziale (si dice tecnicamente che è _pseudo-inerziale_), nel senso che è sufficiente che le accelerazioni che agiscono su di esso siano trascurabili. Ad esempio il tavolo su cui state lavorando, se non viene mosso, può essere la sede di un sistema di riferimento assoluto, come nella foto che segue. 
+Bene, un sistema di riferimento assoluto è praticamente un riferimento "quasi" inerziale (si dice tecnicamente che è _pseudo-inerziale_), nel senso che è sufficiente che le accelerazioni che agiscono su di esso siano trascurabili. Ad esempio il tavolo su cui state lavorando, se non viene mosso, può essere la sede di un sistema di riferimento assoluto, come nella foto che segue.
 
-Infatti le uniche accelerazioni a cui è sottoposto sono quelle della rotazione della Terra intorno al suo asse e della rotazione della Terra intorno al Sole, che possiamo considerare entrambe trascurabili  (per non parlare del moto del Sistema Solare rispetto alla nostra Galassia, e così via). 
+Infatti le uniche accelerazioni a cui è sottoposto sono quelle della rotazione della Terra intorno al suo asse e della rotazione della Terra intorno al Sole, che possiamo considerare entrambe trascurabili  (per non parlare del moto del Sistema Solare rispetto alla nostra Galassia, e così via).
 
 La Figura che segue rappresenta un sistema di riferimento pseudo-inerziale collocato sul mio tavolo di lavoro. I pennarelli colorati rappresentano i tre vettori unitari.
 
-![](https://i.imgur.com/JJDaW32.png)
+![](/assets/imgs/2017-11-10-Sistemi-di-riferimento-05.md/JJDaW32.png)
 
 Il moto del corpo su cui è stato "incollato" il riferimento $\calR_B$ viene misurato in relazione al riferimento assoluto, che possiamo chiamare $\calR_0$.
 
@@ -175,9 +147,9 @@ Possiamo chiederci dove si collocano i due riferimenti. In teoria possiamo collo
 
 In pratica il riferimento assoluto viene posto secondo le logiche dell'applicazione che vogliamo studiare. Nella robotica mobile, il riferimento assoluto si pone in qualche punto dell'ambiente che riteniamo importante, oppure nel punto iniziale del moto del robot. Il riferimento corpo si pone in una posizione che abbia qualche importanza per l'applicazione. Ad esempio, nei robot mobili a ruote differenziali la sua origine si pone al centro tra le due ruote con l'asse $x$ nella direzione di avanzamento, l'asse $y$ verso sinistra e l'asse $z$ rivolto verso l'alto.
 
-Quindi, ricapitolando, abbiamo due riferimenti: $\calR_0$ che rimane immutabile nel corso del tempo e $\calR_B$ (o comunque lo si voglia chiamare) che segue l'oggetto che si muove.  La Figura che segue presenta un esempio in tal senso, dove $\calR_0$ è il riferimento assoluto e $\calR_B$ è il riferimento sull'aeroplanino che mi muove. 
+Quindi, ricapitolando, abbiamo due riferimenti: $\calR_0$ che rimane immutabile nel corso del tempo e $\calR_B$ (o comunque lo si voglia chiamare) che segue l'oggetto che si muove.  La Figura che segue presenta un esempio in tal senso, dove $\calR_0$ è il riferimento assoluto e $\calR_B$ è il riferimento sull'aeroplanino che mi muove.
 
-![](https://i.imgur.com/DYDrGMX.png)
+![](/assets/imgs/2017-11-10-Sistemi-di-riferimento-05.md/DYDrGMX.png)
 
 # Come si rappresenta matematicamente il movimento
 
@@ -211,13 +183,13 @@ $$
 dove $\tvet$ è il vettore che rappresenta la traslazione.
 
 ### Esempio di traslazione
-Nella Figura che segue sono indicati due sistemi di riferimento 
+Nella Figura che segue sono indicati due sistemi di riferimento
 
-![](https://i.imgur.com/VZyiWWV.jpg)
+![](/assets/imgs/2017-11-10-Sistemi-di-riferimento-05.md/VZyiWWV.jpg)
 
 Si possono dare due casi
 
- 1. se il sistema assoluto è quello di destra la traslazione è positiva lungo l'asse $x$ ed è pari a 20 cm, per cui 
+ 1. se il sistema assoluto è quello di destra la traslazione è positiva lungo l'asse $x$ ed è pari a 20 cm, per cui
 $$
 \tvet=
 \left[
@@ -227,7 +199,7 @@ $$
 \right]\,\text{m}
 $$
 
- 2. se il sistema assoluto è quello di sinistra la traslazione è negativa lungo l'asse $x$ ed è pari a 20 cm, per cui 
+ 2. se il sistema assoluto è quello di sinistra la traslazione è negativa lungo l'asse $x$ ed è pari a 20 cm, per cui
 $$
 \tvet=
 \left[
@@ -241,16 +213,16 @@ $$
 
 Poichè la traslazione è rappresentata da un vettore e i vettori si possono sommare, e la somma è commutativa ($a+b=b+a$), allora ne segue che se eseguiamo più traslazioni in sequenza $\tvet_1,\tvet_2,\ldots,\tvet_N$ la traslazione totale è semplicemente la somma delle traslazioni, nell'ordine che si desidera:
 $$
-\tvet_{\text{tot}} = \tvet_1 + \tvet_2 + \cdots + \tvet_N =  \tvet_2 + \tvet_N + \cdots + \tvet_1 
+\tvet_{\text{tot}} = \tvet_1 + \tvet_2 + \cdots + \tvet_N =  \tvet_2 + \tvet_N + \cdots + \tvet_1
 $$
 
 ## **Rotazioni**
 
 Immaginiamo di avere due sistemi di riferimento, che chiameremo $\calR_A$ e $\calR_B$, **con l'origine in comune**, ma orientati diversamente. Prendiamo ad esempio la Figura seguente, dove per ragioni di comprensibilità, le due origini sono state leggermente discostate.
 
-![](https://i.imgur.com/2b3LBnj.png)
+![](/assets/imgs/2017-11-10-Sistemi-di-riferimento-05.md/2b3LBnj.png)
 
-Proviamo ora a rappresentare $\calR_A$ in $\calR_B$. 
+Proviamo ora a rappresentare $\calR_A$ in $\calR_B$.
 
 Il vettore unitario $\ivet_A$ è esattamente opposto al vettore unitario $\ivet_B$, quindi
 $$
@@ -317,7 +289,7 @@ $$
 \right]
 $$
 
-Le due matrici sono le stesse, e se applichiamo le proprietà raccontate nella **soluzione dell'esercio 4.2**, potete verificare che sono entrambe matrici ortonormali ovvero **matrici di rotazione**. Potete anche osservare che 
+Le due matrici sono le stesse, e se applichiamo le proprietà raccontate nella **soluzione dell'esercio 4.2**, potete verificare che sono entrambe matrici ortonormali ovvero **matrici di rotazione**. Potete anche osservare che
 $$
 \Rvet_A=\Rvet_B\T\quad \quad \Rvet_B=\Rvet_A\T
 $$
@@ -325,7 +297,7 @@ e che - per combinazione - le due matrici sono identiche perché sono anche simm
 
 Non abbiamo tempo ora, ma lo faremo nel prossimo post, di descrivere come sia stato possibile ottenere, attraverso delle rotazioni successive, il sistema di riferimento $\Rvet_A$ a partire da $\Rvet_B$ e viceversa
 
-#Conclusioni
+# Conclusioni
 
  1. Le **traslazioni** sono rappresentabili da **vettori** e sono operazioni commutative (si può cambiare l'ordine in cui sono eseguite)
  2. Le **rotazioni** sono rappresentabili da **matrici ortonormali** (di rotazione) e **NON** sono operazioni commutative, cioè se si cambia l'ordine in cui cono eseguite cambia il risultato finale.
@@ -333,4 +305,3 @@ Non abbiamo tempo ora, ma lo faremo nel prossimo post, di descrivere come sia st
 Riuscite a trovare l'ordine con cui si è potuto passare da $\Rvet_B$ a $\Rvet_B$?
 
 Chi ne ha voglia mi mandi pure la soluzione per email.
-

@@ -6,27 +6,6 @@ date: 2017-10-15 00:00:00
 author: Basilio Bona
 categories: Teorica
 ---
-$$
-\def\ivet{\boldsymbol{i}}
-\def\jvet{\boldsymbol{j}}
-\def\kvet{\boldsymbol{k}}
-\def\avet{\boldsymbol{a}}
-\def\bvet{\boldsymbol{b}}
-\def\cvet{\boldsymbol{c}}
-\def\fvet{\boldsymbol{f}}
-\def\vvet{\boldsymbol{v}}
-\def\pvet{\boldsymbol{p}}
-\def\omvet{\boldsymbol{\omega}}
-\def\tauvet{\boldsymbol{\tau}}
-\def\Ivet{\boldsymbol{I}}
-\def\Mvet{\boldsymbol{M}}
-\def\Rvet{\boldsymbol{R}}
-\def\calK{\mathcal{K}}
-\def\calP{\mathcal{P}}
-\def\calR{\mathcal{R}}
-\def\de{\textrm{d}}
-\def\T{^{\sf T}}
-$$
 
 Vediamo di risolvere i due esercizi proposti nel post precedente.
 
@@ -176,7 +155,7 @@ $$
 $$
 L'angolo $\theta$ è espresso in radianti e per convertirlo in gradi dobbiamo moltiplicarlo per la costante $180/\pi\approx 57.296$. Il risultato in gradi risulta pertanto $\theta\approx 19.43$. Se qualcuno possiede ancora un goniometro, può verificare il risultato disegnando i due vettori su un foglio di carta, come ho fatto io qui sotto
 
-![](https://i.imgur.com/0q2XHTB.png)
+![](/assets/imgs/2017-10-13-Soluzione-esercizi-parte-4.md/0q2XHTB.png)
 
 ### *Soluzione Domanda 5*
 
