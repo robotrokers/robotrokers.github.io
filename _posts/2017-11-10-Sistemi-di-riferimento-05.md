@@ -2,10 +2,34 @@
 layout: post
 title:  Rotazioni dei corpi rigidi - parte 5
 subtitle: Rotazioni, traslazioni, roto-traslazioni
-date: 2017-11-10
+date: 2017-10-15 00:00:00
 author: Basilio Bona
 categories: Teorica
 ---
+$$
+\def\ivet{\boldsymbol{i}}
+\def\jvet{\boldsymbol{j}}
+\def\kvet{\boldsymbol{k}}
+\def\avet{\boldsymbol{a}}
+\def\bvet{\boldsymbol{b}}
+\def\cvet{\boldsymbol{c}}
+\def\fvet{\boldsymbol{f}}
+\def\ovet{\boldsymbol{o}}
+\def\pvet{\boldsymbol{p}}
+\def\tvet{\boldsymbol{t}}
+\def\uvet{\boldsymbol{u}}
+\def\vvet{\boldsymbol{v}}
+\def\omvet{\boldsymbol{\omega}}
+\def\tauvet{\boldsymbol{\tau}}
+\def\Ivet{\boldsymbol{I}}
+\def\Mvet{\boldsymbol{M}}
+\def\Rvet{\boldsymbol{R}}
+\def\calK{\mathcal{K}}
+\def\calP{\mathcal{P}}
+\def\calR{\mathcal{R}}
+\def\de{\textrm{d}}
+\def\T{^{\sf T}}
+$$
 
 In questa puntata voglio spiegare, possibilmente in termini semplici, una serie di concetti:
 
@@ -40,17 +64,17 @@ $$
 \kvet\times\ivet=\jvet
 $$
 
-dove il simbolo $\times$ sta ad indicare il **prodotto vettoriale** o prodotto esterno. Non vi spiego che cos'è e come si calcola il prodotto vettoriale, perché dovreste saperlo e se non lo sapete, nel Web ci sono moltisimi siti che lo spiegano.
+dove il simbolo $\times$ sta ad indicare il **prodotto vettoriale** o prodotto esterno. Non vi spiego che cos'è e come si calcola il prodotto vettoriale, perché dovreste saperlo e se non lo sapete, nel Web ci sono moltissimi siti che lo spiegano.
 
 In ogni caso un sistema di riferimento destrorso ha l'aspetto che vedete nella Figura sottostante
 
-![](/assets/imgs/2017-11-10-Sistemi-di-riferimento-05.md/qYnWhDA.png)
+![](https://i.imgur.com/qYnWhDA.png)
 
 Il vettore unitario $\ivet$ individua la direzione $x$ e di solito lo si colora di rosso, il vettore unitario $\jvet$ individua la direzione $y$ e di solito lo si colora di verde, il vettore unitario $\kvet$ individua la direzione $z$ e di solito lo si colora di blu. Il significato dei colori è intuitivo: ogni colore è costituito da una mistura delle tre componenti primarie rosso-verde-blu (in  inglese red-gren-blue o più semplicemente RGB), così come ogni punto geometrico dello spazio è costituito da una "mistura" delle  tre componenti rispetto ai tre vettori unitari.
 
 Di solito l'origine del riferimento viene posta sul o nel corpo, ma questo non è assolutamente obbligatorio; possiamo collocare l'origine del riferimento anche fuori dal corpo, purchè lo segua nel suo moto, come se fosse idealmente "incollato" ad esso.
 
-Ogni punto del corpo rigido può essere individuato (cioè si può dare la sua rappresentazione) nel sistema di riferimento appena stabilito, che chiameremo per semplicità **sistema di riferimento corpo**, in inglese _body-frame_. Ad esempio, se conosciamo il modello geometrico del corpo e le sue dimensioni, ogni punto è univocamente determinato utilizzando i vettori geometrici; così, in definitiva, stabilire il riferimento corpo è l'unica cosa necessaria per decriverne il moto del corpo stesso.
+Ogni punto del corpo rigido può essere individuato (cioè si può dare la sua rappresentazione) nel sistema di riferimento appena stabilito, che chiameremo per semplicità **sistema di riferimento corpo**, in inglese _body-frame_. Ad esempio, se conosciamo il modello geometrico del corpo e le sue dimensioni, ogni punto è univocamente determinato utilizzando i vettori geometrici; così, in definitiva, stabilire il riferimento corpo è l'unica cosa necessaria per descriverne il moto del corpo stesso.
 
 Non ho paura di ripetere che un vettore generico $\vvet$ nello spazio tridimensionale, sia esso un vettore geometrico o un vettore fisico, quando lo si rappresenta in coordinate cartesiane (e allora diciamo che il vettore "vive" nello **spazio cartesiano**), possiede tre componenti $v_1,v_2,v_3$ e lo si esprime così:
 
@@ -111,7 +135,7 @@ Adesso procediamo. Come possiamo dire che un corpo è "qui" e non "lì"? Oppure 
 
 Vediamo la Figura sottostante, dove ci sono due teiere identiche.
 
-![](/assets/imgs/2017-11-10-Sistemi-di-riferimento-05.md/7OPHTOg.png)
+![](https://i.imgur.com/7OPHTOg.png)
 
 Possiamo pensare a due situazioni alternative
 
@@ -137,7 +161,7 @@ Infatti le uniche accelerazioni a cui è sottoposto sono quelle della rotazione 
 
 La Figura che segue rappresenta un sistema di riferimento pseudo-inerziale collocato sul mio tavolo di lavoro. I pennarelli colorati rappresentano i tre vettori unitari.
 
-![](/assets/imgs/2017-11-10-Sistemi-di-riferimento-05.md/JJDaW32.png)
+![](https://i.imgur.com/JJDaW32.png)
 
 Il moto del corpo su cui è stato "incollato" il riferimento $\calR_B$ viene misurato in relazione al riferimento assoluto, che possiamo chiamare $\calR_0$.
 
@@ -149,7 +173,7 @@ In pratica il riferimento assoluto viene posto secondo le logiche dell'applicazi
 
 Quindi, ricapitolando, abbiamo due riferimenti: $\calR_0$ che rimane immutabile nel corso del tempo e $\calR_B$ (o comunque lo si voglia chiamare) che segue l'oggetto che si muove.  La Figura che segue presenta un esempio in tal senso, dove $\calR_0$ è il riferimento assoluto e $\calR_B$ è il riferimento sull'aeroplanino che mi muove.
 
-![](/assets/imgs/2017-11-10-Sistemi-di-riferimento-05.md/DYDrGMX.png)
+![](https://i.imgur.com/DYDrGMX.png)
 
 # Come si rappresenta matematicamente il movimento
 
@@ -185,7 +209,7 @@ dove $\tvet$ è il vettore che rappresenta la traslazione.
 ### Esempio di traslazione
 Nella Figura che segue sono indicati due sistemi di riferimento
 
-![](/assets/imgs/2017-11-10-Sistemi-di-riferimento-05.md/VZyiWWV.jpg)
+![](https://i.imgur.com/VZyiWWV.jpg)
 
 Si possono dare due casi
 
@@ -220,7 +244,7 @@ $$
 
 Immaginiamo di avere due sistemi di riferimento, che chiameremo $\calR_A$ e $\calR_B$, **con l'origine in comune**, ma orientati diversamente. Prendiamo ad esempio la Figura seguente, dove per ragioni di comprensibilità, le due origini sono state leggermente discostate.
 
-![](/assets/imgs/2017-11-10-Sistemi-di-riferimento-05.md/2b3LBnj.png)
+![](https://i.imgur.com/2b3LBnj.png)
 
 Proviamo ora a rappresentare $\calR_A$ in $\calR_B$.
 
@@ -261,7 +285,7 @@ $$
 \right]
 $$
 
-Rappresentiamo ora la situazione duale, ciè rappresentiamo $\calR_B$ in $\calR_A$.  Avremo
+Rappresentiamo ora la situazione duale, cioè rappresentiamo $\calR_B$ in $\calR_A$.  Avremo
 $$
 \ivet_B=-1\ivet_A+0\jvet_A+0\kvet_A =
 \left[\begin{array}{c}
@@ -289,7 +313,7 @@ $$
 \right]
 $$
 
-Le due matrici sono le stesse, e se applichiamo le proprietà raccontate nella **soluzione dell'esercio 4.2**, potete verificare che sono entrambe matrici ortonormali ovvero **matrici di rotazione**. Potete anche osservare che
+Le due matrici sono le stesse, e se applichiamo le proprietà raccontate nella **soluzione dell'esercizio 4.2**, potete verificare che sono entrambe matrici ortonormali ovvero **matrici di rotazione**. Potete anche osservare che
 $$
 \Rvet_A=\Rvet_B\T\quad \quad \Rvet_B=\Rvet_A\T
 $$
@@ -297,11 +321,11 @@ e che - per combinazione - le due matrici sono identiche perché sono anche simm
 
 Non abbiamo tempo ora, ma lo faremo nel prossimo post, di descrivere come sia stato possibile ottenere, attraverso delle rotazioni successive, il sistema di riferimento $\Rvet_A$ a partire da $\Rvet_B$ e viceversa
 
-# Conclusioni
+#Conclusioni
 
  1. Le **traslazioni** sono rappresentabili da **vettori** e sono operazioni commutative (si può cambiare l'ordine in cui sono eseguite)
- 2. Le **rotazioni** sono rappresentabili da **matrici ortonormali** (di rotazione) e **NON** sono operazioni commutative, cioè se si cambia l'ordine in cui cono eseguite cambia il risultato finale.
+ 2. Le **rotazioni** sono rappresentabili da **matrici ortonormali** (di rotazione) e **NON** sono operazioni commutative, cioè se si cambia l'ordine in cui sono eseguite cambia il risultato finale.
 
-Riuscite a trovare l'ordine con cui si è potuto passare da $\Rvet_B$ a $\Rvet_B$?
+Riuscite a trovare l'ordine delle rotazioni (sono almeno due) con cui si è potuto passare da $\Rvet_B$ a $\Rvet_B$?
 
 Chi ne ha voglia mi mandi pure la soluzione per email.
