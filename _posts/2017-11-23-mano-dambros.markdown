@@ -9,7 +9,7 @@ description: "Mimic-Ha è una mano animatronica realizzata dalla DAM Bros Roboti
 ---
 
 Mimic-Ha è una mano animatronica realizzata dalla [DAM Bros Robotics](http://www.dambrosrobotics.it/) per il cinema ed il teatro.
-La [DAM Bros Robotics](http://www.dambrosrobotics.it/) è membra della comunità di costruttori di robot Rokers e collabora con il team della Hotblack Robotics che si occupa di robotica di servizio. Mimic-Ha è la prima del suo genere ad avere una vera pelle sintetica in silicone medicale per protesi.  Può essere realizzata in varie dimensioni e forme grazie alla sua struttura interna stampata in 3D. Si può controllare con diverse modalità, con un controller dedicato, con smartphone via Bluetooth o via internet tramite ROS. Sono allo studio degli opportuni upgrade per farla diventare una protesi.
+La [DAM Bros Robotics](http://www.dambrosrobotics.it/) è membra della comunità di costruttori di robot Rokers e collabora con il team della Hotblack Robotics che si occupa di robotica di servizio. Mimic-Ha è la prima che DAM Bros realizza con una pelle sintetica in silicone medicale per protesi.  Può essere realizzata in varie dimensioni e forme grazie alla sua struttura interna stampata in 3D. Si può controllare con diverse modalità, con un controller dedicato, con smartphone via Bluetooth o via internet tramite ROS. Sono allo studio degli opportuni upgrade per farla diventare una protesi.
 
 ![Foto Mimic-Ha_0.jpg](/assets/imgs/2017-11-23-mano-dambros.markdown/img1.jpg)
 
