@@ -43,3 +43,4 @@ group: jekyll_plugins do
  end
 gems:
   - jekyll-seo-tag
+  - jekyll-feed
