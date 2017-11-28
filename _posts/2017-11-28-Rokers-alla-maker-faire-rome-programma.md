@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Tutti i progetti Rokers della Maker Faire - Pav. 6.B01
-subtitle: Cosa troverai alla Maker Faire Roma con Rokers - i Progetti
+description: Cosa troverai alla Maker Faire Roma con Rokers - i Progetti
 date: 2017-11-28
 image: /assets/imgs/2017-11-28-Rokers-alla-maker-faire-rome-programma.md/dotbot.png
 author: Ludovico Russo
