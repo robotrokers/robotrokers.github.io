@@ -56,10 +56,9 @@ per controllare tale progetto.
 ![dotBot](/assets/imgs/2017-11-28-Rokers-alla-maker-faire-rome-programma.md/edo.jpg)
 
 
-### Mimic-Ha, di DAM BROM Robotics
+### Mimic-Ha, di DAM BROS Robotics
 
-Insieme a noi, troverete anche la mano Mimic-Ha progettata da DAM BROM Robotics,
-di cui vi abbiamo parlato in un [precedente articolo](/makers/2017/11/23/mano-dambros.html).
+Insieme a noi, troverete anche la mano Mimic-Ha progettata da DAM BROS Robotics, di cui vi abbiamo parlato in un [precedente articolo](/makers/2017/11/23/mano-dambros.html).
 
 ![Foto Mimic-Ha_0.jpg](/assets/imgs/2017-11-23-mano-dambros.markdown/img1.jpg)
 
